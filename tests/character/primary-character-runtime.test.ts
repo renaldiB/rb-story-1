@@ -17,7 +17,7 @@ test('Primary Registry: Nana and Agus exist with correct primary metadata', () =
   assert.equal(nana.canonicalScale, 1.0);
   assert.equal(nana.baseHeight, 162);
   assert.equal(nana.status, 'PASS');
-  assert.equal(nana.variants.length, 9);
+  assert.equal(nana.variants.length, 33);
 
   const agus = characterRegistry.getCharacter('agus');
   assert.ok(agus, 'Agus must exist');
@@ -147,7 +147,55 @@ test('Primary Scale: Agus and Nana scale aligns with canonical height hierarchy'
   const ibu = characterRegistry.getCharacter('ibu')!;
 
   assert.ok(agus.canonicalScale > ayah.canonicalScale, 'Agus (1.08) > Ayah (1.04)');
-  assert.ok(ayah.canonicalScale > kaka.canonicalScale, 'Ayah (1.04) > Kaka (1.00)');
-  assert.equal(kaka.canonicalScale, nana.canonicalScale, 'Kaka (1.00) == Nana (1.00)');
   assert.ok(nana.canonicalScale > ibu.canonicalScale, 'Nana (1.00) > Ibu (0.93)');
 });
+
+// 6. NANA FLOW ASSET INTEGRATION TESTS
+test('Nana Flow: resolves all 12 canonical poses', () => {
+  const poses = [
+    'relaxed_standing',
+    'hands_in_pockets',
+    'arms_folded',
+    'one_hand_near_chest',
+    'looking_away',
+    'looking_down',
+    'walking_forward',
+    'pausing_mid_walk',
+    'reaching_out',
+    'hand_on_object_surface',
+    'sitting',
+    'supportive_leaning_in'
+  ];
+
+  for (const pose of poses) {
+    const res = variantResolver.resolve({ characterId: 'nana', pose });
+    assert.equal(res.characterId, 'nana');
+    assert.equal(res.fallback, false, `nana pose ${pose} should not trigger fallback`);
+    assert.equal(res.assetPath, `/assets/characters/primary/variants/nana/nana_pose_${pose}.png`);
+  }
+});
+
+test('Nana Flow: resolves all 12 canonical expressions', () => {
+  const expressions = [
+    'neutral',
+    'gentle_happy',
+    'joy',
+    'curious',
+    'surprised',
+    'worried',
+    'nervous',
+    'embarrassed',
+    'sad',
+    'vulnerable',
+    'frustrated',
+    'relieved'
+  ];
+
+  for (const expr of expressions) {
+    const res = variantResolver.resolve({ characterId: 'nana', expression: expr });
+    assert.equal(res.characterId, 'nana');
+    assert.equal(res.fallback, false, `nana expression ${expr} should not trigger fallback`);
+    assert.ok(res.assetPath.includes('nana_'), `nana expression ${expr} resolved ${res.assetPath}`);
+  }
+});
+

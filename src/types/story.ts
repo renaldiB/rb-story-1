@@ -11,20 +11,45 @@ export type GenreType =
 
 export type Expression =
   | 'neutral'
+  | 'gentle_happy'
+  | 'joy'
+  | 'curious'
+  | 'surprised'
+  | 'worried'
+  | 'nervous'
+  | 'embarrassed'
+  | 'sad'
+  | 'vulnerable'
+  | 'frustrated'
+  | 'relieved'
   | 'happy'
   | 'smiling'
-  | 'sad'
   | 'crying'
   | 'angry'
-  | 'embarrassed'
-  | 'surprised'
   | 'confused'
-  | 'nervous'
   | 'serious'
   | 'romantic'
   | 'exhausted'
   | 'scared'
   | 'menacing';
+
+export type CharacterPose =
+  | 'relaxed_standing'
+  | 'hands_in_pockets'
+  | 'arms_folded'
+  | 'one_hand_near_chest'
+  | 'looking_away'
+  | 'looking_down'
+  | 'walking_forward'
+  | 'pausing_mid_walk'
+  | 'reaching_out'
+  | 'hand_on_object_surface'
+  | 'sitting'
+  | 'supportive_leaning_in'
+  | 'standing_neutral'
+  | 'thinking'
+  | 'casual_interaction'
+  | string;
 
 export type CharacterPosition = 'left' | 'center' | 'right' | 'foreground' | 'background';
 
@@ -67,7 +92,7 @@ export interface SceneCharacter {
   expression: Expression | string;
   position: CharacterPosition;
   isSpeaking?: boolean;
-  pose?: string;
+  pose?: CharacterPose;
   scale?: number;
   zIndex?: number;
   flipX?: boolean;

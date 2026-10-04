@@ -105,6 +105,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         id: 'nadia',
         name: 'Nana',
         expression: 'nervous',
+        pose: 'pausing_mid_walk',
         position: 'center',
         isSpeaking: false
       }
@@ -130,7 +131,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'smiling',
+        expression: 'gentle_happy',
+        pose: 'relaxed_standing',
         position: 'center',
         isSpeaking: true
       }
@@ -183,6 +185,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         id: 'nadia',
         name: 'Nana',
         expression: 'embarrassed',
+        pose: 'sitting',
         position: 'center',
         isSpeaking: false
       }
@@ -209,6 +212,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         id: 'nadia',
         name: 'Nana',
         expression: 'sad',
+        pose: 'sitting',
         position: 'center',
         isSpeaking: false
       }
@@ -234,7 +238,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'smiling',
+        expression: 'gentle_happy',
+        pose: 'sitting',
         position: 'center',
         isSpeaking: true
       }
@@ -260,7 +265,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'serious',
+        expression: 'neutral',
+        pose: 'sitting',
         position: 'center',
         isSpeaking: true
       }
@@ -322,7 +328,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'crying',
+        expression: 'vulnerable',
+        pose: 'sitting',
         position: 'center',
         isSpeaking: true
       }
@@ -348,7 +355,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'nervous',
+        expression: 'worried',
+        pose: 'relaxed_standing',
         position: 'center',
         isSpeaking: false
       }
@@ -394,7 +402,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'romantic',
+        expression: 'gentle_happy',
+        pose: 'walking_forward',
         position: 'center',
         isSpeaking: true
       }
@@ -446,6 +455,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         id: 'nadia',
         name: 'Nana',
         expression: 'embarrassed',
+        pose: 'supportive_leaning_in',
         position: 'center',
         isSpeaking: false
       }
@@ -471,7 +481,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'romantic',
+        expression: 'gentle_happy',
+        pose: 'supportive_leaning_in',
         position: 'center',
         isSpeaking: false
       }
@@ -497,7 +508,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'smiling',
+        expression: 'gentle_happy',
+        pose: 'walking_forward',
         position: 'center',
         isSpeaking: true
       }
@@ -523,7 +535,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'serious',
+        expression: 'neutral',
+        pose: 'hand_on_object_surface',
         position: 'center',
         isSpeaking: false
       }
@@ -578,6 +591,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         id: 'nadia',
         name: 'Nana',
         expression: 'sad',
+        pose: 'one_hand_near_chest',
         position: 'center',
         isSpeaking: true
       }
@@ -631,7 +645,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'crying',
+        expression: 'vulnerable',
+        pose: 'one_hand_near_chest',
         position: 'center',
         isSpeaking: true
       }
@@ -657,7 +672,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'romantic',
+        expression: 'relieved',
+        pose: 'reaching_out',
         position: 'center',
         isSpeaking: true
       }
@@ -683,7 +699,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'smiling',
+        expression: 'gentle_happy',
+        pose: 'looking_down',
         position: 'center',
         isSpeaking: false
       }
@@ -728,7 +745,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'serious',
+        expression: 'neutral',
+        pose: 'hand_on_object_surface',
         position: 'center',
         isSpeaking: false
       }
@@ -756,7 +774,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'romantic',
+        expression: 'vulnerable',
+        pose: 'one_hand_near_chest',
         position: 'center',
         isSpeaking: true
       }
@@ -824,7 +843,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'crying',
+        expression: 'relieved',
+        pose: 'reaching_out',
         position: 'center',
         isSpeaking: false
       }
@@ -851,7 +871,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'happy',
+        expression: 'joy',
+        pose: 'sitting',
         position: 'center',
         isSpeaking: false
       }
@@ -878,7 +899,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'romantic',
+        expression: 'gentle_happy',
+        pose: 'hand_on_object_surface',
         position: 'center',
         isSpeaking: true
       }
@@ -905,7 +927,8 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       {
         id: 'nadia',
         name: 'Nana',
-        expression: 'smiling',
+        expression: 'gentle_happy',
+        pose: 'reaching_out',
         position: 'center',
         isSpeaking: false
       }

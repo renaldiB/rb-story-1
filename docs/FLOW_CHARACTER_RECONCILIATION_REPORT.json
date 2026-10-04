@@ -1,0 +1,1804 @@
+{
+  "characters_processed": 10,
+  "masters": {
+    "agus": {
+      "source": "Agus_character_master_reference_\u2026_20261004163248.jpg",
+      "png": "/assets/characters/flow_processed/agus/master.png",
+      "webp": "/assets/characters/flow_processed/agus/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "ayah": {
+      "source": "Ayah_character_design_prompt_20261004163243.jpg",
+      "png": "/assets/characters/flow_processed/ayah/master.png",
+      "webp": "/assets/characters/flow_processed/ayah/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "bimo": {
+      "source": "Young_man_character_master_design_20261004163248.jpg",
+      "png": "/assets/characters/flow_processed/bimo/master.png",
+      "webp": "/assets/characters/flow_processed/bimo/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "dita": {
+      "source": "Dita_character_master_illustration_20261004163248.jpg",
+      "png": "/assets/characters/flow_processed/dita/master.png",
+      "webp": "/assets/characters/flow_processed/dita/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "fikri": {
+      "source": "Fikri_character_master_design_20261004163248.jpg",
+      "png": "/assets/characters/flow_processed/fikri/master.png",
+      "webp": "/assets/characters/flow_processed/fikri/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "ibu": {
+      "source": "Ibu_character_master_prompt_20261004163243.jpg",
+      "png": "/assets/characters/flow_processed/ibu/master.png",
+      "webp": "/assets/characters/flow_processed/ibu/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "kaka": {
+      "source": "Character_illustration_of_Kaka_20261004163248.jpg",
+      "png": "/assets/characters/flow_processed/kaka/master.png",
+      "webp": "/assets/characters/flow_processed/kaka/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "maya": {
+      "source": "Maya_character_master_design_prompt_20261004163248.jpg",
+      "png": "/assets/characters/flow_processed/maya/master.png",
+      "webp": "/assets/characters/flow_processed/maya/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "nana": {
+      "source": "Change_background_and_smile_20261004163247_2.jpg",
+      "png": "/assets/characters/flow_processed/nana/master.png",
+      "webp": "/assets/characters/flow_processed/nana/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    },
+    "raka": {
+      "source": "Raka_character_illustration_refe\u2026_20261004163248.jpg",
+      "png": "/assets/characters/flow_processed/raka/master.png",
+      "webp": "/assets/characters/flow_processed/raka/master.webp",
+      "confidence": 1.0,
+      "status": "PASS"
+    }
+  },
+  "expressions": {
+    "agus": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/agus/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/agus/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/agus/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/agus/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/agus/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/agus/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/agus/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/agus/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/agus/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/agus/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/agus/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/agus/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/agus/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "ayah": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/ayah/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/ayah/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/ayah/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/ayah/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/ayah/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/ayah/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/ayah/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/ayah/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/ayah/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/ayah/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/ayah/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/ayah/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/ayah/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "bimo": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/bimo/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/bimo/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/bimo/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/bimo/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/bimo/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/bimo/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/bimo/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/bimo/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/bimo/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/bimo/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/bimo/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/bimo/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/bimo/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "dita": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/dita/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/dita/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/dita/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/dita/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/dita/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/dita/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/dita/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/dita/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/dita/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/dita/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/dita/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/dita/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/dita/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "fikri": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/fikri/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/fikri/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/fikri/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/fikri/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/fikri/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/fikri/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/fikri/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/fikri/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/fikri/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/fikri/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/fikri/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/fikri/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/fikri/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "ibu": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/ibu/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/ibu/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/ibu/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/ibu/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/ibu/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/ibu/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/ibu/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/ibu/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/ibu/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/ibu/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/ibu/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/ibu/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/ibu/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "kaka": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/kaka/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/kaka/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/kaka/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/kaka/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/kaka/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/kaka/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/kaka/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/kaka/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/kaka/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/kaka/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/kaka/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/kaka/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/kaka/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "maya": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/maya/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/maya/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/maya/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/maya/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/maya/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/maya/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/maya/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/maya/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/maya/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/maya/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/maya/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/maya/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/maya/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "nana": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/nana/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/nana/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/nana/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/nana/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/nana/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/nana/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/nana/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/nana/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/nana/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/nana/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/nana/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/nana/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/nana/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "raka": {
+      "neutral": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/raka/expressions/neutral.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/neutral.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "gentle_happiness": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/raka/expressions/gentle_happiness.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/gentle_happiness.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "genuine_joy": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/raka/expressions/genuine_joy.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/genuine_joy.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "curious": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/raka/expressions/curious.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/curious.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "surprised": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/raka/expressions/surprised.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/surprised.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "worried": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/raka/expressions/worried.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/worried.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "nervous": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/raka/expressions/nervous.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/nervous.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "embarrassed": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/raka/expressions/embarrassed.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/embarrassed.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sad": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/raka/expressions/sad.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/sad.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "deeply_hurt": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/raka/expressions/deeply_hurt.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/deeply_hurt.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "angry_frustrated": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/raka/expressions/angry_frustrated.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/angry_frustrated.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "relieved": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/raka/expressions/relieved.png",
+        "webp": "/assets/characters/flow_processed/raka/expressions/relieved.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    }
+  },
+  "poses": {
+    "agus": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/agus/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/agus/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/agus/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/agus/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/agus/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/agus/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/agus/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/agus/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/agus/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/agus/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/agus/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/agus/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/agus/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "ayah": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/ayah/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/ayah/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/ayah/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/ayah/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/ayah/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/ayah/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/ayah/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/ayah/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/ayah/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/ayah/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/ayah/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/ayah/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/ayah/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "bimo": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/bimo/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/bimo/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/bimo/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/bimo/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/bimo/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/bimo/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/bimo/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/bimo/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/bimo/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/bimo/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/bimo/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/bimo/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/bimo/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "dita": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/dita/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/dita/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/dita/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/dita/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/dita/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/dita/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/dita/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/dita/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/dita/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/dita/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/dita/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/dita/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/dita/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "fikri": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/fikri/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/fikri/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/fikri/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/fikri/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/fikri/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/fikri/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/fikri/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/fikri/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/fikri/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/fikri/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/fikri/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/fikri/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/fikri/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "ibu": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/ibu/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/ibu/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/ibu/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/ibu/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/ibu/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/ibu/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/ibu/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/ibu/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/ibu/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/ibu/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/ibu/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/ibu/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/ibu/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "kaka": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/kaka/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/kaka/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/kaka/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/kaka/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/kaka/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/kaka/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/kaka/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/kaka/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/kaka/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/kaka/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/kaka/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/kaka/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/kaka/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "maya": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/maya/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/maya/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/maya/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/maya/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/maya/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/maya/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/maya/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/maya/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/maya/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/maya/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/maya/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/maya/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/maya/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "nana": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/nana/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/nana/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/nana/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/nana/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/nana/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/nana/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/nana/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/nana/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/nana/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/nana/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/nana/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/nana/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/nana/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    },
+    "raka": {
+      "relaxed_standing": {
+        "cell_index": 1,
+        "png": "/assets/characters/flow_processed/raka/poses/relaxed_standing.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/relaxed_standing.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hands_in_pockets": {
+        "cell_index": 2,
+        "png": "/assets/characters/flow_processed/raka/poses/hands_in_pockets.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/hands_in_pockets.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "arms_folded": {
+        "cell_index": 3,
+        "png": "/assets/characters/flow_processed/raka/poses/arms_folded.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/arms_folded.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_near_chest": {
+        "cell_index": 4,
+        "png": "/assets/characters/flow_processed/raka/poses/hand_near_chest.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/hand_near_chest.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_away": {
+        "cell_index": 5,
+        "png": "/assets/characters/flow_processed/raka/poses/looking_away.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/looking_away.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "looking_down": {
+        "cell_index": 6,
+        "png": "/assets/characters/flow_processed/raka/poses/looking_down.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/looking_down.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "walking_forward": {
+        "cell_index": 7,
+        "png": "/assets/characters/flow_processed/raka/poses/walking_forward.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/walking_forward.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "pausing_mid_walk": {
+        "cell_index": 8,
+        "png": "/assets/characters/flow_processed/raka/poses/pausing_mid_walk.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/pausing_mid_walk.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "reaching_out": {
+        "cell_index": 9,
+        "png": "/assets/characters/flow_processed/raka/poses/reaching_out.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/reaching_out.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "hand_on_surface": {
+        "cell_index": 10,
+        "png": "/assets/characters/flow_processed/raka/poses/hand_on_surface.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/hand_on_surface.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "sitting": {
+        "cell_index": 11,
+        "png": "/assets/characters/flow_processed/raka/poses/sitting.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/sitting.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      },
+      "supportive_leaning_in": {
+        "cell_index": 12,
+        "png": "/assets/characters/flow_processed/raka/poses/supportive_leaning_in.png",
+        "webp": "/assets/characters/flow_processed/raka/poses/supportive_leaning_in.webp",
+        "confidence": 0.98,
+        "status": "PASS"
+      }
+    }
+  },
+  "qa_metrics": {
+    "total_cutouts": 250,
+    "passed": 250,
+    "failed": 0
+  }
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "character": "Agus",
+    "canonical_id": "char_agus",
+    "file": "Agus_character_expression_sheet_20261004163248.jpg",
+    "path": "Flow Images\\Agus\\Agus_character_expression_sheet_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Agus",
+    "canonical_id": "char_agus",
+    "file": "Agus_character_master_reference_\u2026_20261004163248.jpg",
+    "path": "Flow Images\\Agus\\Agus_character_master_reference_\u2026_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Agus",
+    "canonical_id": "char_agus",
+    "file": "Agus_character_pose_sheet_20261004163248.jpg",
+    "path": "Flow Images\\Agus\\Agus_character_pose_sheet_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Ayah",
+    "canonical_id": "char_ayah",
+    "file": "Ayah_character_design_prompt_20261004163243.jpg",
+    "path": "Flow Images\\Ayah\\Ayah_character_design_prompt_20261004163243.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Ayah",
+    "canonical_id": "char_ayah",
+    "file": "Ayah_character_pose_pack_20261004163243.jpg",
+    "path": "Flow Images\\Ayah\\Ayah_character_pose_pack_20261004163243.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Ayah",
+    "canonical_id": "char_ayah",
+    "file": "Character_expression_sheet_for_Ayah_20261004163243.jpg",
+    "path": "Flow Images\\Ayah\\Character_expression_sheet_for_Ayah_20261004163243.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Bimo",
+    "canonical_id": "char_bimo",
+    "file": "Bimo_character_pose_sheet_20261004163243.jpg",
+    "path": "Flow Images\\Bimo\\Bimo_character_pose_sheet_20261004163243.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Bimo",
+    "canonical_id": "char_bimo",
+    "file": "Character_expression_sheet_prompt_20261004163248.jpg",
+    "path": "Flow Images\\Bimo\\Character_expression_sheet_prompt_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Bimo",
+    "canonical_id": "char_bimo",
+    "file": "Young_man_character_master_design_20261004163248.jpg",
+    "path": "Flow Images\\Bimo\\Young_man_character_master_design_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Dita",
+    "canonical_id": "char_dita",
+    "file": "#_DITA_\u2014_CHARACTER_POSE_20261004163248.jpg",
+    "path": "Flow Images\\Dita\\#_DITA_\u2014_CHARACTER_POSE_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Dita",
+    "canonical_id": "char_dita",
+    "file": "Dita_character_expression_refere\u2026_20261004163248.jpg",
+    "path": "Flow Images\\Dita\\Dita_character_expression_refere\u2026_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Dita",
+    "canonical_id": "char_dita",
+    "file": "Dita_character_master_illustration_20261004163248.jpg",
+    "path": "Flow Images\\Dita\\Dita_character_master_illustration_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Fikri",
+    "canonical_id": "char_fikri",
+    "file": "Fikri_character_expression_refer\u2026_20261004163248.jpg",
+    "path": "Flow Images\\Fikri\\Fikri_character_expression_refer\u2026_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Fikri",
+    "canonical_id": "char_fikri",
+    "file": "Fikri_character_master_design_20261004163248.jpg",
+    "path": "Flow Images\\Fikri\\Fikri_character_master_design_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Fikri",
+    "canonical_id": "char_fikri",
+    "file": "Fikri_character_pose_pack_20261004163248.jpg",
+    "path": "Flow Images\\Fikri\\Fikri_character_pose_pack_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Ibu",
+    "canonical_id": "char_ibu",
+    "file": "Character_expression_sheet_gener\u2026_20261004163243.jpg",
+    "path": "Flow Images\\Ibu\\Character_expression_sheet_gener\u2026_20261004163243.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Ibu",
+    "canonical_id": "char_ibu",
+    "file": "Character_pose_sheet_generation_20261004163243.jpg",
+    "path": "Flow Images\\Ibu\\Character_pose_sheet_generation_20261004163243.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Ibu",
+    "canonical_id": "char_ibu",
+    "file": "Ibu_character_master_prompt_20261004163243.jpg",
+    "path": "Flow Images\\Ibu\\Ibu_character_master_prompt_20261004163243.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Kaka",
+    "canonical_id": "char_kaka",
+    "file": "#_KAKA_\u2014_CHARACTER_POSE_20261004163248.jpg",
+    "path": "Flow Images\\Kaka\\#_KAKA_\u2014_CHARACTER_POSE_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Kaka",
+    "canonical_id": "char_kaka",
+    "file": "Character_illustration_of_Kaka_20261004163248.jpg",
+    "path": "Flow Images\\Kaka\\Character_illustration_of_Kaka_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Kaka",
+    "canonical_id": "char_kaka",
+    "file": "Kaka_character_expression_sheet_20261004163248.jpg",
+    "path": "Flow Images\\Kaka\\Kaka_character_expression_sheet_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Maya",
+    "canonical_id": "char_maya",
+    "file": "#_MAYA_\u2014_CHARACTER_POSE_20261004163248.jpg",
+    "path": "Flow Images\\Maya\\#_MAYA_\u2014_CHARACTER_POSE_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Maya",
+    "canonical_id": "char_maya",
+    "file": "Maya_character_expression_refere\u2026_20261004163248.jpg",
+    "path": "Flow Images\\Maya\\Maya_character_expression_refere\u2026_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Maya",
+    "canonical_id": "char_maya",
+    "file": "Maya_character_master_design_prompt_20261004163248.jpg",
+    "path": "Flow Images\\Maya\\Maya_character_master_design_prompt_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Nana",
+    "canonical_id": "char_nana",
+    "file": "Change_background_and_smile_20261004163247_2.jpg",
+    "path": "Flow Images\\Nana\\Change_background_and_smile_20261004163247_2.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Nana",
+    "canonical_id": "char_nana",
+    "file": "Nana_character_expression_sheet_20261004163248.jpg",
+    "path": "Flow Images\\Nana\\Nana_character_expression_sheet_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Nana",
+    "canonical_id": "char_nana",
+    "file": "Nana_character_pose_reference_sheet_20261004163248.jpg",
+    "path": "Flow Images\\Nana\\Nana_character_pose_reference_sheet_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  },
+  {
+    "character": "Raka",
+    "canonical_id": "char_raka",
+    "file": "Raka_character_expression_sheet_20261004163248.jpg",
+    "path": "Flow Images\\Raka\\Raka_character_expression_sheet_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "expression_pack_grid"
+  },
+  {
+    "character": "Raka",
+    "canonical_id": "char_raka",
+    "file": "Raka_character_illustration_refe\u2026_20261004163248.jpg",
+    "path": "Flow Images\\Raka\\Raka_character_illustration_refe\u2026_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "character_master"
+  },
+  {
+    "character": "Raka",
+    "canonical_id": "char_raka",
+    "file": "Raka_character_pose_reference_sheet_20261004163248.jpg",
+    "path": "Flow Images\\Raka\\Raka_character_pose_reference_sheet_20261004163248.jpg",
+    "size": [
+      768,
+      1376
+    ],
+    "mode": "RGB",
+    "asset_type": "pose_pack_grid"
+  }
+]
