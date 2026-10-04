@@ -1,0 +1,372 @@
+{
+  "manifestVersion": "2.0.0",
+  "storyId": "two_hours_apart",
+  "totalProps": 9,
+  "props": [
+    {
+      "id": "prop_phone",
+      "name": "Dual Timezone Smartphone",
+      "category": [
+        "INTERACTIVE",
+        "CHARACTER_HELD"
+      ],
+      "description": "Modern smartphone displaying dual time zones (WIB 00:10 Jakarta vs WIT 02:10 Jayapura) and unread text message notification from Agus.",
+      "scenes": [
+        "ch3_night_phone_msg"
+      ],
+      "dimensions": {
+        "width": 256,
+        "height": 512,
+        "aspectRatio": "1:2"
+      },
+      "anchor": {
+        "name": "hand_grip",
+        "x": 0.5,
+        "y": 0.85
+      },
+      "scale": 1.0,
+      "states": [
+        "screen_normal",
+        "screen_notification",
+        "screen_off"
+      ],
+      "interactive": true,
+      "priority": "P0",
+      "assetPng": "/assets/props/masters/prop_phone.png",
+      "assetWebp": "/assets/props/masters/prop_phone.webp",
+      "fileSizeBytes": {
+        "png": 18727,
+        "webp": 15242
+      },
+      "checksumSha256": {
+        "png": "95df3b026d4bb75ddcd26ef6f692a50bcb22af758c997506950a70df5d3e6a94",
+        "webp": "789087ee23305c73d5422d3c2fb9b352513cd2c877d028563ed443e884acc3ac"
+      }
+    },
+    {
+      "id": "prop_coffee",
+      "name": "Steaming Ceramic Mug",
+      "category": [
+        "STATIC_REUSABLE"
+      ],
+      "description": "Warm handmade ceramic coffee mug with rich espresso, golden crema swirl, and delicate rising translucent steam.",
+      "scenes": [
+        "ch1_intro_1",
+        "ch1_intro_2",
+        "ch1_nadia_enters",
+        "ch1_dialogue_1",
+        "ch1_closing"
+      ],
+      "dimensions": {
+        "width": 256,
+        "height": 256,
+        "aspectRatio": "1:1"
+      },
+      "anchor": {
+        "name": "table_contact_point",
+        "x": 0.5,
+        "y": 0.95
+      },
+      "scale": 0.8,
+      "states": [
+        "steaming",
+        "still"
+      ],
+      "interactive": false,
+      "priority": "P0",
+      "assetPng": "/assets/props/masters/prop_coffee.png",
+      "assetWebp": "/assets/props/masters/prop_coffee.webp",
+      "fileSizeBytes": {
+        "png": 7031,
+        "webp": 5468
+      },
+      "checksumSha256": {
+        "png": "a46fca46b9ec647f785d50a331a58aeffa19e53607e7c28d7f1905a2cf57cf8c",
+        "webp": "864afda137f05611c1563705f8a4f59aaae9e9ba06cddfe00f4fac3b6c63ef27"
+      }
+    },
+    {
+      "id": "prop_old_photo",
+      "name": "Campus Polaroid Photograph",
+      "category": [
+        "INTERACTIVE",
+        "STATIC_REUSABLE"
+      ],
+      "description": "Nostalgic white-bordered polaroid photo tucked in novel page 42, showing two silhouettes on campus stairs under golden dusk.",
+      "scenes": [
+        "ch3_book_discovery",
+        "ending_secret_scene"
+      ],
+      "dimensions": {
+        "width": 320,
+        "height": 384,
+        "aspectRatio": "5:6"
+      },
+      "anchor": {
+        "name": "center",
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1.0,
+      "states": [
+        "normal",
+        "inspected"
+      ],
+      "interactive": true,
+      "priority": "P0",
+      "assetPng": "/assets/props/masters/prop_old_photo.png",
+      "assetWebp": "/assets/props/masters/prop_old_photo.webp",
+      "fileSizeBytes": {
+        "png": 8680,
+        "webp": 8526
+      },
+      "checksumSha256": {
+        "png": "47199e8c581d48f98fa457e02306e36e4abffa27fbb378bb9461fe478ab08418",
+        "webp": "f37c5a0dfd021d5f632b9875284e2a6fdae2bf5c2b8917371f08ad392eb80a09"
+      }
+    },
+    {
+      "id": "prop_train_ticket",
+      "name": "Last-Minute Train Ticket",
+      "category": [
+        "INTERACTIVE",
+        "STATIC_REUSABLE"
+      ],
+      "description": "Intercity boarding pass from Bandung to Yogyakarta dated 24 Oct 23:45 WIB (Argo Wilis) with barcode and red validation stamp.",
+      "scenes": [
+        "ch2_bus_stop",
+        "ch3_ticket_revelation",
+        "ch4_station_climax"
+      ],
+      "dimensions": {
+        "width": 384,
+        "height": 200,
+        "aspectRatio": "48:25"
+      },
+      "anchor": {
+        "name": "center",
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1.0,
+      "states": [
+        "folded",
+        "unfolded",
+        "validated"
+      ],
+      "interactive": true,
+      "priority": "P0",
+      "assetPng": "/assets/props/masters/prop_train_ticket.png",
+      "assetWebp": "/assets/props/masters/prop_train_ticket.webp",
+      "fileSizeBytes": {
+        "png": 20264,
+        "webp": 16746
+      },
+      "checksumSha256": {
+        "png": "1d671f179e1fa372743bd654e413e0eed7fb530ededaa85f7ebe00c8b6c5d87b",
+        "webp": "4a41316a5ac4bc481ee08ed47d66e71302aaa12c7ee5cb027f730bf534698ff8"
+      }
+    },
+    {
+      "id": "prop_backpack",
+      "name": "Travel Canvas Backpack",
+      "category": [
+        "CHARACTER_HELD",
+        "STATIC_REUSABLE"
+      ],
+      "description": "Dark teal rugged commuter canvas travel backpack with leather flap straps, brass buckles, and side water flask.",
+      "scenes": [
+        "ch4_station_climax",
+        "ending_true_scene",
+        "ending_romantic_scene",
+        "ending_bittersweet_scene"
+      ],
+      "dimensions": {
+        "width": 384,
+        "height": 480,
+        "aspectRatio": "4:5"
+      },
+      "anchor": {
+        "name": "bottom-center",
+        "x": 0.5,
+        "y": 0.95
+      },
+      "scale": 1.0,
+      "states": [
+        "worn",
+        "grounded"
+      ],
+      "interactive": false,
+      "priority": "P1",
+      "assetPng": "/assets/props/masters/prop_backpack.png",
+      "assetWebp": "/assets/props/masters/prop_backpack.webp",
+      "fileSizeBytes": {
+        "png": 7463,
+        "webp": 7374
+      },
+      "checksumSha256": {
+        "png": "7bb2e5589eca6fdc19ea476451834cbfe173e4948d0cb57217bbebaff957109c",
+        "webp": "15545b5fdf65640ccf22172d076f34c5e7e83dab83684b002b71b179b251b53a"
+      }
+    },
+    {
+      "id": "prop_lighter_antique",
+      "name": "Antique Brass Lighter",
+      "category": [
+        "INTERACTIVE",
+        "STATIC_REUSABLE"
+      ],
+      "description": "Vintage engraved brass flip lighter with floral filigree pattern and silver windguard chimney.",
+      "scenes": [
+        "ch1_intro_2"
+      ],
+      "dimensions": {
+        "width": 192,
+        "height": 288,
+        "aspectRatio": "2:3"
+      },
+      "anchor": {
+        "name": "table_contact_point",
+        "x": 0.5,
+        "y": 0.95
+      },
+      "scale": 0.7,
+      "states": [
+        "closed",
+        "open_flame"
+      ],
+      "interactive": true,
+      "priority": "P1",
+      "assetPng": "/assets/props/masters/prop_lighter_antique.png",
+      "assetWebp": "/assets/props/masters/prop_lighter_antique.webp",
+      "fileSizeBytes": {
+        "png": 7466,
+        "webp": 6306
+      },
+      "checksumSha256": {
+        "png": "2a19d5ee81b6307f31017c262b4f91750709fe37386828074e870a0ebd434fc1",
+        "webp": "01950996ba1ecf12e9d2d701915d91a4e5a17892d03684e9830f20477e04ffd6"
+      }
+    },
+    {
+      "id": "prop_laptop",
+      "name": "Creative Studio Laptop",
+      "category": [
+        "STATIC_REUSABLE",
+        "DYNAMIC_REUSABLE"
+      ],
+      "description": "Slim space grey aluminum workstation laptop open at 3/4 angle, displaying code and design canvas with cyan glow.",
+      "scenes": [
+        "SC-20",
+        "SC-38",
+        "SC-08",
+        "SC-30"
+      ],
+      "dimensions": {
+        "width": 480,
+        "height": 320,
+        "aspectRatio": "3:2"
+      },
+      "anchor": {
+        "name": "table_contact_point",
+        "x": 0.5,
+        "y": 0.95
+      },
+      "scale": 1.0,
+      "states": [
+        "active_coding",
+        "screen_dimmed"
+      ],
+      "interactive": false,
+      "priority": "P1",
+      "assetPng": "/assets/props/masters/prop_laptop.png",
+      "assetWebp": "/assets/props/masters/prop_laptop.webp",
+      "fileSizeBytes": {
+        "png": 9624,
+        "webp": 9458
+      },
+      "checksumSha256": {
+        "png": "9b47a7ded5685feba355b1ae3dc7d8875ae0d3e71345e7e6ad37aee298a947b4",
+        "webp": "3dcd2d1341db540796f657e494df1aa57462b7c9265571c2bf5acf13c3a79a20"
+      }
+    },
+    {
+      "id": "prop_agus_cat",
+      "name": "Sleeping Tabby Cat",
+      "category": [
+        "STATIC_REUSABLE"
+      ],
+      "description": "Curled sleeping orange tabby cat on a round woven linen cushion, tail wrapped peacefully.",
+      "scenes": [
+        "SC-08",
+        "SC-30"
+      ],
+      "dimensions": {
+        "width": 384,
+        "height": 256,
+        "aspectRatio": "3:2"
+      },
+      "anchor": {
+        "name": "table_contact_point",
+        "x": 0.5,
+        "y": 0.95
+      },
+      "scale": 0.9,
+      "states": [
+        "sleeping",
+        "ear_twitch"
+      ],
+      "interactive": false,
+      "priority": "P1",
+      "assetPng": "/assets/props/masters/prop_agus_cat.png",
+      "assetWebp": "/assets/props/masters/prop_agus_cat.webp",
+      "fileSizeBytes": {
+        "png": 5863,
+        "webp": 8604
+      },
+      "checksumSha256": {
+        "png": "dbcb9c3378288c7af6634bfbe167c40166c8de919193ceb295e3c3777b89f4b2",
+        "webp": "dc261674e3f1b821097514a64a38caac362d12a6f7377671fdb4fa7e5328102b"
+      }
+    },
+    {
+      "id": "prop_dog_rescue",
+      "name": "Stray Dog with Umbrella",
+      "category": [
+        "STATIC_REUSABLE"
+      ],
+      "description": "Small honey-colored stray puppy resting safely under a tilted sunny yellow dome umbrella on rain-soaked pavement.",
+      "scenes": [
+        "ch2_street_1",
+        "ch2_slow_walk"
+      ],
+      "dimensions": {
+        "width": 440,
+        "height": 400,
+        "aspectRatio": "11:10"
+      },
+      "anchor": {
+        "name": "bottom-center",
+        "x": 0.5,
+        "y": 0.95
+      },
+      "scale": 1.0,
+      "states": [
+        "huddled",
+        "looking_up"
+      ],
+      "interactive": false,
+      "priority": "P2",
+      "assetPng": "/assets/props/masters/prop_dog_rescue.png",
+      "assetWebp": "/assets/props/masters/prop_dog_rescue.webp",
+      "fileSizeBytes": {
+        "png": 4771,
+        "webp": 11852
+      },
+      "checksumSha256": {
+        "png": "69c41438af914219ab088a3847401368cd6e75870cab2ce07873beade794747b",
+        "webp": "c9cc87b095d895e050f4924ab2bf0a3a91dbc20e9cae402eecdb20649950fea8"
+      }
+    }
+  ]
+}

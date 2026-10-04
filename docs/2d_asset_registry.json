@@ -566,7 +566,7 @@
       "baselineY": 1460,
       "pathPng": "/assets/characters/primary/sheets/char_nana_idle_sheet.png",
       "pathWebp": "/assets/characters/primary/sheets/char_nana_idle_sheet.webp",
-      "sha256": "45d99c85e9b1157a5977dbc38b18c31a96dfe05ec7ba18aae25aa11d94a57a39"
+      "sha256": "f3b1f6f70045149b71e73b0108061abbdf50248dd4e7bb4314c51618e8f45670"
     },
     "char_nana_emotion_sheet": {
       "id": "char_nana_emotion_sheet",
@@ -583,7 +583,7 @@
       "baselineY": 1460,
       "pathPng": "/assets/characters/primary/sheets/char_nana_emotion_sheet.png",
       "pathWebp": "/assets/characters/primary/sheets/char_nana_emotion_sheet.webp",
-      "sha256": "3c175eaa81dd1ee0e6f9c87d25a5e8e1ef8b777a3b6d86c32c7b59e8bc744a0c"
+      "sha256": "2c5180b464688518db3c80acda692aa20ad16cefd1181fb038b98077acdc5c89"
     },
     "char_agus_idle_sheet": {
       "id": "char_agus_idle_sheet",
@@ -600,7 +600,7 @@
       "baselineY": 1460,
       "pathPng": "/assets/characters/primary/sheets/char_agus_idle_sheet.png",
       "pathWebp": "/assets/characters/primary/sheets/char_agus_idle_sheet.webp",
-      "sha256": "dd04630e2d110c9c9c3b4885eb1d4a4cdd729d0421fae75d3ca656da8bf01c3a"
+      "sha256": "c0be2352365db0cc4f35b7224f5d161428b8885d80c02e09e3cb0447b47649a7"
     },
     "char_agus_emotion_sheet": {
       "id": "char_agus_emotion_sheet",
@@ -617,7 +617,7 @@
       "baselineY": 1460,
       "pathPng": "/assets/characters/primary/sheets/char_agus_emotion_sheet.png",
       "pathWebp": "/assets/characters/primary/sheets/char_agus_emotion_sheet.webp",
-      "sha256": "8ac9491355f199180fccc899f4bdfeb1a95994dd7291548555989da78330e0e5"
+      "sha256": "3009ee7ca249a8441800b5f8db8d1ef0077ba3fceb57b77b9201e2553d5e0247"
     },
     "char_kaka_reaction_sheet": {
       "id": "char_kaka_reaction_sheet",

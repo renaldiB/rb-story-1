@@ -32,8 +32,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 721369,
-          "checksumSha256": "95dfbe39e6e5c5b800381d295413f304e72b05214869259e27f4200c4b002e08",
+          "fileSizeBytes": 264523,
+          "checksumSha256": "349b2a4c920c0bf35afabbac2e80b5bc736c685fa8580294b9a0a651a928b5f6",
           "status": "PASS"
         },
         {
@@ -50,8 +50,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 721422,
-          "checksumSha256": "2c04de52007bfe5b70df0adc14ff9ebf2f94daafcc4f62581546e745429ee12b",
+          "fileSizeBytes": 265004,
+          "checksumSha256": "8248bf62a0e6641c1bb4bc6abddf47e908f56e125021c345e36d32b39f302780",
           "status": "PASS"
         },
         {
@@ -68,8 +68,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 720644,
-          "checksumSha256": "6b04eb666e57768c42aa63c4a97699ed70ba95163caad78c3d5054ef2df55056",
+          "fileSizeBytes": 263853,
+          "checksumSha256": "cc9d2f45ab9545c3a9a76da3992b24acab12c140b2560a3c8e166319bc2e11a4",
           "status": "PASS"
         },
         {
@@ -86,8 +86,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 720310,
-          "checksumSha256": "17cabcb09cf6ad376d1a53c61a87e8a6b035183520030f616d6113c2582bb204",
+          "fileSizeBytes": 263690,
+          "checksumSha256": "69280b4b436c7a85a649d18ba8616bd052bc12db19543781136cca7884f0309d",
           "status": "PASS"
         },
         {
@@ -104,8 +104,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 720621,
-          "checksumSha256": "0affe43d41ea4780231e4d27cd2dda6c936f05b539ba7d3a7f6b5acd7ccf73dc",
+          "fileSizeBytes": 264532,
+          "checksumSha256": "922f0a24a93db4c0042c1f344b87d1ae7bd94a29f97c081b78ef07b1095f99e6",
           "status": "PASS"
         },
         {
@@ -122,8 +122,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 720745,
-          "checksumSha256": "a93fa2e6fee0a9d906c061019ba467fab382aebbc0ac4df0e0c50264612cd9f6",
+          "fileSizeBytes": 264835,
+          "checksumSha256": "b59d997221891ecde29a4d1e3b2fe38aea26749df6500551f46f40938e88ee22",
           "status": "PASS"
         },
         {
@@ -140,8 +140,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 721171,
-          "checksumSha256": "0a105f7916f3a127ab9c9a1cf0621b439f37de2630dc2897252141eb9e6d9c7f",
+          "fileSizeBytes": 264710,
+          "checksumSha256": "b7072b8e3789aaa6ede1d07566a4f5c021c299f5a900154b2960aa584ef781a5",
           "status": "PASS"
         },
         {
@@ -158,8 +158,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 726961,
-          "checksumSha256": "8eedf9d62b92d543f38f62b305af04eb3cdfa537b28fffca9839b70ec4cfe234",
+          "fileSizeBytes": 267881,
+          "checksumSha256": "5f260113fd83ed24b15a8efe5f02eaf9999e3414da95bc0fa15841917b3a16a9",
           "status": "PASS"
         },
         {
@@ -176,8 +176,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 733965,
-          "checksumSha256": "a8780f30f38c9d02b369d600a81154017e8001ac0be4a6652de1d532104cdb02",
+          "fileSizeBytes": 273976,
+          "checksumSha256": "65c1a655ec7b71c71168e49ad770bafa8e118aeb5f607cf8f6d61fca8b164aa9",
           "status": "PASS"
         }
       ]
@@ -202,8 +202,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 479053,
-          "checksumSha256": "a2dca74bd38ba9f91c9dcc104c4c40467767ce5241da148a939e73bfc72504c4",
+          "fileSizeBytes": 267772,
+          "checksumSha256": "43008f7ebc42e9e5e3096f62f0abbb3f7116a41e09b11de940412ae93b41b371",
           "status": "PASS"
         },
         {
@@ -220,8 +220,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 479511,
-          "checksumSha256": "96ff756afa71df71602c3df61ac40c062c8493b055efcfc7fc95ed4f65dc80f9",
+          "fileSizeBytes": 267963,
+          "checksumSha256": "394b3806b0d8d8486e4dfe6267b7d128cd48554078ae898d34b948a9ab8de3d5",
           "status": "PASS"
         },
         {
@@ -238,8 +238,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 478319,
-          "checksumSha256": "dbe1df9e1472e91fec9c02a00c0ca7756967ec53422f6c641ee089bd14e2f53a",
+          "fileSizeBytes": 266941,
+          "checksumSha256": "a5d027facd453d49b5099ef05af2c6829670dea392c11bcd5c5d7ec74ddd53ab",
           "status": "PASS"
         },
         {
@@ -256,8 +256,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 478129,
-          "checksumSha256": "91528c8aa57bfea6f70202cfa544c96d5cc5785ae760bdaac2d5416066fbca90",
+          "fileSizeBytes": 266685,
+          "checksumSha256": "f4c56bf9971b4a2f8bb3102bbf77d198acb3b5091b14024cb3339c6c163a10fe",
           "status": "PASS"
         },
         {
@@ -274,8 +274,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 479222,
-          "checksumSha256": "86728a4fae6432abf5e026b68263fc39704f4183ab6dfbd864604427ead4281f",
+          "fileSizeBytes": 267117,
+          "checksumSha256": "d04baccd3584a67746f05f1863323855c983c9258f847ef4ad2a62f7343fd191",
           "status": "PASS"
         },
         {
@@ -292,8 +292,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 479338,
-          "checksumSha256": "bc6471262069c6a9fc95677e4107fd67e3d4bbe4603d057317c7ea96b5cba746",
+          "fileSizeBytes": 267296,
+          "checksumSha256": "ab151d25d9316d3977c28788561a21d05001989844187acfc9cb2491c2cabe47",
           "status": "PASS"
         },
         {
@@ -310,8 +310,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 479194,
-          "checksumSha256": "194b5ab0f3cb9a15fc2423541a8fcf6ccf27478a1a79475dca8867f4d4d8c7b4",
+          "fileSizeBytes": 268052,
+          "checksumSha256": "89368216a65df0a9ea31345ff3e3f728ba35fb48be1409955a7adf6e77510592",
           "status": "PASS"
         },
         {
@@ -328,8 +328,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 484960,
-          "checksumSha256": "7abf8c4f6ead729cc1ea3faccb64b4451c12181ee12edcfbb7f849ea63ab3b30",
+          "fileSizeBytes": 270449,
+          "checksumSha256": "b976f6a165a51de5127d7263a29aa1da2b8600e34ae3b32b2c4197257db0876c",
           "status": "PASS"
         },
         {
@@ -346,8 +346,8 @@
           "alpha": true,
           "baselineY": 1460,
           "actualBaselineY": 1459,
-          "fileSizeBytes": 491441,
-          "checksumSha256": "4b0d96a2c90c7cc5a8393942beab2bff03c3f98ad9acb50e2913d4bc5d8ae306",
+          "fileSizeBytes": 275980,
+          "checksumSha256": "bf274c91eeebc764fdb851b13dd156649e4f5f63780925d1cd5af509cc2c3dc9",
           "status": "PASS"
         }
       ]

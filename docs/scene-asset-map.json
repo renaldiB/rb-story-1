@@ -1,0 +1,2080 @@
+{
+  "ch1_intro_1": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      }
+    ]
+  },
+  "ch1_intro_2": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [],
+    "props": [
+      "prop_coffee",
+      "prop_lighter_antique"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "prop",
+        "id": "prop_lighter_antique",
+        "path": "/assets/props/items/prop_lighter_antique.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      }
+    ]
+  },
+  "ch1_nadia_enters": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch1_dialogue_1": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch1_react_warm": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch1_react_honest": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch1_react_care": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch1_sit_down": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch1_hands_cg_scene": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      }
+    ]
+  },
+  "ch1_confession_start": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch1_closing": {
+    "location": "loc_campus_cafe",
+    "environment": "env_campus_cafe_master",
+    "variant": "env_campus_cafe_night_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_coffee"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_campus_cafe_master",
+        "path": "/assets/environments/masters/env_campus_cafe_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_campus_cafe_night_rain",
+        "path": "/assets/environments/variants/env_campus_cafe_night_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_cafe_glass",
+        "path": "/assets/environments/layers/layer_bg_cafe_glass.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_cafe_interior",
+        "path": "/assets/environments/layers/layer_mid_cafe_interior.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_cafe_space",
+        "path": "/assets/environments/layers/layer_char_cafe_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_cafe_raindrops",
+        "path": "/assets/environments/layers/layer_fg_cafe_raindrops.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_coffee",
+        "path": "/assets/props/items/prop_coffee.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch2_street_1": {
+    "location": "loc_street_night",
+    "environment": "env_street_night_master",
+    "variant": "env_street_rain_sidewalk",
+    "characters": [],
+    "props": [],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_street_night_master",
+        "path": "/assets/environments/masters/env_street_night_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_street_rain_sidewalk",
+        "path": "/assets/environments/variants/env_street_rain_sidewalk.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_street_skyline",
+        "path": "/assets/environments/layers/layer_bg_street_skyline.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_street_sidewalk",
+        "path": "/assets/environments/layers/layer_mid_street_sidewalk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_street_space",
+        "path": "/assets/environments/layers/layer_char_street_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_street_lamppost",
+        "path": "/assets/environments/layers/layer_fg_street_lamppost.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      }
+    ]
+  },
+  "ch2_street_dialogue": {
+    "location": "loc_street_night",
+    "environment": "env_street_night_master",
+    "variant": "env_street_rain_sidewalk",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_street_night_master",
+        "path": "/assets/environments/masters/env_street_night_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_street_rain_sidewalk",
+        "path": "/assets/environments/variants/env_street_rain_sidewalk.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_street_skyline",
+        "path": "/assets/environments/layers/layer_bg_street_skyline.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_street_sidewalk",
+        "path": "/assets/environments/layers/layer_mid_street_sidewalk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_street_space",
+        "path": "/assets/environments/layers/layer_char_street_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_street_lamppost",
+        "path": "/assets/environments/layers/layer_fg_street_lamppost.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch2_lean_closer": {
+    "location": "loc_street_night",
+    "environment": "env_street_night_master",
+    "variant": "env_street_rain_sidewalk",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_street_night_master",
+        "path": "/assets/environments/masters/env_street_night_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_street_rain_sidewalk",
+        "path": "/assets/environments/variants/env_street_rain_sidewalk.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_street_skyline",
+        "path": "/assets/environments/layers/layer_bg_street_skyline.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_street_sidewalk",
+        "path": "/assets/environments/layers/layer_mid_street_sidewalk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_street_space",
+        "path": "/assets/environments/layers/layer_char_street_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_street_lamppost",
+        "path": "/assets/environments/layers/layer_fg_street_lamppost.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch2_hold_shoulder": {
+    "location": "loc_street_night",
+    "environment": "env_street_night_master",
+    "variant": "env_street_rain_sidewalk",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_street_night_master",
+        "path": "/assets/environments/masters/env_street_night_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_street_rain_sidewalk",
+        "path": "/assets/environments/variants/env_street_rain_sidewalk.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_street_skyline",
+        "path": "/assets/environments/layers/layer_bg_street_skyline.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_street_sidewalk",
+        "path": "/assets/environments/layers/layer_mid_street_sidewalk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_street_space",
+        "path": "/assets/environments/layers/layer_char_street_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_street_lamppost",
+        "path": "/assets/environments/layers/layer_fg_street_lamppost.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch2_slow_walk": {
+    "location": "loc_street_night",
+    "environment": "env_street_night_master",
+    "variant": "env_street_rain_sidewalk",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_street_night_master",
+        "path": "/assets/environments/masters/env_street_night_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_street_rain_sidewalk",
+        "path": "/assets/environments/variants/env_street_rain_sidewalk.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_street_skyline",
+        "path": "/assets/environments/layers/layer_bg_street_skyline.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_street_sidewalk",
+        "path": "/assets/environments/layers/layer_mid_street_sidewalk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_street_space",
+        "path": "/assets/environments/layers/layer_char_street_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_street_lamppost",
+        "path": "/assets/environments/layers/layer_fg_street_lamppost.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch2_bus_stop": {
+    "location": "loc_street_night",
+    "environment": "env_street_night_master",
+    "variant": "env_street_bus_stop",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_train_ticket"
+    ],
+    "fx": [
+      "fx_rain_procedural",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_street_night_master",
+        "path": "/assets/environments/masters/env_street_night_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_street_bus_stop",
+        "path": "/assets/environments/variants/env_street_bus_stop.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_street_skyline",
+        "path": "/assets/environments/layers/layer_bg_street_skyline.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_street_sidewalk",
+        "path": "/assets/environments/layers/layer_mid_street_sidewalk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_street_space",
+        "path": "/assets/environments/layers/layer_char_street_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_street_lamppost",
+        "path": "/assets/environments/layers/layer_fg_street_lamppost.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_train_ticket",
+        "path": "/assets/props/items/prop_train_ticket.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_rain_procedural",
+        "path": "/assets/atmosphere/particles/fx_rain_procedural_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch3_book_discovery": {
+    "location": "loc_nana_bedroom",
+    "environment": "env_nana_bedroom_master",
+    "variant": "env_nana_bedroom_midnight_rain",
+    "characters": [],
+    "props": [
+      "prop_old_photo"
+    ],
+    "fx": [
+      "fx_screen_glow_late_night",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_nana_bedroom_master",
+        "path": "/assets/environments/masters/env_nana_bedroom_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_nana_bedroom_midnight_rain",
+        "path": "/assets/environments/variants/env_nana_bedroom_midnight_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_nana_window",
+        "path": "/assets/environments/layers/layer_bg_nana_window.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_nana_desk",
+        "path": "/assets/environments/layers/layer_mid_nana_desk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_nana_space",
+        "path": "/assets/environments/layers/layer_char_nana_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_nana_curtain",
+        "path": "/assets/environments/layers/layer_fg_nana_curtain.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_old_photo",
+        "path": "/assets/props/items/prop_old_photo.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_screen_glow_late_night",
+        "path": "procedural"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      }
+    ]
+  },
+  "ch3_polaroid_dialogue": {
+    "location": "loc_nana_bedroom",
+    "environment": "env_nana_bedroom_master",
+    "variant": "env_nana_bedroom_midnight_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_old_photo"
+    ],
+    "fx": [
+      "fx_screen_glow_late_night",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_nana_bedroom_master",
+        "path": "/assets/environments/masters/env_nana_bedroom_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_nana_bedroom_midnight_rain",
+        "path": "/assets/environments/variants/env_nana_bedroom_midnight_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_nana_window",
+        "path": "/assets/environments/layers/layer_bg_nana_window.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_nana_desk",
+        "path": "/assets/environments/layers/layer_mid_nana_desk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_nana_space",
+        "path": "/assets/environments/layers/layer_char_nana_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_nana_curtain",
+        "path": "/assets/environments/layers/layer_fg_nana_curtain.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_old_photo",
+        "path": "/assets/props/items/prop_old_photo.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_screen_glow_late_night",
+        "path": "procedural"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch3_ticket_revelation": {
+    "location": "loc_nana_bedroom",
+    "environment": "env_nana_bedroom_master",
+    "variant": "env_nana_bedroom_midnight_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_train_ticket"
+    ],
+    "fx": [
+      "fx_screen_glow_late_night",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_nana_bedroom_master",
+        "path": "/assets/environments/masters/env_nana_bedroom_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_nana_bedroom_midnight_rain",
+        "path": "/assets/environments/variants/env_nana_bedroom_midnight_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_nana_window",
+        "path": "/assets/environments/layers/layer_bg_nana_window.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_nana_desk",
+        "path": "/assets/environments/layers/layer_mid_nana_desk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_nana_space",
+        "path": "/assets/environments/layers/layer_char_nana_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_nana_curtain",
+        "path": "/assets/environments/layers/layer_fg_nana_curtain.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_train_ticket",
+        "path": "/assets/props/items/prop_train_ticket.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_screen_glow_late_night",
+        "path": "procedural"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch3_deep_confession": {
+    "location": "loc_nana_bedroom",
+    "environment": "env_nana_bedroom_master",
+    "variant": "env_nana_bedroom_midnight_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [],
+    "fx": [
+      "fx_screen_glow_late_night",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_nana_bedroom_master",
+        "path": "/assets/environments/masters/env_nana_bedroom_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_nana_bedroom_midnight_rain",
+        "path": "/assets/environments/variants/env_nana_bedroom_midnight_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_nana_window",
+        "path": "/assets/environments/layers/layer_bg_nana_window.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_nana_desk",
+        "path": "/assets/environments/layers/layer_mid_nana_desk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_nana_space",
+        "path": "/assets/environments/layers/layer_char_nana_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_nana_curtain",
+        "path": "/assets/environments/layers/layer_fg_nana_curtain.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_screen_glow_late_night",
+        "path": "procedural"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch3_silent_comfort": {
+    "location": "loc_nana_bedroom",
+    "environment": "env_nana_bedroom_master",
+    "variant": "env_nana_bedroom_midnight_rain",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [],
+    "fx": [
+      "fx_screen_glow_late_night",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_nana_bedroom_master",
+        "path": "/assets/environments/masters/env_nana_bedroom_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_nana_bedroom_midnight_rain",
+        "path": "/assets/environments/variants/env_nana_bedroom_midnight_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_nana_window",
+        "path": "/assets/environments/layers/layer_bg_nana_window.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_nana_desk",
+        "path": "/assets/environments/layers/layer_mid_nana_desk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_nana_space",
+        "path": "/assets/environments/layers/layer_char_nana_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_nana_curtain",
+        "path": "/assets/environments/layers/layer_fg_nana_curtain.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_screen_glow_late_night",
+        "path": "procedural"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch3_night_phone_msg": {
+    "location": "loc_nana_bedroom",
+    "environment": "env_nana_bedroom_master",
+    "variant": "env_nana_bedroom_midnight_rain",
+    "characters": [],
+    "props": [
+      "prop_phone"
+    ],
+    "fx": [
+      "fx_screen_glow_late_night",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_nana_bedroom_master",
+        "path": "/assets/environments/masters/env_nana_bedroom_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_nana_bedroom_midnight_rain",
+        "path": "/assets/environments/variants/env_nana_bedroom_midnight_rain.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_nana_window",
+        "path": "/assets/environments/layers/layer_bg_nana_window.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_nana_desk",
+        "path": "/assets/environments/layers/layer_mid_nana_desk.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_nana_space",
+        "path": "/assets/environments/layers/layer_char_nana_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_nana_curtain",
+        "path": "/assets/environments/layers/layer_fg_nana_curtain.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_phone",
+        "path": "/assets/props/items/prop_phone.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_screen_glow_late_night",
+        "path": "procedural"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      }
+    ]
+  },
+  "ch4_station_climax": {
+    "location": "loc_station",
+    "environment": "env_station_master",
+    "variant": "env_station_sunset_platform",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_backpack",
+      "prop_train_ticket"
+    ],
+    "fx": [
+      "fx_dust_motes",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_station_master",
+        "path": "/assets/environments/masters/env_station_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_station_sunset_platform",
+        "path": "/assets/environments/variants/env_station_sunset_platform.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_station_sky",
+        "path": "/assets/environments/layers/layer_bg_station_sky.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_station_tracks",
+        "path": "/assets/environments/layers/layer_mid_station_tracks.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_station_space",
+        "path": "/assets/environments/layers/layer_char_station_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_station_pillar",
+        "path": "/assets/environments/layers/layer_fg_station_pillar.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_backpack",
+        "path": "/assets/props/items/prop_backpack.webp"
+      },
+      {
+        "type": "prop",
+        "id": "prop_train_ticket",
+        "path": "/assets/props/items/prop_train_ticket.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_dust_motes",
+        "path": "/assets/atmosphere/particles/fx_dust_motes_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ch4_final_choice": {
+    "location": "loc_station",
+    "environment": "env_station_master",
+    "variant": "env_station_sunset_platform",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_backpack"
+    ],
+    "fx": [
+      "fx_dust_motes",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_station_master",
+        "path": "/assets/environments/masters/env_station_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_station_sunset_platform",
+        "path": "/assets/environments/variants/env_station_sunset_platform.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_station_sky",
+        "path": "/assets/environments/layers/layer_bg_station_sky.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_station_tracks",
+        "path": "/assets/environments/layers/layer_mid_station_tracks.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_station_space",
+        "path": "/assets/environments/layers/layer_char_station_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_station_pillar",
+        "path": "/assets/environments/layers/layer_fg_station_pillar.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_backpack",
+        "path": "/assets/props/items/prop_backpack.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_dust_motes",
+        "path": "/assets/atmosphere/particles/fx_dust_motes_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ending_true_scene": {
+    "location": "loc_station",
+    "environment": "env_station_master",
+    "variant": "env_station_sunset_platform",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_backpack"
+    ],
+    "fx": [
+      "fx_dust_motes",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_station_master",
+        "path": "/assets/environments/masters/env_station_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_station_sunset_platform",
+        "path": "/assets/environments/variants/env_station_sunset_platform.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_station_sky",
+        "path": "/assets/environments/layers/layer_bg_station_sky.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_station_tracks",
+        "path": "/assets/environments/layers/layer_mid_station_tracks.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_station_space",
+        "path": "/assets/environments/layers/layer_char_station_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_station_pillar",
+        "path": "/assets/environments/layers/layer_fg_station_pillar.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_backpack",
+        "path": "/assets/props/items/prop_backpack.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_dust_motes",
+        "path": "/assets/atmosphere/particles/fx_dust_motes_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ending_romantic_scene": {
+    "location": "loc_station",
+    "environment": "env_station_master",
+    "variant": "env_station_sunset_train_interior",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_backpack"
+    ],
+    "fx": [
+      "fx_dust_motes",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_station_master",
+        "path": "/assets/environments/masters/env_station_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_station_sunset_train_interior",
+        "path": "/assets/environments/variants/env_station_sunset_train_interior.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_station_sky",
+        "path": "/assets/environments/layers/layer_bg_station_sky.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_station_tracks",
+        "path": "/assets/environments/layers/layer_mid_station_tracks.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_station_space",
+        "path": "/assets/environments/layers/layer_char_station_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_station_pillar",
+        "path": "/assets/environments/layers/layer_fg_station_pillar.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_backpack",
+        "path": "/assets/props/items/prop_backpack.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_dust_motes",
+        "path": "/assets/atmosphere/particles/fx_dust_motes_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ending_secret_scene": {
+    "location": "loc_rooftop",
+    "environment": "env_rooftop_master",
+    "variant": "env_rooftop_night_stars",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_old_photo"
+    ],
+    "fx": [
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_rooftop_master",
+        "path": "/assets/environments/masters/env_rooftop_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_rooftop_night_stars",
+        "path": "/assets/environments/variants/env_rooftop_night_stars.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_rooftop_stars",
+        "path": "/assets/environments/layers/layer_bg_rooftop_stars.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_rooftop_terrace",
+        "path": "/assets/environments/layers/layer_mid_rooftop_terrace.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_rooftop_space",
+        "path": "/assets/environments/layers/layer_char_rooftop_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_rooftop_cables",
+        "path": "/assets/environments/layers/layer_fg_rooftop_cables.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_old_photo",
+        "path": "/assets/props/items/prop_old_photo.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  },
+  "ending_bittersweet_scene": {
+    "location": "loc_station",
+    "environment": "env_station_master",
+    "variant": "env_station_sunset_platform",
+    "characters": [
+      "Nadia"
+    ],
+    "props": [
+      "prop_backpack"
+    ],
+    "fx": [
+      "fx_dust_motes",
+      "fx_cinematic_vignette"
+    ],
+    "dialogueSafeZone": {
+      "x": 0.05,
+      "y": 0.72,
+      "width": 0.9,
+      "height": 0.25
+    },
+    "assets": [
+      {
+        "type": "environment_master",
+        "id": "env_station_master",
+        "path": "/assets/environments/masters/env_station_master.webp"
+      },
+      {
+        "type": "environment_variant",
+        "id": "env_station_sunset_platform",
+        "path": "/assets/environments/variants/env_station_sunset_platform.webp"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_bg_station_sky",
+        "path": "/assets/environments/layers/layer_bg_station_sky.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_mid_station_tracks",
+        "path": "/assets/environments/layers/layer_mid_station_tracks.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_char_station_space",
+        "path": "/assets/environments/layers/layer_char_station_space.png"
+      },
+      {
+        "type": "environment_layer",
+        "id": "layer_fg_station_pillar",
+        "path": "/assets/environments/layers/layer_fg_station_pillar.png"
+      },
+      {
+        "type": "prop",
+        "id": "prop_backpack",
+        "path": "/assets/props/items/prop_backpack.webp"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_dust_motes",
+        "path": "/assets/atmosphere/particles/fx_dust_motes_sheet.png"
+      },
+      {
+        "type": "vfx",
+        "id": "fx_cinematic_vignette",
+        "path": "procedural"
+      },
+      {
+        "type": "character",
+        "id": "Nadia_neutral",
+        "character": "Nadia",
+        "state": "neutral",
+        "path": "/assets/characters/primary/variants/nadia/neutral.png"
+      }
+    ]
+  }
+}

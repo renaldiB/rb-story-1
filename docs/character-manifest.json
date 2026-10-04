@@ -1,0 +1,181 @@
+{
+  "manifestVersion": "2.0.0",
+  "storyId": "two_hours_apart",
+  "totalCharacters": 10,
+  "characters": [
+    {
+      "id": "char_nana",
+      "canonicalName": "Nana",
+      "role": "female_protagonist",
+      "age": 20,
+      "gender": "female",
+      "baseSprite": "/assets/characters/primary/sprites/char_nana_base.png",
+      "master": "/assets/characters/primary/masters/char_nana_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_agus",
+      "canonicalName": "Agus",
+      "role": "male_protagonist",
+      "age": 22,
+      "gender": "male",
+      "baseSprite": "/assets/characters/primary/sprites/char_agus_base.png",
+      "master": "/assets/characters/primary/masters/char_agus_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_kaka",
+      "canonicalName": "Kaka",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_kaka_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_kaka_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_raka",
+      "canonicalName": "Raka",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_raka_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_raka_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_dita",
+      "canonicalName": "Dita",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_dita_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_dita_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_fikri",
+      "canonicalName": "Fikri",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_fikri_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_fikri_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_maya",
+      "canonicalName": "Maya",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_maya_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_maya_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_bimo",
+      "canonicalName": "Bimo",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_bimo_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_bimo_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_ibu",
+      "canonicalName": "Ibu",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_ibu_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_ibu_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    },
+    {
+      "id": "char_ayah",
+      "canonicalName": "Ayah",
+      "role": "secondary_cast",
+      "baseSprite": "/assets/characters/secondary/sprites/secondary_ayah_sprite_master.png",
+      "master": "/assets/characters/secondary/masters/secondary_ayah_master.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "baselineY": 1460,
+      "variantsCount": 9,
+      "moodSheetsCount": 1,
+      "situationSheetsCount": 1,
+      "alpha": "TRUE_ALPHA",
+      "status": "APPROVED"
+    }
+  ]
+}

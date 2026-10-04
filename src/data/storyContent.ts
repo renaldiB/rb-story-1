@@ -106,10 +106,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'nervous',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Lonceng pintu berdenting pelan. Nana melangkah masuk, merapikan ujung sweater rajut kremnya yang sedikit lembap oleh rintik hujan. Matanya beradu dengan matamu.',
     nextSceneId: 'ch1_dialogue_1'
   },
@@ -184,10 +184,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'embarrassed',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Pipi Nana merona halus di bawah temaram lampu gantung kafe. Ia menarik kursi kayu di hadapanmu dan duduk dengan anggun.',
     nextSceneId: 'ch1_sit_down'
   },
@@ -210,10 +210,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'sad',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Nana terdiam sejenak. Jari-jemarinya meremas tali tasnya pelan, sebelum akhirnya menghela napas panjang dengan pandangan menunduk.',
     nextSceneId: 'ch1_sit_down'
   },
@@ -350,10 +350,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'nervous',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Barista mulai membalik tanda di pintu kaca menjadi "Closed". Di luar, hujan belum juga reda. Nana menatap payung hitam besar di tanganmu.',
     nextSceneId: 'ch2_street_1'
   },
@@ -447,10 +447,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'embarrassed',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Nana merapatkan dirinya ke lenganmu. Langkah sepatu kalian di atas genangan air terdengar seirama dalam sunyi.',
     nextSceneId: 'ch2_bus_stop'
   },
@@ -473,10 +473,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'romantic',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Nana terkesiap pelan sesaat, lalu menyandarkan kepalanya dengan lembut di bahumu. Detak jantungmu berdegup kencang berpadu dengan deru hujan.',
     nextSceneId: 'ch2_bus_stop'
   },
@@ -525,10 +525,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'serious',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Tiba di halte yang sepi, Nana mengeluarkan sebuah buku bersampul kain dari tasnya. Di tepian buku itu tampak secarik kertas terselip di halaman 42.',
     nextSceneId: 'ch3_book_discovery',
     foreshadowItem: {
@@ -685,10 +685,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'smiling',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Nana memejamkan mata, membiarkan kehangatan jarimu menghapus dinginnya malam.',
     nextSceneId: 'ch3_night_phone_msg'
   },
@@ -730,10 +730,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'serious',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Langit senja berwarna keemasan. Nana berdiri di tepi peron, menggenggam koper kecilnya. Kereta senja perlahan membunyikan klaksonnya dari kejauhan.',
     ambientTrack: 'station_twilight',
     soundEffect: 'door',
@@ -826,10 +826,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'crying',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Koper terlepas dari tangannya. Nana memelukmu begitu erat, membenamkan wajahnya di dadamu saat peluit kereta berbunyi dan melaju pergi tanpa dirinya.',
     endingId: 'ending_true',
     soundEffect: 'chime'
@@ -853,10 +853,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'happy',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Kalian duduk berdampingan di dekat jendela gerbong yang melaju kencang. Menatap langit senja yang luas bersama, tangan kalian bertaut erat tak terpisahkan.',
     endingId: 'ending_romantic',
     soundEffect: 'chime'
@@ -907,10 +907,10 @@ export const STORY_SCENES: Record<string, StoryScene> = {
         name: 'Nana',
         expression: 'smiling',
         position: 'center',
-        isSpeaking: true
+        isSpeaking: false
       }
     ],
-    speaker: 'Nana',
+    speaker: null,
     text: 'Kereta bergerak perlahan meninggalkan stasiun. Nana melambaikan tangannya dari balik kaca jendela dengan senyum yang manis dan tulus. Sebuah kisah yang abadi.',
     endingId: 'ending_bittersweet',
     soundEffect: 'chime'

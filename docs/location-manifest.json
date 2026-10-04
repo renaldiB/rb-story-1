@@ -1,0 +1,160 @@
+{
+  "manifestVersion": "2.0.0",
+  "storyId": "two_hours_apart",
+  "totalLocations": 12,
+  "totalMasters": 12,
+  "totalLayers": 36,
+  "totalVariants": 19,
+  "locations": [
+    {
+      "id": "loc_campus_cafe",
+      "canonicalName": "Kafe Kroma (Campus Cafe)",
+      "type": "interior",
+      "visualDescription": "Warm, intimate coffee shop with dark wood tables, large rain-streaked glass storefront, hanging amber pendant bulbs, and barista counter in midground.",
+      "lightingDefault": "warm_tungsten_amber",
+      "scenesUsing": [
+        "ch1_intro_1",
+        "ch1_intro_2",
+        "ch1_nadia_enters",
+        "ch1_dialogue_1",
+        "ch1_react_warm",
+        "ch1_react_honest",
+        "ch1_react_care",
+        "ch1_sit_down",
+        "ch1_hands_cg_scene",
+        "ch1_confession_start",
+        "ch1_closing"
+      ]
+    },
+    {
+      "id": "loc_street_night",
+      "canonicalName": "Jalanan Kota & Halte Bus (City Rain Street)",
+      "type": "exterior",
+      "visualDescription": "Wet asphalt sidewalk reflecting yellow sodium streetlights, glistening puddles, rain streaks, and a dimly lit concrete bus shelter with timetable board.",
+      "lightingDefault": "sodium_yellow_reflections",
+      "scenesUsing": [
+        "ch2_street_1",
+        "ch2_street_dialogue",
+        "ch2_lean_closer",
+        "ch2_hold_shoulder",
+        "ch2_slow_walk",
+        "ch2_bus_stop"
+      ]
+    },
+    {
+      "id": "loc_nana_bedroom",
+      "canonicalName": "Kamar Nana (Nana's Apartment Bedroom)",
+      "type": "interior",
+      "visualDescription": "Cozy single bedroom with study desk positioned against a window overlooking distant city silhouette. Warm fairy lights, messy notebooks, soft bed in midground.",
+      "lightingDefault": "soft_desk_lamp_midnight_blue",
+      "scenesUsing": [
+        "ch3_book_discovery",
+        "ch3_polaroid_dialogue",
+        "ch3_ticket_revelation",
+        "ch3_deep_confession",
+        "ch3_silent_comfort",
+        "ch3_night_phone_msg"
+      ]
+    },
+    {
+      "id": "loc_agus_room",
+      "canonicalName": "Kamar Agus (Agus's Work Room - WIT Zone)",
+      "type": "interior",
+      "visualDescription": "Minimalist tech workspace with dual monitors casting cyan glow, mechanical keyboard, dark window blinds, bookshelf, and sleeping cat basket on desk corner.",
+      "lightingDefault": "dual_monitor_cyan_tungsten_blend",
+      "scenesUsing": [
+        "SC-08",
+        "SC-14",
+        "SC-21",
+        "SC-30",
+        "SC-35"
+      ]
+    },
+    {
+      "id": "loc_station",
+      "canonicalName": "Peron Stasiun Kereta Api (Train Station Platform)",
+      "type": "semi_exterior",
+      "visualDescription": "Open-air intercity train platform during golden-orange sunset. Overhead steel canopy trusses, railway tracks vanishing into horizon, glowing platform clock.",
+      "lightingDefault": "golden_hour_sunset_amber",
+      "scenesUsing": [
+        "ch4_station_climax",
+        "ch4_final_choice",
+        "ending_true_scene",
+        "ending_romantic_scene",
+        "ending_bittersweet_scene"
+      ]
+    },
+    {
+      "id": "loc_rooftop",
+      "canonicalName": "Rooftop Gedung Kota (City Rooftop Under Stars)",
+      "type": "exterior",
+      "visualDescription": "High urban rooftop terrace under deep indigo star-filled night sky, distant soft city bokeh lights below, metal railing in midground.",
+      "lightingDefault": "starlight_cool_indigo_bokeh",
+      "scenesUsing": [
+        "ending_secret_scene"
+      ]
+    },
+    {
+      "id": "loc_campus",
+      "canonicalName": "Kampus & Tangga Batu (University Courtyard)",
+      "type": "exterior",
+      "visualDescription": "University brick facade, wide stone stairs lined with lush tropical trees, student pedestrian paths.",
+      "lightingDefault": "natural_daylight_to_dusk",
+      "scenesUsing": [
+        "SC-03",
+        "SC-06"
+      ]
+    },
+    {
+      "id": "loc_office",
+      "canonicalName": "Studio Desain Nana (Nana's Design Office)",
+      "type": "interior",
+      "visualDescription": "Modern graphic design agency with shared wooden benches, large glass partitions, moodboards, and soft afternoon sunlight.",
+      "lightingDefault": "bright_studio_daylight",
+      "scenesUsing": [
+        "SC-20",
+        "SC-38"
+      ]
+    },
+    {
+      "id": "loc_nana_house",
+      "canonicalName": "Rumah Keluarga Nana (Nana's Family Dining Room)",
+      "type": "interior",
+      "visualDescription": "Warm Indonesian suburban domestic dining room with teak table, ceramic dishes, ceiling fan, family portrait on wall.",
+      "lightingDefault": "warm_domestic_tungsten",
+      "scenesUsing": [
+        "SC-23"
+      ]
+    },
+    {
+      "id": "loc_beach",
+      "canonicalName": "Tepi Pantai & Tebing Senja (Coastal Cliff Bench)",
+      "type": "exterior",
+      "visualDescription": "Coastal cliff wooden bench overlooking wide ocean sunset, rolling turquoise waves, salt mist in air.",
+      "lightingDefault": "vibrant_sunset_coastal",
+      "scenesUsing": [
+        "SC-31"
+      ]
+    },
+    {
+      "id": "loc_mountain",
+      "canonicalName": "Puncak Bukit & Jalur Hiking (Mountain Trail Sunrise)",
+      "type": "exterior",
+      "visualDescription": "Dirt hiking ridge overlooking distant sea of morning clouds, fresh pine silhouettes, soft pink-gold dawn horizon.",
+      "lightingDefault": "dawn_first_light_rose_gold",
+      "scenesUsing": [
+        "SC-32"
+      ]
+    },
+    {
+      "id": "loc_shared_apartment",
+      "canonicalName": "Apartemen Bersama (Shared Future Living Room)",
+      "type": "interior",
+      "visualDescription": "Clean, sunlit studio apartment with two coffee mugs on low table, unpackaged cardboard moving boxes, sheer curtains billowing.",
+      "lightingDefault": "warm_sunset_interior_serene",
+      "scenesUsing": [
+        "SC-39"
+      ]
+    }
+  ]
+}

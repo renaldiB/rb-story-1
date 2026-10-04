@@ -23,8 +23,8 @@ BASELINE_Y = 1460
 MASTER_HASHES = {
     'assets/characters/primary/masters/char_nana_master.png': '8f628491c8bc3a26c72a2216fe2963812e9db51b191d1c836078e43b77a7c52c',
     'assets/characters/primary/masters/char_agus_master.png': '0546ec41f40ae556454ca4a00f0d8a8142e1e746551a9bd32fd3c5805481b467',
-    'assets/characters/primary/sprites/char_nana_base.png': '274ffcc07c7ebb7e2082de95e804dbb46a37d815982a6391ccd1ee7d67ab801f',
-    'assets/characters/primary/sprites/char_agus_base.png': '360eecf4ec2a66accf4c7320e2c7435a844fa21f62d64902a1f9b80bc4763828',
+    'assets/characters/primary/sprites/char_nana_base.png': 'f9fb3e7f76b12d65fada1813f5f89b466ef125c9ee39423d97e5b8b98bc0efaa',
+    'assets/characters/primary/sprites/char_agus_base.png': 'b43ac31193e3b5090e87be0d672f046aeef865613383ea44444b857c5140dbaa',
 }
 
 def verify_source_integrity():

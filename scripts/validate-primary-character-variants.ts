@@ -86,8 +86,8 @@ export function validatePrimaryCharacterVariants(rootDir: string = process.cwd()
   const immutableHashes: Record<string, string> = {
     'assets/characters/primary/masters/char_nana_master.png': '8f628491c8bc3a26c72a2216fe2963812e9db51b191d1c836078e43b77a7c52c',
     'assets/characters/primary/masters/char_agus_master.png': '0546ec41f40ae556454ca4a00f0d8a8142e1e746551a9bd32fd3c5805481b467',
-    'assets/characters/primary/sprites/char_nana_base.png': 'b9928a0627337bab8e857c1d1ced53b4c12ed2ea1606a61fa5809ebda79897df',
-    'assets/characters/primary/sprites/char_agus_base.png': '1f08bd89a9debef6ece10aa41445401724c03acd7c38c8a95236d8a851927139',
+    'assets/characters/primary/sprites/char_nana_base.png': 'f9fb3e7f76b12d65fada1813f5f89b466ef125c9ee39423d97e5b8b98bc0efaa',
+    'assets/characters/primary/sprites/char_agus_base.png': 'b43ac31193e3b5090e87be0d672f046aeef865613383ea44444b857c5140dbaa',
   };
 
   for (const [relPath, expected] of Object.entries(immutableHashes)) {

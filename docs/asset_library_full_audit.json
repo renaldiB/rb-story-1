@@ -93,7 +93,7 @@
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
     "halo_count": 0,
-    "size": 2424261
+    "size": 2423623
   },
   {
     "path": "public/assets/characters/previews/all_characters_situations_contact_sheet.png",
@@ -141,7 +141,7 @@
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
     "halo_count": 0,
-    "size": 103555
+    "size": 74699
   },
   {
     "path": "public/assets/characters/primary/previews/primary_character_master_contact_sheet.png",
@@ -189,7 +189,7 @@
     "has_alpha": false,
     "alpha_status": "NO_ALPHA",
     "halo_count": 0,
-    "size": 216517
+    "size": 119454
   },
   {
     "path": "public/assets/characters/primary/sheets/char_agus_emotion_sheet.png",
@@ -200,8 +200,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 818329
+    "halo_count": 2,
+    "size": 466343
   },
   {
     "path": "public/assets/characters/primary/sheets/char_agus_idle_sheet.png",
@@ -213,7 +213,7 @@
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
     "halo_count": 0,
-    "size": 676890
+    "size": 376696
   },
   {
     "path": "public/assets/characters/primary/sheets/char_agus_moods_sheet.png",
@@ -248,8 +248,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 7,
-    "size": 1141993
+    "halo_count": 1,
+    "size": 486181
   },
   {
     "path": "public/assets/characters/primary/sheets/char_nana_idle_sheet.png",
@@ -260,8 +260,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 8,
-    "size": 956232
+    "halo_count": 0,
+    "size": 388595
   },
   {
     "path": "public/assets/characters/primary/sheets/char_nana_moods_sheet.png",
@@ -296,8 +296,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 479418
+    "halo_count": 0,
+    "size": 272319
   },
   {
     "path": "public/assets/characters/primary/sprites/char_nana_base.png",
@@ -308,8 +308,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 721621
+    "halo_count": 1,
+    "size": 269314
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_angry.png",
@@ -320,8 +320,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 478129
+    "halo_count": 0,
+    "size": 266685
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_casual_interaction.png",
@@ -332,8 +332,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 491441
+    "halo_count": 1,
+    "size": 275980
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_embarrassed.png",
@@ -344,8 +344,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 479194
+    "halo_count": 0,
+    "size": 268052
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_happy.png",
@@ -356,8 +356,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 479511
+    "halo_count": 0,
+    "size": 267963
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_neutral.png",
@@ -368,8 +368,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 479053
+    "halo_count": 0,
+    "size": 267772
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_sad.png",
@@ -380,8 +380,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 478319
+    "halo_count": 0,
+    "size": 266941
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_surprised.png",
@@ -392,8 +392,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 479222
+    "halo_count": 0,
+    "size": 267117
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_thinking.png",
@@ -404,8 +404,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 484960
+    "halo_count": 0,
+    "size": 270449
   },
   {
     "path": "public/assets/characters/primary/variants/agus/agus_worried.png",
@@ -416,8 +416,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 10,
-    "size": 479338
+    "halo_count": 0,
+    "size": 267296
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_angry.png",
@@ -428,8 +428,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 720310
+    "halo_count": 1,
+    "size": 263690
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_casual_interaction.png",
@@ -440,8 +440,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 733965
+    "halo_count": 1,
+    "size": 273976
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_embarrassed.png",
@@ -452,8 +452,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 721171
+    "halo_count": 1,
+    "size": 264710
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_happy.png",
@@ -464,8 +464,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 721422
+    "halo_count": 1,
+    "size": 265004
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_neutral.png",
@@ -476,8 +476,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 721369
+    "halo_count": 1,
+    "size": 264523
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_sad.png",
@@ -488,8 +488,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 720644
+    "halo_count": 1,
+    "size": 263853
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_surprised.png",
@@ -500,8 +500,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 720621
+    "halo_count": 1,
+    "size": 264532
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_thinking.png",
@@ -512,8 +512,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 726961
+    "halo_count": 1,
+    "size": 267881
   },
   {
     "path": "public/assets/characters/primary/variants/nana/nana_worried.png",
@@ -524,8 +524,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 720745
+    "halo_count": 1,
+    "size": 264835
   },
   {
     "path": "public/assets/characters/secondary/previews/comparison_secondary_ayah.png",
@@ -2592,6 +2592,90 @@
     "size": 1492
   },
   {
+    "path": "public/assets/props/items/prop_backpack_school.png",
+    "category": "props",
+    "subcategory": "items",
+    "format": "png",
+    "width": 165,
+    "height": 210,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 43748
+  },
+  {
+    "path": "public/assets/props/items/prop_notebook.png",
+    "category": "props",
+    "subcategory": "items",
+    "format": "png",
+    "width": 227,
+    "height": 182,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 34498
+  },
+  {
+    "path": "public/assets/props/items/prop_phone_anime.png",
+    "category": "props",
+    "subcategory": "items",
+    "format": "png",
+    "width": 120,
+    "height": 188,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 16295
+  },
+  {
+    "path": "public/assets/props/items/prop_station_sign.png",
+    "category": "props",
+    "subcategory": "items",
+    "format": "png",
+    "width": 285,
+    "height": 180,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 39396
+  },
+  {
+    "path": "public/assets/props/items/prop_tumbler.png",
+    "category": "props",
+    "subcategory": "items",
+    "format": "png",
+    "width": 120,
+    "height": 216,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 29698
+  },
+  {
+    "path": "public/assets/props/items/prop_umbrella_black.png",
+    "category": "props",
+    "subcategory": "items",
+    "format": "png",
+    "width": 175,
+    "height": 212,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 37159
+  },
+  {
+    "path": "public/assets/props/items/prop_umbrella_transparent.png",
+    "category": "props",
+    "subcategory": "items",
+    "format": "png",
+    "width": 150,
+    "height": 225,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 40745
+  },
+  {
     "path": "public/assets/props/masters/prop_agus_cat.png",
     "category": "props",
     "subcategory": "masters",
@@ -2772,6 +2856,42 @@
     "size": 2817294
   },
   {
+    "path": "public/assets/ui/ui_choices.png",
+    "category": "ui",
+    "subcategory": "ui_choices.png",
+    "format": "png",
+    "width": 262,
+    "height": 125,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 34963
+  },
+  {
+    "path": "public/assets/ui/ui_controls.png",
+    "category": "ui",
+    "subcategory": "ui_controls.png",
+    "format": "png",
+    "width": 175,
+    "height": 132,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 19829
+  },
+  {
+    "path": "public/assets/ui/ui_dialogue_box.png",
+    "category": "ui",
+    "subcategory": "ui_dialogue_box.png",
+    "format": "png",
+    "width": 337,
+    "height": 145,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 35376
+  },
+  {
     "path": "public/assets/ui/previews/ui_sprite_sheet_contact_sheet.png",
     "category": "ui",
     "subcategory": "previews",
@@ -2900,8 +3020,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 0,
-    "size": 482706
+    "halo_count": 2,
+    "size": 274920
   },
   {
     "path": "public/assets/characters/primary/sheets/char_agus_idle_sheet.webp",
@@ -2913,7 +3033,7 @@
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
     "halo_count": 0,
-    "size": 390178
+    "size": 215174
   },
   {
     "path": "public/assets/characters/primary/sheets/char_agus_moods_sheet.webp",
@@ -2948,8 +3068,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 7,
-    "size": 700798
+    "halo_count": 1,
+    "size": 283592
   },
   {
     "path": "public/assets/characters/primary/sheets/char_nana_idle_sheet.webp",
@@ -2960,8 +3080,8 @@
     "height": 1536,
     "has_alpha": true,
     "alpha_status": "TRUE_ALPHA",
-    "halo_count": 8,
-    "size": 568268
+    "halo_count": 0,
+    "size": 219978
   },
   {
     "path": "public/assets/characters/primary/sheets/char_nana_moods_sheet.webp",
@@ -3645,7 +3765,7 @@
     "has_alpha": false,
     "alpha_status": "NO_ALPHA",
     "halo_count": 0,
-    "size": 178718
+    "size": 212724
   },
   {
     "path": "public/assets/environments/masters/env_campus_cafe_master.webp",
@@ -3753,7 +3873,7 @@
     "has_alpha": false,
     "alpha_status": "NO_ALPHA",
     "halo_count": 0,
-    "size": 256028
+    "size": 323532
   },
   {
     "path": "public/assets/environments/masters/env_street_night_master.webp",
@@ -4270,6 +4390,90 @@
     "alpha_status": "NO_ALPHA",
     "halo_count": 0,
     "size": 265468
+  },
+  {
+    "path": "public/assets/props/items/prop_backpack_school.webp",
+    "category": "props",
+    "subcategory": "items",
+    "format": "webp",
+    "width": 165,
+    "height": 210,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 12628
+  },
+  {
+    "path": "public/assets/props/items/prop_notebook.webp",
+    "category": "props",
+    "subcategory": "items",
+    "format": "webp",
+    "width": 227,
+    "height": 182,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 9516
+  },
+  {
+    "path": "public/assets/props/items/prop_phone_anime.webp",
+    "category": "props",
+    "subcategory": "items",
+    "format": "webp",
+    "width": 120,
+    "height": 188,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 4540
+  },
+  {
+    "path": "public/assets/props/items/prop_station_sign.webp",
+    "category": "props",
+    "subcategory": "items",
+    "format": "webp",
+    "width": 285,
+    "height": 180,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 9728
+  },
+  {
+    "path": "public/assets/props/items/prop_tumbler.webp",
+    "category": "props",
+    "subcategory": "items",
+    "format": "webp",
+    "width": 120,
+    "height": 216,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 10200
+  },
+  {
+    "path": "public/assets/props/items/prop_umbrella_black.webp",
+    "category": "props",
+    "subcategory": "items",
+    "format": "webp",
+    "width": 175,
+    "height": 212,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 14326
+  },
+  {
+    "path": "public/assets/props/items/prop_umbrella_transparent.webp",
+    "category": "props",
+    "subcategory": "items",
+    "format": "webp",
+    "width": 150,
+    "height": 225,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 13286
   },
   {
     "path": "public/assets/props/masters/prop_agus_cat.webp",
@@ -5004,6 +5208,42 @@
     "size": 161954
   },
   {
+    "path": "public/assets/ui/ui_choices.webp",
+    "category": "ui",
+    "subcategory": "ui_choices.webp",
+    "format": "webp",
+    "width": 262,
+    "height": 125,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 10376
+  },
+  {
+    "path": "public/assets/ui/ui_controls.webp",
+    "category": "ui",
+    "subcategory": "ui_controls.webp",
+    "format": "webp",
+    "width": 175,
+    "height": 132,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 9016
+  },
+  {
+    "path": "public/assets/ui/ui_dialogue_box.webp",
+    "category": "ui",
+    "subcategory": "ui_dialogue_box.webp",
+    "format": "webp",
+    "width": 337,
+    "height": 145,
+    "has_alpha": true,
+    "alpha_status": "TRUE_ALPHA",
+    "halo_count": 0,
+    "size": 9408
+  },
+  {
     "path": "public/assets/ui/sheets/ui_chat_bubble_sheet.webp",
     "category": "ui",
     "subcategory": "sheets",
@@ -5181,7 +5421,7 @@
     "has_alpha": false,
     "alpha_status": "NO_ALPHA",
     "halo_count": 0,
-    "size": 337041
+    "size": 274230
   },
   {
     "path": "public/assets/environments/masters/env_campus_cafe_master.jpg",
@@ -5289,7 +5529,7 @@
     "has_alpha": false,
     "alpha_status": "NO_ALPHA",
     "halo_count": 0,
-    "size": 415595
+    "size": 379520
   },
   {
     "path": "public/assets/environments/masters/env_street_night_master.jpg",
