@@ -28,7 +28,15 @@ export default defineConfig({
         const src = path.join(process.cwd(), 'Flow Images');
         const dest = path.join(process.cwd(), 'dist', 'Flow Images');
         if (fs.existsSync(src)) {
-          fs.cpSync(src, dest, { recursive: true });
+          fs.cpSync(src, dest, {
+            recursive: true,
+            filter: (source) => {
+              const basename = path.basename(source);
+              if (/[#?…—]/.test(basename)) return false;
+              if (basename.endsWith('.jpg')) return false;
+              return true;
+            },
+          });
         }
       },
     },
