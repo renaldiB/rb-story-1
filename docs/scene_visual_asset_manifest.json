@@ -1,0 +1,1931 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "storyId": "two_hours_apart",
+  "title": "2 Hours Apart",
+  "theme": "romance_rain",
+  "totalScenesAudited": 29,
+  "blueprintScenesCovered": 40,
+  "locations": [
+    {
+      "id": "loc_campus_cafe",
+      "canonicalName": "Kafe Kroma (Campus Cafe)",
+      "type": "interior",
+      "visualDescription": "Warm, intimate coffee shop with dark wood tables, large rain-streaked glass storefront, hanging amber pendant bulbs, and barista counter in midground.",
+      "lightingDefault": "warm_tungsten_amber",
+      "scenesUsing": [
+        "ch1_intro_1",
+        "ch1_intro_2",
+        "ch1_nadia_enters",
+        "ch1_dialogue_1",
+        "ch1_react_warm",
+        "ch1_react_honest",
+        "ch1_react_care",
+        "ch1_sit_down",
+        "ch1_hands_cg_scene",
+        "ch1_confession_start",
+        "ch1_closing"
+      ]
+    },
+    {
+      "id": "loc_street_night",
+      "canonicalName": "Jalanan Kota & Halte Bus (City Rain Street)",
+      "type": "exterior",
+      "visualDescription": "Wet asphalt sidewalk reflecting yellow sodium streetlights, glistening puddles, rain streaks, and a dimly lit concrete bus shelter with timetable board.",
+      "lightingDefault": "sodium_yellow_reflections",
+      "scenesUsing": [
+        "ch2_street_1",
+        "ch2_street_dialogue",
+        "ch2_lean_closer",
+        "ch2_hold_shoulder",
+        "ch2_slow_walk",
+        "ch2_bus_stop"
+      ]
+    },
+    {
+      "id": "loc_nana_bedroom",
+      "canonicalName": "Kamar Nana (Nana's Apartment Bedroom)",
+      "type": "interior",
+      "visualDescription": "Cozy single bedroom with study desk positioned against a window overlooking distant city silhouette. Warm fairy lights, messy notebooks, soft bed in midground.",
+      "lightingDefault": "soft_desk_lamp_midnight_blue",
+      "scenesUsing": [
+        "ch3_book_discovery",
+        "ch3_polaroid_dialogue",
+        "ch3_ticket_revelation",
+        "ch3_deep_confession",
+        "ch3_silent_comfort",
+        "ch3_night_phone_msg"
+      ]
+    },
+    {
+      "id": "loc_agus_room",
+      "canonicalName": "Kamar Agus (Agus's Work Room - WIT Zone)",
+      "type": "interior",
+      "visualDescription": "Minimalist tech workspace with dual monitors casting cyan glow, mechanical keyboard, dark window blinds, bookshelf, and sleeping cat basket on desk corner.",
+      "lightingDefault": "dual_monitor_cyan_tungsten_blend",
+      "scenesUsing": [
+        "SC-08",
+        "SC-14",
+        "SC-21",
+        "SC-30",
+        "SC-35"
+      ]
+    },
+    {
+      "id": "loc_station",
+      "canonicalName": "Peron Stasiun Kereta Api (Train Station Platform)",
+      "type": "semi_exterior",
+      "visualDescription": "Open-air intercity train platform during golden-orange sunset. Overhead steel canopy trusses, railway tracks vanishing into horizon, glowing platform clock.",
+      "lightingDefault": "golden_hour_sunset_amber",
+      "scenesUsing": [
+        "ch4_station_climax",
+        "ch4_final_choice",
+        "ending_true_scene",
+        "ending_romantic_scene",
+        "ending_bittersweet_scene"
+      ]
+    },
+    {
+      "id": "loc_rooftop",
+      "canonicalName": "Rooftop Gedung Kota (City Rooftop Under Stars)",
+      "type": "exterior",
+      "visualDescription": "High urban rooftop terrace under deep indigo star-filled night sky, distant soft city bokeh lights below, metal railing in midground.",
+      "lightingDefault": "starlight_cool_indigo_bokeh",
+      "scenesUsing": [
+        "ending_secret_scene"
+      ]
+    },
+    {
+      "id": "loc_campus",
+      "canonicalName": "Kampus & Tangga Batu (University Courtyard)",
+      "type": "exterior",
+      "visualDescription": "University brick facade, wide stone stairs lined with lush tropical trees, student pedestrian paths.",
+      "lightingDefault": "natural_daylight_to_dusk",
+      "scenesUsing": [
+        "SC-03",
+        "SC-06"
+      ]
+    },
+    {
+      "id": "loc_office",
+      "canonicalName": "Studio Desain Nana (Nana's Design Office)",
+      "type": "interior",
+      "visualDescription": "Modern graphic design agency with shared wooden benches, large glass partitions, moodboards, and soft afternoon sunlight.",
+      "lightingDefault": "bright_studio_daylight",
+      "scenesUsing": [
+        "SC-20",
+        "SC-38"
+      ]
+    },
+    {
+      "id": "loc_nana_house",
+      "canonicalName": "Rumah Keluarga Nana (Nana's Family Dining Room)",
+      "type": "interior",
+      "visualDescription": "Warm Indonesian suburban domestic dining room with teak table, ceramic dishes, ceiling fan, family portrait on wall.",
+      "lightingDefault": "warm_domestic_tungsten",
+      "scenesUsing": [
+        "SC-23"
+      ]
+    },
+    {
+      "id": "loc_beach",
+      "canonicalName": "Tepi Pantai & Tebing Senja (Coastal Cliff Bench)",
+      "type": "exterior",
+      "visualDescription": "Coastal cliff wooden bench overlooking wide ocean sunset, rolling turquoise waves, salt mist in air.",
+      "lightingDefault": "vibrant_sunset_coastal",
+      "scenesUsing": [
+        "SC-31"
+      ]
+    },
+    {
+      "id": "loc_mountain",
+      "canonicalName": "Puncak Bukit & Jalur Hiking (Mountain Trail Sunrise)",
+      "type": "exterior",
+      "visualDescription": "Dirt hiking ridge overlooking distant sea of morning clouds, fresh pine silhouettes, soft pink-gold dawn horizon.",
+      "lightingDefault": "dawn_first_light_rose_gold",
+      "scenesUsing": [
+        "SC-32"
+      ]
+    },
+    {
+      "id": "loc_shared_apartment",
+      "canonicalName": "Apartemen Bersama (Shared Future Living Room)",
+      "type": "interior",
+      "visualDescription": "Clean, sunlit studio apartment with two coffee mugs on low table, unpackaged cardboard moving boxes, sheer curtains billowing.",
+      "lightingDefault": "warm_sunset_interior_serene",
+      "scenesUsing": [
+        "SC-39"
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "id": "env_campus_cafe_master",
+      "locationId": "loc_campus_cafe",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P0",
+      "reuseCount": 11,
+      "variants": [
+        {
+          "variantId": "env_campus_cafe_night_rain",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "warm_lamp_glass_rain_streaks",
+          "scenes": [
+            "ch1_intro_1",
+            "ch1_intro_2",
+            "ch1_nadia_enters",
+            "ch1_dialogue_1",
+            "ch1_react_warm",
+            "ch1_react_honest",
+            "ch1_react_care",
+            "ch1_sit_down",
+            "ch1_confession_start",
+            "ch1_closing"
+          ]
+        },
+        {
+          "variantId": "env_campus_cafe_afternoon_sunlit",
+          "time": "afternoon",
+          "weather": "clear",
+          "lighting": "golden_hour_sunbeam",
+          "scenes": [
+            "SC-01",
+            "SC-02",
+            "SC-04",
+            "SC-11",
+            "SC-16",
+            "SC-40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_street_night_master",
+      "locationId": "loc_street_night",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P0",
+      "reuseCount": 6,
+      "variants": [
+        {
+          "variantId": "env_street_rain_sidewalk",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "sodium_yellow_wet_asphalt",
+          "scenes": [
+            "ch2_street_1",
+            "ch2_street_dialogue",
+            "ch2_lean_closer",
+            "ch2_hold_shoulder",
+            "ch2_slow_walk"
+          ]
+        },
+        {
+          "variantId": "env_street_bus_stop",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "bus_shelter_overhead_fluorescent",
+          "scenes": [
+            "ch2_bus_stop"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_nana_bedroom_master",
+      "locationId": "loc_nana_bedroom",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P0",
+      "reuseCount": 6,
+      "variants": [
+        {
+          "variantId": "env_nana_bedroom_midnight_rain",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "desk_lamp_rain_reflection_0010",
+          "scenes": [
+            "ch3_book_discovery",
+            "ch3_polaroid_dialogue",
+            "ch3_ticket_revelation",
+            "ch3_deep_confession",
+            "ch3_silent_comfort",
+            "ch3_night_phone_msg"
+          ]
+        },
+        {
+          "variantId": "env_nana_bedroom_morning_clear",
+          "time": "morning",
+          "weather": "clear",
+          "lighting": "dawn_sunlight_motes_0700",
+          "scenes": [
+            "SC-07",
+            "SC-26"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_agus_room_master",
+      "locationId": "loc_agus_room",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P0",
+      "reuseCount": 5,
+      "variants": [
+        {
+          "variantId": "env_agus_room_midnight_screen",
+          "time": "night",
+          "weather": "clear",
+          "lighting": "cyan_screen_glow_0210",
+          "scenes": [
+            "SC-08",
+            "SC-21"
+          ]
+        },
+        {
+          "variantId": "env_agus_room_daylight_clean",
+          "time": "morning",
+          "weather": "clear",
+          "lighting": "bright_morning_sun",
+          "scenes": [
+            "SC-30",
+            "SC-35"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_station_master",
+      "locationId": "loc_station",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P0",
+      "reuseCount": 5,
+      "variants": [
+        {
+          "variantId": "env_station_sunset_platform",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "sunset_amber_tracks",
+          "scenes": [
+            "ch4_station_climax",
+            "ch4_final_choice",
+            "ending_true_scene",
+            "ending_bittersweet_scene"
+          ]
+        },
+        {
+          "variantId": "env_station_sunset_train_interior",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "carriage_window_sunset_glow",
+          "scenes": [
+            "ending_romantic_scene"
+          ]
+        },
+        {
+          "variantId": "env_station_morning_arrival",
+          "time": "morning",
+          "weather": "clear",
+          "lighting": "morning_sunlight_platform",
+          "scenes": [
+            "SC-28",
+            "SC-29"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_rooftop_master",
+      "locationId": "loc_rooftop",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P1",
+      "reuseCount": 1,
+      "variants": [
+        {
+          "variantId": "env_rooftop_night_stars",
+          "time": "night",
+          "weather": "stars",
+          "lighting": "cool_starlight_indigo",
+          "scenes": [
+            "ending_secret_scene"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_campus_master",
+      "locationId": "loc_campus",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P1",
+      "reuseCount": 2,
+      "variants": [
+        {
+          "variantId": "env_campus_midday",
+          "time": "afternoon",
+          "weather": "clear",
+          "lighting": "bright_daylight",
+          "scenes": [
+            "SC-03"
+          ]
+        },
+        {
+          "variantId": "env_campus_dusk",
+          "time": "dusk",
+          "weather": "clear",
+          "lighting": "dusk_purple_gold",
+          "scenes": [
+            "SC-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_office_master",
+      "locationId": "loc_office",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P1",
+      "reuseCount": 2,
+      "variants": [
+        {
+          "variantId": "env_office_afternoon",
+          "time": "afternoon",
+          "weather": "clear",
+          "lighting": "warm_studio_sunlight",
+          "scenes": [
+            "SC-20",
+            "SC-38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_beach_master",
+      "locationId": "loc_beach",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P2",
+      "reuseCount": 1,
+      "variants": [
+        {
+          "variantId": "env_beach_sunset",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "warm_golden_coastal",
+          "scenes": [
+            "SC-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_mountain_master",
+      "locationId": "loc_mountain",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P2",
+      "reuseCount": 1,
+      "variants": [
+        {
+          "variantId": "env_mountain_dawn",
+          "time": "morning",
+          "weather": "fog",
+          "lighting": "rose_gold_misty_dawn",
+          "scenes": [
+            "SC-32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_nana_house_master",
+      "locationId": "loc_nana_house",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P2",
+      "reuseCount": 1,
+      "variants": [
+        {
+          "variantId": "env_nana_house_evening",
+          "time": "night",
+          "weather": "clear",
+          "lighting": "domestic_tungsten",
+          "scenes": [
+            "SC-23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "env_shared_apartment_master",
+      "locationId": "loc_shared_apartment",
+      "type": "master",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "transparency": false,
+      "priority": "P2",
+      "reuseCount": 1,
+      "variants": [
+        {
+          "variantId": "env_shared_apartment_sunset",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "golden_hour_interior",
+          "scenes": [
+            "SC-39"
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "layerId": "layer_bg_cafe_glass",
+      "environmentId": "env_campus_cafe_master",
+      "type": "background",
+      "semanticZ": 0,
+      "parallaxFactor": 0,
+      "assetType": "opaque_backdrop",
+      "targetFile": "env_campus_cafe_bg.webp",
+      "description": "Blurred rainy street exterior visible through cafe storefront glass"
+    },
+    {
+      "layerId": "layer_mid_cafe_interior",
+      "environmentId": "env_campus_cafe_master",
+      "type": "midground",
+      "semanticZ": 20,
+      "parallaxFactor": 0.05,
+      "assetType": "cutout_png",
+      "targetFile": "env_campus_cafe_mid.webp",
+      "description": "Wooden table, counter, pendant lamps, espresso machine silhouette"
+    },
+    {
+      "layerId": "layer_char_cafe_space",
+      "environmentId": "env_campus_cafe_master",
+      "type": "character_space",
+      "semanticZ": 30,
+      "baselineY": 1460,
+      "description": "Seated/standing character plane for Nana and Agus"
+    },
+    {
+      "layerId": "layer_fg_cafe_raindrops",
+      "environmentId": "env_campus_cafe_master",
+      "type": "foreground",
+      "semanticZ": 50,
+      "parallaxFactor": 0.12,
+      "assetType": "transparent_png",
+      "targetFile": "env_campus_cafe_fg_rain.webp",
+      "description": "Detailed clear raindrops clinging to near-glass pane"
+    },
+    {
+      "layerId": "layer_bg_street_skyline",
+      "environmentId": "env_street_night_master",
+      "type": "background",
+      "semanticZ": 0,
+      "parallaxFactor": 0,
+      "targetFile": "env_street_night_bg.webp",
+      "description": "Dark rainy city skyline with soft glowing office windows"
+    },
+    {
+      "layerId": "layer_mid_street_sidewalk",
+      "environmentId": "env_street_night_master",
+      "type": "midground",
+      "semanticZ": 20,
+      "parallaxFactor": 0.04,
+      "targetFile": "env_street_night_mid.webp",
+      "description": "Wet sidewalk, metal railing, distant bus shelter silhouette"
+    },
+    {
+      "layerId": "layer_fg_street_lamppost",
+      "environmentId": "env_street_night_master",
+      "type": "foreground",
+      "semanticZ": 50,
+      "parallaxFactor": 0.15,
+      "targetFile": "env_street_night_fg_post.webp",
+      "description": "Close sodium streetlamp frame casting downward cone of warm light"
+    },
+    {
+      "layerId": "layer_bg_station_sky",
+      "environmentId": "env_station_master",
+      "type": "background",
+      "semanticZ": 0,
+      "parallaxFactor": 0,
+      "targetFile": "env_station_sunset_bg.webp",
+      "description": "Vibrant orange and violet sunset gradient with distant cloud ribbons"
+    },
+    {
+      "layerId": "layer_mid_station_tracks",
+      "environmentId": "env_station_master",
+      "type": "midground",
+      "semanticZ": 20,
+      "parallaxFactor": 0.06,
+      "targetFile": "env_station_sunset_mid.webp",
+      "description": "Platform canopy steel beams, illuminated departure board, empty tracks"
+    },
+    {
+      "layerId": "layer_fg_station_pillar",
+      "environmentId": "env_station_master",
+      "type": "foreground",
+      "semanticZ": 50,
+      "parallaxFactor": 0.14,
+      "targetFile": "env_station_sunset_fg_pillar.webp",
+      "description": "Near yellow safety line and platform pillar in dark silhouette"
+    }
+  ],
+  "props": [
+    {
+      "id": "prop_phone",
+      "name": "Dual Timezone Smartphone",
+      "type": "interactive_ui",
+      "classification": "interactive",
+      "usage": "Diegetic phone overlay showing 00:10 WIB (Nana) vs 02:10 WIT (Agus)",
+      "priority": "P0",
+      "reusable": true
+    },
+    {
+      "id": "prop_coffee",
+      "name": "Coffee Cups (Hot Mug / Takeout Cup)",
+      "type": "environment_prop",
+      "classification": "environment_integrated",
+      "usage": "Placed on cafe tables, steaming hot mug vs cold leftover cup",
+      "priority": "P0",
+      "reusable": true
+    },
+    {
+      "id": "prop_laptop",
+      "name": "Work Laptop / Dual Monitors",
+      "type": "environment_prop",
+      "classification": "static",
+      "usage": "Nana's studio design laptop and Agus's code IDE monitor",
+      "priority": "P1",
+      "reusable": true
+    },
+    {
+      "id": "prop_old_photo",
+      "name": "Campus Polaroid Photograph",
+      "type": "foreshadow_item",
+      "classification": "character_held",
+      "usage": "Found tucked inside book page 42; unlocks Secret Route and Epilogue E",
+      "priority": "P0",
+      "reusable": true
+    },
+    {
+      "id": "prop_train_ticket",
+      "name": "Last-Minute Train Ticket",
+      "type": "foreshadow_item",
+      "classification": "interactive",
+      "usage": "Found at bus stop and Nana's bedroom desk; represents decision to cross distance",
+      "priority": "P0",
+      "reusable": true
+    },
+    {
+      "id": "prop_lighter_antique",
+      "name": "Antique Brass Lighter",
+      "type": "foreshadow_item",
+      "classification": "interactive",
+      "usage": "Collectible on corner cafe table in Chapter 1",
+      "priority": "P1",
+      "reusable": false
+    },
+    {
+      "id": "prop_agus_cat",
+      "name": "Agus's Tabby Cat",
+      "type": "character_space_prop",
+      "classification": "environment_integrated",
+      "usage": "Sleeping on Agus's desk corner during video calls",
+      "priority": "P1",
+      "reusable": true
+    },
+    {
+      "id": "prop_backpack",
+      "name": "Travel Canvas Backpack",
+      "type": "character_held_prop",
+      "classification": "character_held",
+      "usage": "Slung over Nana's shoulder during train departure and trip scenes",
+      "priority": "P1",
+      "reusable": true
+    }
+  ],
+  "atmosphere": [
+    {
+      "id": "fx_rain_procedural",
+      "name": "Directional Rain Particles",
+      "implementation": "DOM_CSS",
+      "particleType": "rain",
+      "performanceFootprint": "low",
+      "reducedMotion": "hidden",
+      "usage": "All cafe exterior and street scenes (Act 1, Act 2, Act 3)"
+    },
+    {
+      "id": "fx_fog_mist",
+      "name": "Atmospheric Ground Mist",
+      "implementation": "Canvas_Shader",
+      "particleType": "fog",
+      "performanceFootprint": "medium",
+      "reducedMotion": "static_gradient",
+      "usage": "Dusk campus, bus shelter, and mountain dawn scenes"
+    },
+    {
+      "id": "fx_dust_motes",
+      "name": "Golden Sunlight Dust Motes",
+      "implementation": "DOM_CSS",
+      "particleType": "motes",
+      "performanceFootprint": "minimal",
+      "reducedMotion": "hidden",
+      "usage": "Campus cafe afternoon sunbeams and epilogue apartment"
+    },
+    {
+      "id": "fx_screen_glow_late_night",
+      "name": "Dual Monitor / Phone Screen Glow",
+      "implementation": "CSS_radial_gradient",
+      "performanceFootprint": "zero",
+      "reducedMotion": "unchanged",
+      "usage": "Midnight bedroom calls and late night tech coding"
+    },
+    {
+      "id": "fx_cinematic_vignette",
+      "name": "Dynamic Tone Vignette",
+      "implementation": "CSS_radial_gradient",
+      "performanceFootprint": "zero",
+      "reducedMotion": "unchanged",
+      "usage": "Romance amber vs mystery dark vignette"
+    }
+  ],
+  "actionCGs": [
+    {
+      "id": "cg_hands_coffee",
+      "title": "Touching Hands Over Coffee",
+      "sceneId": "ch1_hands_cg_scene",
+      "aspectRatio": "9:16",
+      "resolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "description": "Close-up macro composition of Nana and Agus's fingers brushing against each other over warm steaming coffee cup on rustic wooden table."
+    },
+    {
+      "id": "cg_umbrella_rain",
+      "title": "Walking Under Shared Umbrella",
+      "sceneId": "ch2_street_1",
+      "aspectRatio": "9:16",
+      "resolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "description": "Two silhouettes walking shoulder-to-shoulder under a transparent umbrella down wet city street reflecting streetlamp glow."
+    },
+    {
+      "id": "cg_old_photograph",
+      "title": "Polaroid Inside Book Page 42",
+      "sceneId": "ch3_book_discovery",
+      "aspectRatio": "9:16",
+      "resolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "description": "Overhead top-down macro shot of an open vintage novel on wooden desk with polaroid photo of two laughing university students."
+    },
+    {
+      "id": "cg_phone_message",
+      "title": "Late Night Notification at 02:14 AM",
+      "sceneId": "ch3_night_phone_msg",
+      "aspectRatio": "9:16",
+      "resolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "description": "Dark bedroom shot of glowing smartphone screen on white bedsheets showing incoming text message from Agus."
+    }
+  ],
+  "sceneRequirements": [
+    {
+      "sceneId": "ch1_intro_1",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_intro_2",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee",
+        "prop_lighter_antique"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_nadia_enters",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_dialogue_1",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_react_warm",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_react_honest",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_react_care",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_sit_down",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_hands_cg_scene",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_confession_start",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch1_closing",
+      "locationId": "loc_campus_cafe",
+      "environmentId": "env_campus_cafe_master",
+      "variantId": "env_campus_cafe_night_rain",
+      "requiredLayers": [
+        "layer_bg_cafe_glass",
+        "layer_mid_cafe_interior",
+        "layer_char_cafe_space",
+        "layer_fg_cafe_raindrops"
+      ],
+      "requiredProps": [
+        "prop_coffee"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch2_street_1",
+      "locationId": "loc_street_night",
+      "environmentId": "env_street_night_master",
+      "variantId": "env_street_rain_sidewalk",
+      "requiredLayers": [
+        "layer_bg_street_skyline",
+        "layer_mid_street_sidewalk",
+        "layer_char_street_space",
+        "layer_fg_street_lamppost"
+      ],
+      "requiredProps": [],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch2_street_dialogue",
+      "locationId": "loc_street_night",
+      "environmentId": "env_street_night_master",
+      "variantId": "env_street_rain_sidewalk",
+      "requiredLayers": [
+        "layer_bg_street_skyline",
+        "layer_mid_street_sidewalk",
+        "layer_char_street_space",
+        "layer_fg_street_lamppost"
+      ],
+      "requiredProps": [],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch2_lean_closer",
+      "locationId": "loc_street_night",
+      "environmentId": "env_street_night_master",
+      "variantId": "env_street_rain_sidewalk",
+      "requiredLayers": [
+        "layer_bg_street_skyline",
+        "layer_mid_street_sidewalk",
+        "layer_char_street_space",
+        "layer_fg_street_lamppost"
+      ],
+      "requiredProps": [],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch2_hold_shoulder",
+      "locationId": "loc_street_night",
+      "environmentId": "env_street_night_master",
+      "variantId": "env_street_rain_sidewalk",
+      "requiredLayers": [
+        "layer_bg_street_skyline",
+        "layer_mid_street_sidewalk",
+        "layer_char_street_space",
+        "layer_fg_street_lamppost"
+      ],
+      "requiredProps": [],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch2_slow_walk",
+      "locationId": "loc_street_night",
+      "environmentId": "env_street_night_master",
+      "variantId": "env_street_rain_sidewalk",
+      "requiredLayers": [
+        "layer_bg_street_skyline",
+        "layer_mid_street_sidewalk",
+        "layer_char_street_space",
+        "layer_fg_street_lamppost"
+      ],
+      "requiredProps": [],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch2_bus_stop",
+      "locationId": "loc_street_night",
+      "environmentId": "env_street_night_master",
+      "variantId": "env_street_bus_stop",
+      "requiredLayers": [
+        "layer_bg_street_skyline",
+        "layer_mid_street_sidewalk",
+        "layer_char_street_space",
+        "layer_fg_street_lamppost"
+      ],
+      "requiredProps": [
+        "prop_train_ticket"
+      ],
+      "requiredAtmosphere": [
+        "fx_rain_procedural",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch3_book_discovery",
+      "locationId": "loc_nana_bedroom",
+      "environmentId": "env_nana_bedroom_master",
+      "variantId": "env_nana_bedroom_midnight_rain",
+      "requiredLayers": [
+        "layer_bg_nana_window",
+        "layer_mid_nana_desk",
+        "layer_char_nana_space",
+        "layer_fg_nana_curtain"
+      ],
+      "requiredProps": [
+        "prop_old_photo"
+      ],
+      "requiredAtmosphere": [
+        "fx_screen_glow_late_night",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch3_polaroid_dialogue",
+      "locationId": "loc_nana_bedroom",
+      "environmentId": "env_nana_bedroom_master",
+      "variantId": "env_nana_bedroom_midnight_rain",
+      "requiredLayers": [
+        "layer_bg_nana_window",
+        "layer_mid_nana_desk",
+        "layer_char_nana_space",
+        "layer_fg_nana_curtain"
+      ],
+      "requiredProps": [
+        "prop_old_photo"
+      ],
+      "requiredAtmosphere": [
+        "fx_screen_glow_late_night",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch3_ticket_revelation",
+      "locationId": "loc_nana_bedroom",
+      "environmentId": "env_nana_bedroom_master",
+      "variantId": "env_nana_bedroom_midnight_rain",
+      "requiredLayers": [
+        "layer_bg_nana_window",
+        "layer_mid_nana_desk",
+        "layer_char_nana_space",
+        "layer_fg_nana_curtain"
+      ],
+      "requiredProps": [
+        "prop_train_ticket"
+      ],
+      "requiredAtmosphere": [
+        "fx_screen_glow_late_night",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch3_deep_confession",
+      "locationId": "loc_nana_bedroom",
+      "environmentId": "env_nana_bedroom_master",
+      "variantId": "env_nana_bedroom_midnight_rain",
+      "requiredLayers": [
+        "layer_bg_nana_window",
+        "layer_mid_nana_desk",
+        "layer_char_nana_space",
+        "layer_fg_nana_curtain"
+      ],
+      "requiredProps": [],
+      "requiredAtmosphere": [
+        "fx_screen_glow_late_night",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch3_silent_comfort",
+      "locationId": "loc_nana_bedroom",
+      "environmentId": "env_nana_bedroom_master",
+      "variantId": "env_nana_bedroom_midnight_rain",
+      "requiredLayers": [
+        "layer_bg_nana_window",
+        "layer_mid_nana_desk",
+        "layer_char_nana_space",
+        "layer_fg_nana_curtain"
+      ],
+      "requiredProps": [],
+      "requiredAtmosphere": [
+        "fx_screen_glow_late_night",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch3_night_phone_msg",
+      "locationId": "loc_nana_bedroom",
+      "environmentId": "env_nana_bedroom_master",
+      "variantId": "env_nana_bedroom_midnight_rain",
+      "requiredLayers": [
+        "layer_bg_nana_window",
+        "layer_mid_nana_desk",
+        "layer_char_nana_space",
+        "layer_fg_nana_curtain"
+      ],
+      "requiredProps": [
+        "prop_phone"
+      ],
+      "requiredAtmosphere": [
+        "fx_screen_glow_late_night",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch4_station_climax",
+      "locationId": "loc_station",
+      "environmentId": "env_station_master",
+      "variantId": "env_station_sunset_platform",
+      "requiredLayers": [
+        "layer_bg_station_sky",
+        "layer_mid_station_tracks",
+        "layer_char_station_space",
+        "layer_fg_station_pillar"
+      ],
+      "requiredProps": [
+        "prop_backpack",
+        "prop_train_ticket"
+      ],
+      "requiredAtmosphere": [
+        "fx_dust_motes",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ch4_final_choice",
+      "locationId": "loc_station",
+      "environmentId": "env_station_master",
+      "variantId": "env_station_sunset_platform",
+      "requiredLayers": [
+        "layer_bg_station_sky",
+        "layer_mid_station_tracks",
+        "layer_char_station_space",
+        "layer_fg_station_pillar"
+      ],
+      "requiredProps": [
+        "prop_backpack"
+      ],
+      "requiredAtmosphere": [
+        "fx_dust_motes",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ending_true_scene",
+      "locationId": "loc_station",
+      "environmentId": "env_station_master",
+      "variantId": "env_station_sunset_platform",
+      "requiredLayers": [
+        "layer_bg_station_sky",
+        "layer_mid_station_tracks",
+        "layer_char_station_space",
+        "layer_fg_station_pillar"
+      ],
+      "requiredProps": [
+        "prop_backpack"
+      ],
+      "requiredAtmosphere": [
+        "fx_dust_motes",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ending_romantic_scene",
+      "locationId": "loc_station",
+      "environmentId": "env_station_master",
+      "variantId": "env_station_sunset_train_interior",
+      "requiredLayers": [
+        "layer_bg_station_sky",
+        "layer_mid_station_tracks",
+        "layer_char_station_space",
+        "layer_fg_station_pillar"
+      ],
+      "requiredProps": [
+        "prop_backpack"
+      ],
+      "requiredAtmosphere": [
+        "fx_dust_motes",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ending_secret_scene",
+      "locationId": "loc_rooftop",
+      "environmentId": "env_rooftop_master",
+      "variantId": "env_rooftop_night_stars",
+      "requiredLayers": [
+        "layer_bg_rooftop_stars",
+        "layer_mid_rooftop_terrace",
+        "layer_char_rooftop_space",
+        "layer_fg_rooftop_cables"
+      ],
+      "requiredProps": [
+        "prop_old_photo"
+      ],
+      "requiredAtmosphere": [
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    },
+    {
+      "sceneId": "ending_bittersweet_scene",
+      "locationId": "loc_station",
+      "environmentId": "env_station_master",
+      "variantId": "env_station_sunset_platform",
+      "requiredLayers": [
+        "layer_bg_station_sky",
+        "layer_mid_station_tracks",
+        "layer_char_station_space",
+        "layer_fg_station_pillar"
+      ],
+      "requiredProps": [
+        "prop_backpack"
+      ],
+      "requiredAtmosphere": [
+        "fx_dust_motes",
+        "fx_cinematic_vignette"
+      ],
+      "actionCG": null,
+      "characterComposition": {
+        "characters": [
+          "Nadia"
+        ],
+        "baselineY": 1460,
+        "safeZone": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        }
+      },
+      "dialogueSafeZone": {
+        "x": 0.05,
+        "y": 0.72,
+        "width": 0.9,
+        "height": 0.25
+      }
+    }
+  ]
+}

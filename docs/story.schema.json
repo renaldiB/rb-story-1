@@ -1,0 +1,307 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://interactive-story.engine/schemas/story.schema.json",
+  "title": "Interactive Story Document Schema",
+  "description": "Validation schema for data-driven, theme-agnostic interactive stories",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "subtitle",
+    "genre",
+    "synopsis",
+    "visualBible",
+    "firstSceneId",
+    "scenes",
+    "endings"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "default": "2.0.0"
+    },
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string",
+      "enum": [
+        "romance",
+        "horror",
+        "mystery",
+        "thriller",
+        "fantasy",
+        "cyberpunk",
+        "slice_of_life",
+        "adventure",
+        "historical"
+      ]
+    },
+    "synopsis": {
+      "type": "string"
+    },
+    "initialVariables": {
+      "type": "object",
+      "additionalProperties": { "type": "number" }
+    },
+    "initialFlags": {
+      "type": "object",
+      "additionalProperties": { "type": "boolean" }
+    },
+    "visualBible": {
+      "$ref": "#/$defs/VisualBible"
+    },
+    "firstSceneId": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/Character" }
+    },
+    "scenes": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/Scene" }
+    },
+    "endings": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/Ending" }
+    }
+  },
+  "$defs": {
+    "VisualBible": {
+      "type": "object",
+      "required": [
+        "artStyle",
+        "renderStyle",
+        "colorLanguage",
+        "lightingLanguage",
+        "cameraLanguage",
+        "particleLanguage",
+        "uiLanguage",
+        "soundLanguage"
+      ],
+      "properties": {
+        "artStyle": { "type": "string" },
+        "renderStyle": { "type": "string" },
+        "colorLanguage": { "type": "string" },
+        "lightingLanguage": { "type": "string" },
+        "cameraLanguage": {
+          "type": "string",
+          "enum": ["slow_push", "drift", "shake", "static", "dynamic"]
+        },
+        "particleLanguage": {
+          "type": "string",
+          "enum": ["rain", "motes", "fog", "glitch", "sparks", "none"]
+        },
+        "uiLanguage": {
+          "type": "string",
+          "enum": ["minimal_warm", "dark_grit", "neon_hud", "parchment"]
+        },
+        "soundLanguage": {
+          "type": "string",
+          "enum": ["intimate_lofi", "dark_drone", "synthwave", "celestial"]
+        }
+      }
+    },
+    "Character": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "avatarUrl": { "type": "string" },
+        "color": { "type": "string" },
+        "defaultExpression": { "type": "string" }
+      }
+    },
+    "Condition": {
+      "type": "object",
+      "properties": {
+        "variable": { "type": "string" },
+        "operator": {
+          "type": "string",
+          "enum": ["==", "!=", ">", "<", ">=", "<=", "flagSet", "flagUnset"]
+        },
+        "value": {
+          "type": ["number", "string", "boolean"]
+        },
+        "flag": { "type": "string" },
+        "and": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Condition" }
+        },
+        "or": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Condition" }
+        },
+        "not": { "$ref": "#/$defs/Condition" }
+      }
+    },
+    "Action": {
+      "type": "object",
+      "required": ["type", "target"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["setVariable", "addVariable", "setFlag", "clearFlag", "playSound", "triggerEvent"]
+        },
+        "target": { "type": "string" },
+        "value": { "type": ["number", "string", "boolean"] }
+      }
+    },
+    "Choice": {
+      "type": "object",
+      "required": ["id", "text", "nextSceneId"],
+      "properties": {
+        "id": { "type": "string" },
+        "text": { "type": "string" },
+        "subtext": { "type": "string" },
+        "nextSceneId": { "type": "string" },
+        "effects": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        },
+        "setFlags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "actions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Action" }
+        },
+        "requiredCondition": { "$ref": "#/$defs/Condition" },
+        "cameraCue": {
+          "type": "string",
+          "enum": ["slow_push", "shake", "drift"]
+        }
+      }
+    },
+    "Scene": {
+      "type": "object",
+      "required": [
+        "id",
+        "chapterId",
+        "chapterTitle",
+        "progressPercent",
+        "location",
+        "characters",
+        "speaker",
+        "text"
+      ],
+      "properties": {
+        "id": { "type": "string" },
+        "chapterId": { "type": "string" },
+        "chapterTitle": { "type": "string" },
+        "progressPercent": { "type": "number", "minimum": 0, "maximum": 100 },
+        "location": {
+          "type": "object",
+          "required": ["id", "name", "time", "weather", "mood"],
+          "properties": {
+            "id": { "type": "string" },
+            "name": { "type": "string" },
+            "time": { "type": "string", "enum": ["morning", "afternoon", "sunset", "night", "midnight"] },
+            "weather": { "type": "string", "enum": ["clear", "rain", "overcast", "stars", "fog", "storm", "embers"] },
+            "mood": { "type": "string", "enum": ["romance", "mystery", "sadness", "tension", "peaceful", "horror", "wonder", "cyber"] }
+          }
+        },
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "expression", "position"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "expression": { "type": "string" },
+              "position": { "type": "string", "enum": ["left", "center", "right", "foreground", "background"] },
+              "isSpeaking": { "type": "boolean" }
+            }
+          }
+        },
+        "speaker": { "type": ["string", "null"] },
+        "text": { "type": "string" },
+        "subText": { "type": "string" },
+        "timeline": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["text"],
+            "properties": {
+              "id": { "type": "string" },
+              "speaker": { "type": ["string", "null"] },
+              "text": { "type": "string" },
+              "subText": { "type": "string" },
+              "characterExpression": { "type": "string" },
+              "cameraAction": { "type": "string", "enum": ["slow_push", "shake", "drift", "static"] },
+              "soundEffect": { "type": "string" }
+            }
+          }
+        },
+        "choices": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Choice" }
+        },
+        "nextSceneId": { "type": "string" },
+        "actionCG": { "type": "string" },
+        "foreshadowItem": {
+          "type": "object",
+          "required": ["id", "name", "description", "icon", "flagToUnlock"],
+          "properties": {
+            "id": { "type": "string" },
+            "name": { "type": "string" },
+            "description": { "type": "string" },
+            "icon": { "type": "string" },
+            "flagToUnlock": { "type": "string" },
+            "unlockedHint": { "type": "string" }
+          }
+        },
+        "diegeticItem": {
+          "type": "object",
+          "required": ["id", "type", "title", "snippet", "content", "flagToUnlock"],
+          "properties": {
+            "id": { "type": "string" },
+            "type": { "type": "string", "enum": ["phone", "recorder", "terminal", "grimoire"] },
+            "title": { "type": "string" },
+            "snippet": { "type": "string" },
+            "content": {
+              "type": "object",
+              "required": ["body"],
+              "properties": {
+                "sender": { "type": "string" },
+                "timestamp": { "type": "string" },
+                "body": { "type": "string" },
+                "extraNote": { "type": "string" }
+              }
+            },
+            "flagToUnlock": { "type": "string" }
+          }
+        },
+        "soundEffect": { "type": "string" },
+        "ambientTrack": { "type": "string" },
+        "emotionalIntensity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "cameraAction": { "type": "string", "enum": ["slow_push", "shake", "drift", "static"] },
+        "endingId": { "type": "string" }
+      }
+    },
+    "Ending": {
+      "type": "object",
+      "required": ["id", "title", "type", "tagline", "poem", "summary"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "type": { "type": "string", "enum": ["true", "romantic", "bittersweet", "secret", "tragic", "escape"] },
+        "tagline": { "type": "string" },
+        "poem": { "type": "string" },
+        "summary": { "type": "string" },
+        "unlockedCondition": { "type": "string" },
+        "requiredCondition": { "$ref": "#/$defs/Condition" }
+      }
+    }
+  }
+}

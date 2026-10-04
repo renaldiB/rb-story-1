@@ -1,0 +1,1191 @@
+{
+  "version": "1.0.0",
+  "characterType": "secondary",
+  "totalCharacters": 8,
+  "characters": {
+    "kaka": {
+      "variants": [
+        {
+          "id": "secondary_kaka_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/kaka/pose/secondary_kaka_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/kaka/pose/secondary_kaka_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/kaka/expression/secondary_kaka_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/kaka/expression/secondary_kaka_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/kaka/expression/secondary_kaka_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/kaka/expression/secondary_kaka_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/kaka/expression/secondary_kaka_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/kaka/expression/secondary_kaka_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/kaka/expression/secondary_kaka_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_kaka_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_kaka_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "raka": {
+      "variants": [
+        {
+          "id": "secondary_raka_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/raka/pose/secondary_raka_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/raka/pose/secondary_raka_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/raka/expression/secondary_raka_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/raka/expression/secondary_raka_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/raka/expression/secondary_raka_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/raka/expression/secondary_raka_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/raka/expression/secondary_raka_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/raka/expression/secondary_raka_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/raka/expression/secondary_raka_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_raka_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_raka_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "dita": {
+      "variants": [
+        {
+          "id": "secondary_dita_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/dita/pose/secondary_dita_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/dita/pose/secondary_dita_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/dita/expression/secondary_dita_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/dita/expression/secondary_dita_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/dita/expression/secondary_dita_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/dita/expression/secondary_dita_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/dita/expression/secondary_dita_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/dita/expression/secondary_dita_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/dita/expression/secondary_dita_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_dita_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_dita_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "fikri": {
+      "variants": [
+        {
+          "id": "secondary_fikri_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/fikri/pose/secondary_fikri_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/fikri/pose/secondary_fikri_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/fikri/expression/secondary_fikri_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/fikri/expression/secondary_fikri_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/fikri/expression/secondary_fikri_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/fikri/expression/secondary_fikri_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/fikri/expression/secondary_fikri_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/fikri/expression/secondary_fikri_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/fikri/expression/secondary_fikri_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_fikri_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_fikri_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "maya": {
+      "variants": [
+        {
+          "id": "secondary_maya_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/maya/pose/secondary_maya_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/maya/pose/secondary_maya_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/maya/expression/secondary_maya_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/maya/expression/secondary_maya_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/maya/expression/secondary_maya_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/maya/expression/secondary_maya_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/maya/expression/secondary_maya_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/maya/expression/secondary_maya_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/maya/expression/secondary_maya_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_maya_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_maya_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "bimo": {
+      "variants": [
+        {
+          "id": "secondary_bimo_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/bimo/pose/secondary_bimo_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/bimo/pose/secondary_bimo_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/bimo/expression/secondary_bimo_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/bimo/expression/secondary_bimo_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/bimo/expression/secondary_bimo_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/bimo/expression/secondary_bimo_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/bimo/expression/secondary_bimo_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/bimo/expression/secondary_bimo_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/bimo/expression/secondary_bimo_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_bimo_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_bimo_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "ibu": {
+      "variants": [
+        {
+          "id": "secondary_ibu_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/ibu/pose/secondary_ibu_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/ibu/pose/secondary_ibu_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/ibu/expression/secondary_ibu_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/ibu/expression/secondary_ibu_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/ibu/expression/secondary_ibu_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/ibu/expression/secondary_ibu_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/ibu/expression/secondary_ibu_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/ibu/expression/secondary_ibu_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/ibu/expression/secondary_ibu_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ibu_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ibu_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "ayah": {
+      "variants": [
+        {
+          "id": "secondary_ayah_pose_standing_neutral",
+          "category": "pose",
+          "state": "standing_neutral",
+          "priority": "P0",
+          "file": "variants/ayah/pose/secondary_ayah_pose_standing_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_pose_looking_away",
+          "category": "pose",
+          "state": "looking_away",
+          "priority": "P1",
+          "file": "variants/ayah/pose/secondary_ayah_pose_looking_away.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_soft_smile",
+          "category": "expression",
+          "state": "soft_smile",
+          "priority": "P0",
+          "file": "variants/ayah/expression/secondary_ayah_expression_soft_smile.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_neutral",
+          "category": "expression",
+          "state": "neutral",
+          "priority": "P0",
+          "file": "variants/ayah/expression/secondary_ayah_expression_neutral.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_happy",
+          "category": "expression",
+          "state": "happy",
+          "priority": "P0",
+          "file": "variants/ayah/expression/secondary_ayah_expression_happy.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_serious",
+          "category": "expression",
+          "state": "serious",
+          "priority": "P0",
+          "file": "variants/ayah/expression/secondary_ayah_expression_serious.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_worried",
+          "category": "expression",
+          "state": "worried",
+          "priority": "P0",
+          "file": "variants/ayah/expression/secondary_ayah_expression_worried.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_pensive",
+          "category": "expression",
+          "state": "pensive",
+          "priority": "P1",
+          "file": "variants/ayah/expression/secondary_ayah_expression_pensive.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_surprised",
+          "category": "expression",
+          "state": "surprised",
+          "priority": "P1",
+          "file": "variants/ayah/expression/secondary_ayah_expression_surprised.png",
+          "status": "PASS"
+        },
+        {
+          "id": "secondary_ayah_expression_sad",
+          "category": "expression",
+          "state": "sad",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_expression_angry",
+          "category": "expression",
+          "state": "angry",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_expression_confused",
+          "category": "expression",
+          "state": "confused",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_expression_scared",
+          "category": "expression",
+          "state": "scared",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_expression_embarrassed",
+          "category": "expression",
+          "state": "embarrassed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_expression_tired",
+          "category": "expression",
+          "state": "tired",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_pose_standing_relaxed",
+          "category": "pose",
+          "state": "standing_relaxed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_pose_arms_crossed",
+          "category": "pose",
+          "state": "arms_crossed",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        },
+        {
+          "id": "secondary_ayah_pose_hands_in_pockets",
+          "category": "pose",
+          "state": "hands_in_pockets",
+          "priority": "P2",
+          "file": null,
+          "status": "PLANNED"
+        }
+      ]
+    }
+  }
+}

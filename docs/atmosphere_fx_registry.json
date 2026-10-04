@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "storyId": "two_hours_apart",
+  "theme": "romance_rain",
+  "totalFxSystems": 5,
+  "systems": [
+    {
+      "id": "fx_rain_procedural",
+      "name": "Procedural Directional Rain System",
+      "type": "particle_canvas",
+      "layer": "near_fg",
+      "zIndex": 40,
+      "implementation": "AtmosphereLayer (Canvas 2D / DPR-scaled)",
+      "scenes": [
+        "ch1_intro_1",
+        "ch1_intro_2",
+        "ch1_nadia_enters",
+        "ch1_dialogue_1",
+        "ch1_react_warm",
+        "ch1_react_honest",
+        "ch1_react_care",
+        "ch1_sit_down",
+        "ch1_hands_cg_scene",
+        "ch1_confession_start",
+        "ch1_closing",
+        "ch2_street_1",
+        "ch2_street_dialogue",
+        "ch2_lean_closer",
+        "ch2_hold_shoulder",
+        "ch2_slow_walk",
+        "ch2_bus_stop"
+      ],
+      "parameters": {
+        "angleDeg": 35,
+        "dropSpeed": "14-22 px/frame",
+        "dropLength": "16-26 px",
+        "opacity": "0.15-0.40",
+        "strokeWidth": 1.2,
+        "particleBudget": {
+          "high": 120,
+          "medium": 80,
+          "low": 40,
+          "mobile": 40
+        }
+      },
+      "mobileBehavior": "Particle count capped at 40, no sub-pixel blur, hardware accelerated transform",
+      "reducedMotionBehavior": "Particles disabled; static cool blue-950/15 wash overlay rendered",
+      "performance": "< 1.5% CPU on mobile, 0 React re-renders during active animation loop",
+      "cleanup": "Unsubscribes from AnimationManager on unmount, clears canvas context and particle array"
+    },
+    {
+      "id": "fx_fog_mist",
+      "name": "Multi-Layer Drifting Mist System",
+      "type": "particle_canvas_drift",
+      "layer": "midground",
+      "zIndex": 15,
+      "implementation": "AtmosphereLayer (Canvas 2D / GPU composited)",
+      "scenes": [
+        "SC-32",
+        "ch2_bus_stop",
+        "ch4_station_climax"
+      ],
+      "parameters": {
+        "driftVx": "0.2-0.6 px/frame",
+        "cloudRadius": "35-90 px",
+        "alpha": "0.04-0.08",
+        "color": "#10201d",
+        "particleBudget": {
+          "high": 30,
+          "medium": 20,
+          "low": 10,
+          "mobile": 10
+        }
+      },
+      "mobileBehavior": "Particle count capped at 10, composite-mode source-over",
+      "reducedMotionBehavior": "Particles frozen or replaced with static emerald-950/20 ambient wash",
+      "performance": "< 1.0% CPU on mobile, linear particle recycling outside viewport",
+      "cleanup": "Canvas instance cleared, active count zeroed in PerformanceManager"
+    },
+    {
+      "id": "fx_dust_motes",
+      "name": "Sunbeam Floating Motes System",
+      "type": "particle_canvas_float",
+      "layer": "midground",
+      "zIndex": 25,
+      "implementation": "AtmosphereLayer (Canvas 2D / Transform-only)",
+      "scenes": [
+        "ch3_book_discovery",
+        "ch3_polaroid_dialogue",
+        "ch3_ticket_revelation",
+        "ch3_deep_confession",
+        "ch3_silent_comfort",
+        "SC-20",
+        "SC-38",
+        "SC-39",
+        "ch4_station_climax",
+        "ending_true_scene",
+        "ending_romantic_scene"
+      ],
+      "parameters": {
+        "moteCount": 12,
+        "radius": "1.5-4.5 px",
+        "driftVx": "-0.15 to +0.15 px/frame",
+        "driftVy": "-0.2 to -0.6 px/frame",
+        "alpha": "0.10-0.45",
+        "colors": {
+          "sunset": "#f39c12",
+          "afternoon": "#ffeaa7",
+          "night": "#cce5ff"
+        },
+        "particleBudget": {
+          "high": 25,
+          "medium": 16,
+          "low": 8,
+          "mobile": 8
+        }
+      },
+      "mobileBehavior": "Particle count capped at 8, zero layout reflows",
+      "reducedMotionBehavior": "Particles hidden completely, preserving clean scene visibility",
+      "performance": "< 0.5% CPU, batched arc draw calls",
+      "cleanup": "Unsubscribes on scene leave, array released to garbage collector"
+    },
+    {
+      "id": "fx_screen_glow_late_night",
+      "name": "Late Night Screen Ambient Glow Overlay",
+      "type": "css_radial_gradient",
+      "layer": "mid_foreground",
+      "zIndex": 32,
+      "implementation": "AtmosphereEffects (CSS Mix-Blend Screen)",
+      "scenes": [
+        "ch3_night_phone_msg",
+        "SC-08",
+        "SC-14",
+        "SC-21",
+        "SC-30",
+        "SC-35"
+      ],
+      "parameters": {
+        "gradient": "radial-gradient(circle at 50% 65%, rgba(56, 189, 248, 0.18) 0%, rgba(30, 58, 138, 0.08) 50%, transparent 75%)",
+        "mixBlendMode": "screen",
+        "flicker": "subtle pulse <= 0.5Hz",
+        "opacity": 0.85
+      },
+      "mobileBehavior": "Pure GPU CSS composite layer, 0 CPU overhead",
+      "reducedMotionBehavior": "Pulse animation disabled, static gradient rendered",
+      "performance": "0% CPU overhead, GPU raster cached",
+      "cleanup": "CSS class unmount removes DOM node instantly"
+    },
+    {
+      "id": "fx_cinematic_vignette",
+      "name": "Cinematic Responsive Perimeter Vignette",
+      "type": "css_radial_vignette",
+      "layer": "foreground_frame",
+      "zIndex": 48,
+      "implementation": "AtmosphereEffects (CSS Radial Gradient Frame)",
+      "scenes": [
+        "ch1_intro_1",
+        "ch1_hands_cg_scene",
+        "ch2_street_1",
+        "ch3_book_discovery",
+        "ch3_night_phone_msg",
+        "ch4_station_climax",
+        "ending_true_scene",
+        "ending_romantic_scene",
+        "ending_bittersweet_scene",
+        "ending_secret_scene"
+      ],
+      "parameters": {
+        "gradient": "radial-gradient(ellipse at center, transparent 55%, rgba(10, 14, 22, 0.45) 85%, rgba(6, 9, 15, 0.80) 100%)",
+        "pointerEvents": "none",
+        "safeZoneProtection": "Center 60% ellipse 100% transparent to preserve character face and dialogue clarity"
+      },
+      "mobileBehavior": "Full viewport coverage with responsive aspect scaling",
+      "reducedMotionBehavior": "Fully static by default (no motion)",
+      "performance": "0% CPU overhead, GPU composite layer",
+      "cleanup": "CSS unmount"
+    }
+  ]
+}

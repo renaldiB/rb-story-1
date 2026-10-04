@@ -1,0 +1,39 @@
+{
+  "name": "story-1--romance-",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "test": "node --test --experimental-strip-types src/engine/storyEngine.test.ts src/tests/coreEngine.test.ts src/tests/performance.test.ts src/tests/twoHoursApart.test.ts tests/character/secondary-character-runtime.test.ts tests/character/primary-character-runtime.test.ts tests/scene/scene-assembly.test.ts tests/scene/production-scene-assembly.test.ts tests/effects/props-atmosphere.test.ts tests/environment/environment-runtime.test.ts",
+    "validate:story": "node --experimental-strip-types scripts/validate-story.ts",
+    "validate:production-scenes": "node --experimental-strip-types scripts/validate-production-scene-assembly.ts",
+    "validate:secondary-assets": "node --experimental-strip-types scripts/validate-secondary-character-assets.ts",
+    "validate:primary-sprites": "node --experimental-strip-types scripts/validate-primary-character-sprites.ts",
+    "validate:primary-variants": "node --experimental-strip-types scripts/validate-primary-character-variants.ts",
+    "validate:environments": "node --experimental-strip-types scripts/validate-environment-masters.ts",
+    "validate:layers-variants": "node --experimental-strip-types scripts/validate-environment-layers-variants.ts",
+    "validate:props-atmosphere": "node --experimental-strip-types scripts/validate-props-atmosphere.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "lucide-react": "^1.49.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3",
+    "zod": "^4.6.5",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "project": "2 HOURS APART",
+  "stage": "secondary-character-sprite-extraction",
+  "status": "COMPLETE",
+  "totalCharacters": 8,
+  "successful": 8,
+  "failed": 0,
+  "characters": [
+    {
+      "id": "kaka",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    },
+    {
+      "id": "raka",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    },
+    {
+      "id": "dita",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    },
+    {
+      "id": "fikri",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    },
+    {
+      "id": "maya",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    },
+    {
+      "id": "bimo",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    },
+    {
+      "id": "ibu",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    },
+    {
+      "id": "ayah",
+      "status": "PASS",
+      "sourceVerified": true,
+      "alphaVerified": true,
+      "dimensionsVerified": true,
+      "baselineVerified": true,
+      "visualQA": "PASS"
+    }
+  ]
+}

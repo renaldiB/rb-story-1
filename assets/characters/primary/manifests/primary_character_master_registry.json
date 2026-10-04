@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+  "characterType": "primary",
+  "totalCharacters": 2,
+  "timestamp": "2026-10-03T14:31:00Z",
+  "characters": {
+    "nana": {
+      "characterId": "char_nana",
+      "canonicalId": "nana",
+      "name": "Nana",
+      "role": "protagonist",
+      "pov": true,
+      "timeZone": "UTC+7 (WIB)",
+      "assetType": "primary_master",
+      "generationStatus": "COMPLETE",
+      "auditStatus": "PASS",
+      "masterLocked": true,
+      "lockTimestamp": "2026-10-03T14:31:00Z",
+      "masterFiles": {
+        "jpg": "masters/char_nana_master.jpg",
+        "png": "masters/char_nana_master.png",
+        "sourceArtifact": "char_nana_master_1790935188185.jpg",
+        "resolution": {
+          "width": 1200,
+          "height": 896
+        }
+      },
+      "appearance": {
+        "age": 24,
+        "heightCm": 162,
+        "bodyType": "slender, athletic",
+        "skinTone": "warm light-tan / fair Southeast Asian with soft peach undertones",
+        "hair": "shoulder-length, soft layered waves, dark chestnut brown with warm highlights, curtain bangs",
+        "eyes": "expressive almond-shaped warm dark brown / hazel, natural lashes, gentle arched brows",
+        "faceShape": "soft oval face"
+      },
+      "wardrobe": {
+        "primary": "oversized cream/oatmeal ribbed knit sweater (outfit_casual_home)",
+        "secondary": "sage linen button-up over white camisole (outfit_trip)",
+        "work": "light blue denim jacket, neutral crewneck, olive cargo pants",
+        "footwear": "low-top clean white sneakers / comfortable home lounge"
+      },
+      "accessories": [
+        "small silver minimalist stud earrings",
+        "small leather-strap wristwatch",
+        "wired earphones"
+      ],
+      "identityAnchors": [
+        "dark chestnut wavy shoulder-length hair with curtain bangs",
+        "warm hazel-brown almond eyes",
+        "oversized cream ribbed knit sweater",
+        "small silver stud earrings",
+        "soft peach complexion",
+        "slender 162cm silhouette"
+      ],
+      "relativeScale": 1.0,
+      "baseHeightCm": 162,
+      "canonicalPose": "front_and_3quarter_bust_quadrants",
+      "canonicalExpression": "calm_warm_smile",
+      "sourceData": [
+        "docs/03_ASSET_BIBLE.md",
+        "docs/04_VISUAL_STYLE_AND_IMAGE_GENERATION_BIBLE.md",
+        "docs/CANONICAL_CHARACTER_REGISTRY.md"
+      ]
+    },
+    "agus": {
+      "characterId": "char_agus",
+      "canonicalId": "agus",
+      "name": "Agus",
+      "role": "main_character / romantic_lead",
+      "pov": false,
+      "timeZone": "UTC+9 (WIT)",
+      "assetType": "primary_master",
+      "generationStatus": "COMPLETE",
+      "auditStatus": "PASS",
+      "masterLocked": true,
+      "lockTimestamp": "2026-10-03T14:31:00Z",
+      "masterFiles": {
+        "jpg": "masters/char_agus_master.jpg",
+        "png": "masters/char_agus_master.png",
+        "sourceArtifact": "char_agus_master_1790935243595.jpg",
+        "resolution": {
+          "width": 1200,
+          "height": 896
+        }
+      },
+      "appearance": {
+        "age": 24,
+        "heightCm": 176,
+        "bodyType": "lean build, clean posture",
+        "skinTone": "fair Asian skin with neutral undertones",
+        "hair": "short-to-medium textured messy black hair, casual parting",
+        "eyes": "observant warm dark eyes with slight subtle smile lines",
+        "faceShape": "defined jawline with soft contours",
+        "eyewear": "round slim dark-wireframe glasses with anti-glare reflection"
+      },
+      "wardrobe": {
+        "primary": "charcoal gray zip hoodie over crisp white crewneck tee (outfit_casual_room)",
+        "secondary": "washed tan chore coat over heather gray tee (outfit_trip)",
+        "work": "crisp minimalist oversized black/navy overshirt over white tee",
+        "footwear": "comfortable dark trousers, thick wool lounge socks"
+      },
+      "accessories": [
+        "round slim dark-wireframe glasses",
+        "over-ear studio headphones resting around neck",
+        "simple black digital watch with dual-timezone capability"
+      ],
+      "identityAnchors": [
+        "round thin dark wireframe glasses",
+        "textured messy black parted hair",
+        "charcoal zip hoodie over white crewneck",
+        "over-ear studio headphones around neck",
+        "defined jawline with observant dark eyes",
+        "lean 176cm silhouette"
+      ],
+      "relativeScale": 1.08,
+      "baseHeightCm": 176,
+      "canonicalPose": "halfbody_and_bust_quadrants",
+      "canonicalExpression": "reassuring_glasses_smile",
+      "sourceData": [
+        "docs/03_ASSET_BIBLE.md",
+        "docs/04_VISUAL_STYLE_AND_IMAGE_GENERATION_BIBLE.md",
+        "docs/CANONICAL_CHARACTER_REGISTRY.md"
+      ]
+    }
+  }
+}

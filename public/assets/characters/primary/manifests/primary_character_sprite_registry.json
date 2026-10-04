@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "assetType": "primary_character_sprite",
+  "stage": "primary-character-sprite-extraction",
+  "totalCharacters": 2,
+  "baselineStandard": {
+    "baselineY": 1460,
+    "canvasWidth": 1024,
+    "canvasHeight": 1536,
+    "tolerancePx": 0
+  },
+  "characters": {
+    "nana": {
+      "characterId": "char_nana",
+      "canonicalId": "nana",
+      "name": "Nana",
+      "role": "protagonist",
+      "heightCm": 162,
+      "relativeScale": 1.0,
+      "master": "assets/characters/primary/masters/char_nana_master.png",
+      "masterFormat": "PNG 1200x896",
+      "sprite": "assets/characters/primary/sprites/char_nana_base.png",
+      "runtimeSprite": "public/assets/characters/primary/sprites/char_nana_base.png",
+      "canvas": {
+        "width": 1024,
+        "height": 1536
+      },
+      "boundingBox": {
+        "xMin": 225,
+        "yMin": 638,
+        "xMax": 798,
+        "yMax": 1459,
+        "width": 574,
+        "height": 822
+      },
+      "margins": {
+        "topPx": 638,
+        "bottomPx": 76,
+        "leftPx": 225,
+        "rightPx": 225
+      },
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "alpha": true,
+      "baselineY": 1460,
+      "actualBaselineY": 1459,
+      "fileSizeBytes": 721258,
+      "checksumSha256": "274ffcc07c7ebb7e2082de95e804dbb46a37d815982a6391ccd1ee7d67ab801f",
+      "status": "PASS",
+      "auditStatus": "PASS"
+    },
+    "agus": {
+      "characterId": "char_agus",
+      "canonicalId": "agus",
+      "name": "Agus",
+      "role": "main_character / romantic_lead",
+      "heightCm": 176,
+      "relativeScale": 1.08,
+      "master": "assets/characters/primary/masters/char_agus_master.png",
+      "masterFormat": "PNG 1200x896",
+      "sprite": "assets/characters/primary/sprites/char_agus_base.png",
+      "runtimeSprite": "public/assets/characters/primary/sprites/char_agus_base.png",
+      "canvas": {
+        "width": 1024,
+        "height": 1536
+      },
+      "boundingBox": {
+        "xMin": 298,
+        "yMin": 615,
+        "xMax": 724,
+        "yMax": 1459,
+        "width": 427,
+        "height": 845
+      },
+      "margins": {
+        "topPx": 615,
+        "bottomPx": 76,
+        "leftPx": 298,
+        "rightPx": 299
+      },
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "alpha": true,
+      "baselineY": 1460,
+      "actualBaselineY": 1459,
+      "fileSizeBytes": 479296,
+      "checksumSha256": "360eecf4ec2a66accf4c7320e2c7435a844fa21f62d64902a1f9b80bc4763828",
+      "status": "PASS",
+      "auditStatus": "PASS"
+    }
+  }
+}

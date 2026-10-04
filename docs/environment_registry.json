@@ -1,0 +1,1794 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "storyId": "two_hours_apart",
+  "totalEnvironments": 12,
+  "environments": [
+    {
+      "id": "env_campus_cafe_master",
+      "name": "Kafe Kroma Interior",
+      "locationId": "loc_campus_cafe",
+      "type": "environment_master",
+      "priority": "P0",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 11,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_cafe_glass",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_campus_cafe_bg.webp",
+          "description": "Blurred rainy street exterior visible through cafe storefront glass",
+          "asset": "/assets/environments/layers/env_campus_cafe_bg.webp",
+          "fileSizeBytes": 84698,
+          "checksumSha256": "d072f574e8973d63ac817b657e122b497100119dd4f8e6e552bd98e469b29c19",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_cafe_interior",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.05,
+          "assetType": "cutout_png",
+          "targetFile": "env_campus_cafe_mid.webp",
+          "description": "Wooden table, counter, pendant lamps, espresso machine silhouette",
+          "asset": "/assets/environments/layers/env_campus_cafe_mid.webp",
+          "fileSizeBytes": 279134,
+          "checksumSha256": "776fb031889e451d6e5c4390b279f82d7180df882dfc893153ebe3db50a61353",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_cafe_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Seated/standing character plane for Nana and Agus"
+        },
+        {
+          "layerId": "layer_fg_cafe_raindrops",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_campus_cafe_fg_rain.webp",
+          "description": "Detailed clear raindrops clinging to near-glass pane",
+          "asset": "/assets/environments/layers/env_campus_cafe_fg_rain.webp",
+          "fileSizeBytes": 209064,
+          "checksumSha256": "e2c1ca36009619eefb02659fe8938527fd2fe9e4a61e44e0e78f66b0e67d3ff0",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium",
+        "fov": "50mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_campus_cafe_night_rain",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "warm_tungsten_amber",
+          "scenes": [
+            "ch1_intro_1",
+            "ch1_intro_2",
+            "ch1_nadia_enters",
+            "ch1_dialogue_1",
+            "ch1_react_warm",
+            "ch1_react_honest",
+            "ch1_react_care",
+            "ch1_sit_down",
+            "ch1_confession_start",
+            "ch1_closing"
+          ],
+          "mode": "raster",
+          "variantType": "weather",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_campus_cafe_night_rain.webp",
+          "fileSizeBytes": 270680,
+          "checksumSha256": "5184511b52fd79799841ecd150b6597ce7c8e14124e70d413b5b2b160c339989"
+        },
+        {
+          "variantId": "env_campus_cafe_afternoon_sunlit",
+          "time": "afternoon",
+          "weather": "clear",
+          "lighting": "golden_hour_sunbeam",
+          "scenes": [
+            "SC-01",
+            "SC-02",
+            "SC-04",
+            "SC-11",
+            "SC-16",
+            "SC-40"
+          ],
+          "mode": "runtime",
+          "variantType": "lighting",
+          "status": "approved",
+          "cssFilter": "brightness(1.15) contrast(1.05) sepia(0.15)"
+        }
+      ],
+      "scenes": [
+        "ch1_intro_1",
+        "ch1_intro_2",
+        "ch1_nadia_enters",
+        "ch1_dialogue_1",
+        "ch1_react_warm",
+        "ch1_react_honest",
+        "ch1_react_care",
+        "ch1_sit_down",
+        "ch1_hands_cg_scene",
+        "ch1_confession_start",
+        "ch1_closing",
+        "SC-01",
+        "SC-02",
+        "SC-04",
+        "SC-11",
+        "SC-16",
+        "SC-40"
+      ],
+      "masterAsset": "/assets/environments/masters/env_campus_cafe_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_campus_cafe_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "0bfeb4980ce45af6afe8296276b0cbf2e303b5a700bcf64a9771b50d908a2bbe",
+        "webp": "cd6ca8995b7879941480ff96bf8439ff7b8e247093f4a8a01ac3b22e6942bc93"
+      },
+      "fileSizeBytes": {
+        "jpg": 459226,
+        "webp": 265490
+      }
+    },
+    {
+      "id": "env_street_night_master",
+      "name": "Jalanan Kota Berhujan & Halte",
+      "locationId": "loc_street_night",
+      "type": "environment_master",
+      "priority": "P0",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 6,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_street_skyline",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_street_night_bg.webp",
+          "description": "Dark rainy city skyline with soft glowing office windows",
+          "asset": "/assets/environments/layers/env_street_night_bg.webp",
+          "fileSizeBytes": 84240,
+          "checksumSha256": "193eb479392a3ba33a886196e6ec9389ecad890e3f0cb67c18b1b773f303e299",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_street_sidewalk",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.04,
+          "assetType": "cutout_png",
+          "targetFile": "env_street_night_mid.webp",
+          "description": "Wet sidewalk, metal railing, distant bus shelter silhouette",
+          "asset": "/assets/environments/layers/env_street_night_mid.webp",
+          "fileSizeBytes": 271986,
+          "checksumSha256": "e02782b4e71b9758bb1568c6cb96f1072ff8a02b963ecf0222bf7d51a561ee65",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_street_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Walking/standing character plane under umbrella"
+        },
+        {
+          "layerId": "layer_fg_street_lamppost",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.15,
+          "assetType": "transparent_png",
+          "targetFile": "env_street_night_fg_post.webp",
+          "description": "Close sodium streetlamp frame casting downward cone of warm light",
+          "asset": "/assets/environments/layers/env_street_night_fg_post.webp",
+          "fileSizeBytes": 83342,
+          "checksumSha256": "564fada7e493d287ee97d3a832577df3f8460f4b21eadf29437dc0d4a4b133dd",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium_wide",
+        "fov": "35mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.15,
+          "y": 0.32,
+          "width": 0.7,
+          "height": 0.62
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_street_rain_sidewalk",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "sodium_yellow_wet_asphalt",
+          "scenes": [
+            "ch2_street_1",
+            "ch2_street_dialogue",
+            "ch2_lean_closer",
+            "ch2_hold_shoulder",
+            "ch2_slow_walk"
+          ],
+          "mode": "raster",
+          "variantType": "weather",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_street_rain_sidewalk.webp",
+          "fileSizeBytes": 265468,
+          "checksumSha256": "352c6dcc9a5fc9e11915196f7372ebd77f1e5e076f0f8d4610b07342ee24b46f"
+        },
+        {
+          "variantId": "env_street_bus_stop",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "bus_shelter_overhead_fluorescent",
+          "scenes": [
+            "ch2_bus_stop"
+          ],
+          "mode": "runtime",
+          "variantType": "spatial",
+          "status": "approved",
+          "cameraFraming": "focus_right_shelter"
+        }
+      ],
+      "scenes": [
+        "ch2_street_1",
+        "ch2_street_dialogue",
+        "ch2_lean_closer",
+        "ch2_hold_shoulder",
+        "ch2_slow_walk",
+        "ch2_bus_stop"
+      ],
+      "masterAsset": "/assets/environments/masters/env_street_night_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_street_night_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "a11cf2a0d3231b3d6384ecf9b44c013f13c0b56fb432d02273258c5380f48281",
+        "webp": "94c1919087f1dcaa1b2faa299e2f17e949ac0819a392474311b741f6691a2151"
+      },
+      "fileSizeBytes": {
+        "jpg": 431829,
+        "webp": 262164
+      }
+    },
+    {
+      "id": "env_nana_bedroom_master",
+      "name": "Kamar Apartemen Nana",
+      "locationId": "loc_nana_bedroom",
+      "type": "environment_master",
+      "priority": "P0",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 6,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_nana_window",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_nana_bedroom_bg.webp",
+          "description": "Window showing rainy midnight city skyline and blue night gradient",
+          "asset": "/assets/environments/layers/env_nana_bedroom_bg.webp",
+          "fileSizeBytes": 71260,
+          "checksumSha256": "8945ca8667df9fc2813c49f1b167e896336cf18581f7c1dc95589b24fcc7b0df",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_nana_desk",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.04,
+          "assetType": "cutout_png",
+          "targetFile": "env_nana_bedroom_mid.webp",
+          "description": "Wooden desk, books, small desk lamp, bed edge",
+          "asset": "/assets/environments/layers/env_nana_bedroom_mid.webp",
+          "fileSizeBytes": 258032,
+          "checksumSha256": "a5747536902530abda880f7cf294c826f31c8529f95352e86b7f2e7fff04e72b",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_nana_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Seated at desk or edge of bed"
+        },
+        {
+          "layerId": "layer_fg_nana_curtain",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_nana_bedroom_fg_curtain.webp",
+          "description": "Soft sheer curtain edge hanging on room left",
+          "asset": "/assets/environments/layers/env_nana_bedroom_fg_curtain.webp",
+          "fileSizeBytes": 50158,
+          "checksumSha256": "3396d1f4aac13b0d1bd69fbf6d1102aa81b3ce43da80a45fa7ffe06d05d4f658",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium_close",
+        "fov": "50mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_nana_bedroom_midnight_rain",
+          "time": "night",
+          "weather": "rain",
+          "lighting": "desk_lamp_rain_reflection_0010",
+          "scenes": [
+            "ch3_book_discovery",
+            "ch3_polaroid_dialogue",
+            "ch3_ticket_revelation",
+            "ch3_deep_confession",
+            "ch3_silent_comfort",
+            "ch3_night_phone_msg"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_nana_bedroom_midnight_rain.webp",
+          "fileSizeBytes": 250868,
+          "checksumSha256": "046ddd4a36eb567625d9efef57fcb04d5a8f28e3a5d000692ecc418f11d4aa34"
+        },
+        {
+          "variantId": "env_nana_bedroom_morning_clear",
+          "time": "morning",
+          "weather": "clear",
+          "lighting": "dawn_sunlight_motes_0700",
+          "scenes": [
+            "SC-07",
+            "SC-26"
+          ],
+          "mode": "runtime",
+          "variantType": "time",
+          "status": "approved",
+          "cssFilter": "brightness(1.2) saturate(1.1)"
+        }
+      ],
+      "scenes": [
+        "ch3_book_discovery",
+        "ch3_polaroid_dialogue",
+        "ch3_ticket_revelation",
+        "ch3_deep_confession",
+        "ch3_silent_comfort",
+        "ch3_night_phone_msg",
+        "SC-07",
+        "SC-26"
+      ],
+      "masterAsset": "/assets/environments/masters/env_nana_bedroom_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_nana_bedroom_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "de757e8650b495bc96fbaba57cd1afd7cddfc7f5ab5064db38a698e8ed269dca",
+        "webp": "f92807145e36c1ce8e87f085b8ff4b36dcc28e413d6e448272ffe7ef69cfe9a3"
+      },
+      "fileSizeBytes": {
+        "jpg": 411684,
+        "webp": 244984
+      }
+    },
+    {
+      "id": "env_agus_room_master",
+      "name": "Kamar Kerja Agus (Zona WIT)",
+      "locationId": "loc_agus_room",
+      "type": "environment_master",
+      "priority": "P0",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 5,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_agus_wall",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_agus_room_bg.webp",
+          "description": "Minimalist dark wall, bookshelf, framed tech conference posters",
+          "asset": "/assets/environments/layers/env_agus_room_bg.webp",
+          "fileSizeBytes": 64006,
+          "checksumSha256": "1a211bcd04d13790d5c527f4d003fc5af485b9ca7e9adda1d1557faa42db3ca4",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_agus_desk",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.04,
+          "assetType": "cutout_png",
+          "targetFile": "env_agus_room_mid.webp",
+          "description": "Dual monitors glowing cyan, mechanical keyboard, cat basket",
+          "asset": "/assets/environments/layers/env_agus_room_mid.webp",
+          "fileSizeBytes": 201284,
+          "checksumSha256": "3b3b456e9b89d75d7e0b0c9bacaf25e8ffd4d20b3b2d5a8b1eecdd6e3e391c73",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_agus_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Ergonomic desk chair position for Agus"
+        },
+        {
+          "layerId": "layer_fg_agus_monitor_rim",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_agus_room_fg_bezel.webp",
+          "description": "Subtle top-corner monitor bezel silhouette",
+          "asset": "/assets/environments/layers/env_agus_room_fg_bezel.webp",
+          "fileSizeBytes": 22708,
+          "checksumSha256": "865bd854879e8679b41be28e56a8258e11aa32fd1d0e36fc7346b75295b44ebf",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium",
+        "fov": "50mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_agus_room_midnight_screen",
+          "time": "night",
+          "weather": "clear",
+          "lighting": "cyan_screen_glow_0210",
+          "scenes": [
+            "SC-08",
+            "SC-21"
+          ],
+          "mode": "raster",
+          "variantType": "lighting",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_agus_room_midnight_screen.webp",
+          "fileSizeBytes": 189826,
+          "checksumSha256": "ccfe94553a34d95d8e58bf764b4d346a3aa4aee96b89963920914b7fc2cc235e"
+        },
+        {
+          "variantId": "env_agus_room_daylight_clean",
+          "time": "morning",
+          "weather": "clear",
+          "lighting": "bright_morning_sun",
+          "scenes": [
+            "SC-30",
+            "SC-35"
+          ],
+          "mode": "runtime",
+          "variantType": "time",
+          "status": "approved",
+          "cssFilter": "brightness(1.25) contrast(0.95)"
+        }
+      ],
+      "scenes": [
+        "SC-08",
+        "SC-14",
+        "SC-21",
+        "SC-30",
+        "SC-35"
+      ],
+      "masterAsset": "/assets/environments/masters/env_agus_room_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_agus_room_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "ed47267d6e4c270dc6b069e159f974318c044e44040f7885f93040710dfb1da9",
+        "webp": "46728e9f695ed6ca20a47dd25812ecaa6be69982813ada328489b6fc5373f6dd"
+      },
+      "fileSizeBytes": {
+        "jpg": 355307,
+        "webp": 184766
+      }
+    },
+    {
+      "id": "env_station_master",
+      "name": "Peron Stasiun Kereta Api",
+      "locationId": "loc_station",
+      "type": "environment_master",
+      "priority": "P0",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 5,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_station_sky",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_station_sunset_bg.webp",
+          "description": "Vibrant orange and violet sunset gradient with distant cloud ribbons",
+          "asset": "/assets/environments/layers/env_station_sunset_bg.webp",
+          "fileSizeBytes": 72078,
+          "checksumSha256": "1fa5eeeb450b299edf0f44d7466d9b4085b95c19e5c910f53b661bfcff217cfc",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_station_tracks",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.06,
+          "assetType": "cutout_png",
+          "targetFile": "env_station_sunset_mid.webp",
+          "description": "Platform canopy steel beams, illuminated departure board, empty tracks",
+          "asset": "/assets/environments/layers/env_station_sunset_mid.webp",
+          "fileSizeBytes": 263730,
+          "checksumSha256": "88d049381eff839b76bc353d167efe423fa3bed055f0319282da191c30f00a81",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_station_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Standing on platform edge behind yellow line"
+        },
+        {
+          "layerId": "layer_fg_station_pillar",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.14,
+          "assetType": "transparent_png",
+          "targetFile": "env_station_sunset_fg_pillar.webp",
+          "description": "Near yellow safety line and platform pillar in dark silhouette",
+          "asset": "/assets/environments/layers/env_station_sunset_fg_pillar.webp",
+          "fileSizeBytes": 63214,
+          "checksumSha256": "6a6c23f56d9de6af08831e7f255095698cb4074ceb857ea747df3123ba9ad6d5",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium_wide",
+        "fov": "35mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.12,
+          "y": 0.32,
+          "width": 0.76,
+          "height": 0.62
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_station_sunset_platform",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "sunset_amber_tracks",
+          "scenes": [
+            "ch4_station_climax",
+            "ch4_final_choice",
+            "ending_true_scene",
+            "ending_bittersweet_scene"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_station_sunset_platform.webp",
+          "fileSizeBytes": 257940,
+          "checksumSha256": "d3a562b8235fa53a45ad1d3c01ad8b86badcb58c503262c7095ac0c2004771f8"
+        },
+        {
+          "variantId": "env_station_sunset_train_interior",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "carriage_window_sunset_glow",
+          "scenes": [
+            "ending_romantic_scene"
+          ],
+          "mode": "raster",
+          "variantType": "spatial",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_station_sunset_train_interior.webp",
+          "fileSizeBytes": 215040,
+          "checksumSha256": "60e7828da119e5aa5bc5762843011633792b3da6cd88dd10bedac0412cd1f82d"
+        },
+        {
+          "variantId": "env_station_morning_arrival",
+          "time": "morning",
+          "weather": "clear",
+          "lighting": "morning_sunlight_platform",
+          "scenes": [
+            "SC-28",
+            "SC-29"
+          ],
+          "mode": "runtime",
+          "variantType": "time",
+          "status": "approved",
+          "cssFilter": "brightness(1.1) saturate(1.15)"
+        }
+      ],
+      "scenes": [
+        "ch4_station_climax",
+        "ch4_final_choice",
+        "ending_true_scene",
+        "ending_romantic_scene",
+        "ending_bittersweet_scene",
+        "SC-28",
+        "SC-29"
+      ],
+      "masterAsset": "/assets/environments/masters/env_station_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_station_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "18dd8096077cad4baa12c42bdaba7073fd88a568977e297ff13785bfc1bd84cc",
+        "webp": "41e167507b56c5218b64f7e64ac5e0ae5861b6109b69e0a7c62ff05f96fffd70"
+      },
+      "fileSizeBytes": {
+        "jpg": 415595,
+        "webp": 256028
+      }
+    },
+    {
+      "id": "env_rooftop_master",
+      "name": "Rooftop Gedung Kota",
+      "locationId": "loc_rooftop",
+      "type": "environment_master",
+      "priority": "P1",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 1,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_rooftop_stars",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_rooftop_bg.webp",
+          "description": "Starry indigo sky over distant glowing city skyline",
+          "asset": "/assets/environments/layers/env_rooftop_bg.webp",
+          "fileSizeBytes": 77724,
+          "checksumSha256": "f028342239f0a2ddf4830b00af16c655731e4c75a3ef81f42c80aecdfc4441ec",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_rooftop_terrace",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.05,
+          "assetType": "cutout_png",
+          "targetFile": "env_rooftop_mid.webp",
+          "description": "Metal parapet railing, concrete deck, rooftop ventilation housing",
+          "asset": "/assets/environments/layers/env_rooftop_mid.webp",
+          "fileSizeBytes": 325052,
+          "checksumSha256": "60887028548213caf5dc70519eabc87e3f66f53493aab23d2abde325a0316f9b",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_rooftop_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Standing against railing gazing at stars"
+        },
+        {
+          "layerId": "layer_fg_rooftop_cables",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_rooftop_fg.webp",
+          "description": "Overhead string light wire silhouette framing top corner",
+          "asset": "/assets/environments/layers/env_rooftop_fg.webp",
+          "fileSizeBytes": 141334,
+          "checksumSha256": "5a6de3a50f7ef4740de95d711fc26f58bf230429df1514cc926084b34abd17a4",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium",
+        "fov": "50mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_rooftop_night_stars",
+          "time": "night",
+          "weather": "stars",
+          "lighting": "cool_starlight_indigo",
+          "scenes": [
+            "ending_secret_scene"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_rooftop_night_stars.webp",
+          "fileSizeBytes": 319830,
+          "checksumSha256": "d9e4f213394ebd35d97abf29f73adbe0624f7939a04e319c5664eaaac482e49e"
+        }
+      ],
+      "scenes": [
+        "ending_secret_scene"
+      ],
+      "masterAsset": "/assets/environments/masters/env_rooftop_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_rooftop_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "11ff40be88f650d6c6c881872a08db30e18aa91c85bc342762414943c693e7ee",
+        "webp": "7d4cf6409941a420fd92b90dfecd8920cfe5680d4920ce6c31d81f54f5fc4f4c"
+      },
+      "fileSizeBytes": {
+        "jpg": 473514,
+        "webp": 312832
+      }
+    },
+    {
+      "id": "env_campus_master",
+      "name": "Pelataran & Tangga Kampus",
+      "locationId": "loc_campus",
+      "type": "environment_master",
+      "priority": "P1",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 2,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_campus_facade",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_campus_bg.webp",
+          "description": "University brick lecture halls and tropical tree canopies",
+          "asset": "/assets/environments/layers/env_campus_bg.webp",
+          "fileSizeBytes": 119582,
+          "checksumSha256": "cfd45d568ae80a2a22f7e1788b1b7918d2557e5364109145523115d59debca2c",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_campus_steps",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.05,
+          "assetType": "cutout_png",
+          "targetFile": "env_campus_mid.webp",
+          "description": "Wide stone steps, concrete flower beds, pedestrian pavers",
+          "asset": "/assets/environments/layers/env_campus_mid.webp",
+          "fileSizeBytes": 380728,
+          "checksumSha256": "a08a250359d62d379aab5ad28c4ffc7f2b8659bbeb626ad5af22a1121a2e81a4",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_campus_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Standing on stone terrace or bottom steps"
+        },
+        {
+          "layerId": "layer_fg_campus_leaves",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_campus_fg.webp",
+          "description": "Overhanging tropical tree branch framing upper left",
+          "asset": "/assets/environments/layers/env_campus_fg.webp",
+          "fileSizeBytes": 51300,
+          "checksumSha256": "39287ab45a9681702bc4bce16889f0338aef4c2e315bf6432347f6161d17b2df",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium_wide",
+        "fov": "35mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_campus_midday",
+          "time": "afternoon",
+          "weather": "clear",
+          "lighting": "bright_daylight",
+          "scenes": [
+            "SC-03"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_campus_midday.webp",
+          "fileSizeBytes": 366636,
+          "checksumSha256": "e4a872640f2a0314c84330ae5e09c397477e35db66f92397bad9fe21521196a5"
+        },
+        {
+          "variantId": "env_campus_dusk",
+          "time": "dusk",
+          "weather": "clear",
+          "lighting": "dusk_purple_gold",
+          "scenes": [
+            "SC-06"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_campus_dusk.webp",
+          "fileSizeBytes": 333212,
+          "checksumSha256": "87f078e2dbe2236f5bd67777c564f52a1e92a20eae65056b1bcfca046954cf5a"
+        }
+      ],
+      "scenes": [
+        "SC-03",
+        "SC-06"
+      ],
+      "masterAsset": "/assets/environments/masters/env_campus_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_campus_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "72688a8c6ee1abeefe4b5eb30af4be3fb1570816f97be10859031998a872f068",
+        "webp": "e4a872640f2a0314c84330ae5e09c397477e35db66f92397bad9fe21521196a5"
+      },
+      "fileSizeBytes": {
+        "jpg": 566626,
+        "webp": 366636
+      }
+    },
+    {
+      "id": "env_office_master",
+      "name": "Studio Desain Grafis Nana",
+      "locationId": "loc_office",
+      "type": "environment_master",
+      "priority": "P1",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 2,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_office_windows",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_office_bg.webp",
+          "description": "Floor-to-ceiling windows showing afternoon city skyline",
+          "asset": "/assets/environments/layers/env_office_bg.webp",
+          "fileSizeBytes": 96662,
+          "checksumSha256": "2b10f9c71af5f49d475890e31d3eba0d58c84589e01e0a32fd775274ec2eb312",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_office_benches",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.04,
+          "assetType": "cutout_png",
+          "targetFile": "env_office_mid.webp",
+          "description": "Long shared oak worktable, color swatch swatches, moodboards",
+          "asset": "/assets/environments/layers/env_office_mid.webp",
+          "fileSizeBytes": 327382,
+          "checksumSha256": "ccbb6333835e7380d5248870b9d90b429378877021a4219301f0ce4397c84b9a",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_office_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Seated or standing at studio bench"
+        },
+        {
+          "layerId": "layer_fg_office_plant",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_office_fg.webp",
+          "description": "Potted monstera plant leaf silhouette in near foreground",
+          "asset": "/assets/environments/layers/env_office_fg.webp",
+          "fileSizeBytes": 60698,
+          "checksumSha256": "57523586dbeef5faa7b19fecf8eca2df9674d0a1d67063ebaf201a6223ec3655",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium",
+        "fov": "50mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_office_afternoon",
+          "time": "afternoon",
+          "weather": "clear",
+          "lighting": "warm_studio_sunlight",
+          "scenes": [
+            "SC-20",
+            "SC-38"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_office_afternoon.webp",
+          "fileSizeBytes": 310632,
+          "checksumSha256": "f3c41cbc3cbff9c8f68b8b4416a9c49d5f19ebf8ad034bc1e2233b780d9eb206"
+        }
+      ],
+      "scenes": [
+        "SC-20",
+        "SC-38"
+      ],
+      "masterAsset": "/assets/environments/masters/env_office_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_office_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "856d6a181ad7066fec7e851292aa6c1a094f50f1e4564be13b6b7bbe06833db6",
+        "webp": "f3c41cbc3cbff9c8f68b8b4416a9c49d5f19ebf8ad034bc1e2233b780d9eb206"
+      },
+      "fileSizeBytes": {
+        "jpg": 510249,
+        "webp": 310632
+      }
+    },
+    {
+      "id": "env_beach_master",
+      "name": "Tebing Pantai & Garis Ombak",
+      "locationId": "loc_beach",
+      "type": "environment_master",
+      "priority": "P2",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 1,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_beach_ocean",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_beach_bg.webp",
+          "description": "Endless ocean horizon with dramatic orange-crimson sunset gradient",
+          "asset": "/assets/environments/layers/env_beach_bg.webp",
+          "fileSizeBytes": 69260,
+          "checksumSha256": "471e5465f9081879b17092bd4352551481e0796df4b3fa1cba43db1f37788fae",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_beach_cliff",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.05,
+          "assetType": "cutout_png",
+          "targetFile": "env_beach_mid.webp",
+          "description": "Grassy clifftop, rustic weathered wooden bench, cliff edge",
+          "asset": "/assets/environments/layers/env_beach_mid.webp",
+          "fileSizeBytes": 195662,
+          "checksumSha256": "4e3aecced5c4f10a96236be3a82dc5c5d726c146f1ea3006714685b4349ac125",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_beach_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Standing on clifftop or sitting on wooden bench"
+        },
+        {
+          "layerId": "layer_fg_beach_grass",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.14,
+          "assetType": "transparent_png",
+          "targetFile": "env_beach_fg.webp",
+          "description": "Windblown wild grass fronds in bottom foreground",
+          "asset": "/assets/environments/layers/env_beach_fg.webp",
+          "fileSizeBytes": 77540,
+          "checksumSha256": "e596a0430e459a23e13ef7c559e9bfbfdc748d3b757c3a3d173f240eba021e51",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium_wide",
+        "fov": "35mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.12,
+          "y": 0.32,
+          "width": 0.76,
+          "height": 0.62
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_beach_sunset",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "warm_golden_coastal",
+          "scenes": [
+            "SC-31"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_beach_sunset.webp",
+          "fileSizeBytes": 185850,
+          "checksumSha256": "010b7daa35fc813ae54f1650d5af88f80f94c851d307b6eed59e507ca359f9f2"
+        }
+      ],
+      "scenes": [
+        "SC-31"
+      ],
+      "masterAsset": "/assets/environments/masters/env_beach_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_beach_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "5620f6ab10f26cbc4c3e8f22f7c7157f7d1d1dc71b8992538c92a2c682a8fc75",
+        "webp": "e50ac6cebf2939b8d678e2feab86fb1467b02364b7049bdc67d6de161f2aaeea"
+      },
+      "fileSizeBytes": {
+        "jpg": 337041,
+        "webp": 178718
+      }
+    },
+    {
+      "id": "env_mountain_master",
+      "name": "Puncak Bukit & Jalur Kabut",
+      "locationId": "loc_mountain",
+      "type": "environment_master",
+      "priority": "P2",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 1,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_mountain_clouds",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_mountain_bg.webp",
+          "description": "Sea of rolling mist clouds illuminated by rose-gold morning sun",
+          "asset": "/assets/environments/layers/env_mountain_bg.webp",
+          "fileSizeBytes": 92364,
+          "checksumSha256": "98f76ed8bf7f343c6561b483a5fbb38311e631e757ddd032eb93540e480d9e04",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_mountain_trail",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.05,
+          "assetType": "cutout_png",
+          "targetFile": "env_mountain_mid.webp",
+          "description": "Rocky dirt ridge trail, pine tree trunks, wooden trail marker",
+          "asset": "/assets/environments/layers/env_mountain_mid.webp",
+          "fileSizeBytes": 245238,
+          "checksumSha256": "29ac1f44b433ad6ef05ae5a7bc88011afd8fba3a085f16e71a3980111e8daa4b",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_mountain_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Standing on mountain ridge peak"
+        },
+        {
+          "layerId": "layer_fg_mountain_pines",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.15,
+          "assetType": "transparent_png",
+          "targetFile": "env_mountain_fg.webp",
+          "description": "Pine needles and branch silhouette framing top right",
+          "asset": "/assets/environments/layers/env_mountain_fg.webp",
+          "fileSizeBytes": 24874,
+          "checksumSha256": "40d004e8c2c3cb09a60e817952b25c6d09ec094ebb172f883d12e2bc26f1c462",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium_wide",
+        "fov": "35mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_mountain_dawn",
+          "time": "morning",
+          "weather": "fog",
+          "lighting": "rose_gold_misty_dawn",
+          "scenes": [
+            "SC-32"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_mountain_dawn.webp",
+          "fileSizeBytes": 237846,
+          "checksumSha256": "acf61078e57f4fc844e94e8dae978893631feb50e30a7bbc38140312470bca06"
+        }
+      ],
+      "scenes": [
+        "SC-32"
+      ],
+      "masterAsset": "/assets/environments/masters/env_mountain_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_mountain_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "f534dc2e0c851d7a37493e3a76d4af0d3254cad8b87b824d85d90fc62e547305",
+        "webp": "9b0695ea5f0823b6974b34ccf0b20d06188c4561c74fcefc17f03837091919b2"
+      },
+      "fileSizeBytes": {
+        "jpg": 405627,
+        "webp": 235282
+      }
+    },
+    {
+      "id": "env_nana_house_master",
+      "name": "Ruang Makan Rumah Nana",
+      "locationId": "loc_nana_house",
+      "type": "environment_master",
+      "priority": "P2",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 1,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_house_wall",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_nana_house_bg.webp",
+          "description": "Indonesian suburban domestic wall, framed family photo, curtains",
+          "asset": "/assets/environments/layers/env_nana_house_bg.webp",
+          "fileSizeBytes": 66880,
+          "checksumSha256": "e12484819aea77ec516377a0065583be7e4f05302ce52212efba7164b26f38ec",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_house_table",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.04,
+          "assetType": "cutout_png",
+          "targetFile": "env_nana_house_mid.webp",
+          "description": "Teak dining table, ceramic cups, chairs, fruit basket",
+          "asset": "/assets/environments/layers/env_nana_house_mid.webp",
+          "fileSizeBytes": 211000,
+          "checksumSha256": "4acfc60b1641339723230233e84beedd601f7777ee4f984d19d6f62d4f95e741",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_house_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Seated at dining table with family members"
+        },
+        {
+          "layerId": "layer_fg_house_lamp",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_nana_house_fg.webp",
+          "description": "Overhead rattan pendant lamp edge",
+          "asset": "/assets/environments/layers/env_nana_house_fg.webp",
+          "fileSizeBytes": 34910,
+          "checksumSha256": "f2954eac13ae1aa3ddcbb8fd2d5bd25664041ba0d082eb746c2c85d64ee23e17",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium",
+        "fov": "50mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_nana_house_evening",
+          "time": "night",
+          "weather": "clear",
+          "lighting": "domestic_tungsten",
+          "scenes": [
+            "SC-23"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_nana_house_evening.webp",
+          "fileSizeBytes": 204632,
+          "checksumSha256": "30df3917b097d0df94af71483b52361c15430921efcf1e5338a2918b2d92f006"
+        }
+      ],
+      "scenes": [
+        "SC-23"
+      ],
+      "masterAsset": "/assets/environments/masters/env_nana_house_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_nana_house_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "6228355482065fb9e140b24606d1a050070167a7afd856405842891eba941664",
+        "webp": "b160f301c54650f53d82d12ab3d2750ad4a4ac86150d456a74db0e4295362081"
+      },
+      "fileSizeBytes": {
+        "jpg": 359757,
+        "webp": 202536
+      }
+    },
+    {
+      "id": "env_shared_apartment_master",
+      "name": "Apartemen Masa Depan Bersama",
+      "locationId": "loc_shared_apartment",
+      "type": "environment_master",
+      "priority": "P2",
+      "baseResolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "portraitResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "preferredFormat": "WEBP",
+      "reuseCount": 1,
+      "layers": [
+        "background",
+        "midground",
+        "character_space",
+        "foreground",
+        "atmosphere"
+      ],
+      "layerDefinitions": [
+        {
+          "layerId": "layer_bg_shared_window",
+          "type": "background",
+          "semanticZ": 0,
+          "parallaxFactor": 0,
+          "assetType": "opaque_backdrop",
+          "targetFile": "env_shared_apartment_bg.webp",
+          "description": "Bright sunlit windows overlooking peaceful new neighborhood",
+          "asset": "/assets/environments/layers/env_shared_apartment_bg.webp",
+          "fileSizeBytes": 56178,
+          "checksumSha256": "f385234adbb94d8c5ca4151029ce163889152aab1ff44cc568122942c7427913",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_mid_shared_room",
+          "type": "midground",
+          "semanticZ": 20,
+          "parallaxFactor": 0.04,
+          "assetType": "cutout_png",
+          "targetFile": "env_shared_apartment_mid.webp",
+          "description": "Cardboard moving boxes, low wooden coffee table with two mugs, rug",
+          "asset": "/assets/environments/layers/env_shared_apartment_mid.webp",
+          "fileSizeBytes": 166050,
+          "checksumSha256": "b4303d882dad1b0bb79d6e3ca129943f8f641013620c9e3b12889df87a4bb49d",
+          "alpha": false
+        },
+        {
+          "layerId": "layer_char_shared_space",
+          "type": "character_space",
+          "semanticZ": 30,
+          "baselineY": 1460,
+          "description": "Sitting or standing together in open living area"
+        },
+        {
+          "layerId": "layer_fg_shared_curtain",
+          "type": "foreground",
+          "semanticZ": 50,
+          "parallaxFactor": 0.12,
+          "assetType": "transparent_png",
+          "targetFile": "env_shared_apartment_fg.webp",
+          "description": "White sheer curtain corner fluttering in breeze",
+          "asset": "/assets/environments/layers/env_shared_apartment_fg.webp",
+          "fileSizeBytes": 43674,
+          "checksumSha256": "e78d03cc326aedbff86c91b9e912abc6f2f616a60bf91100e429bf873a3b6e34",
+          "alpha": true
+        }
+      ],
+      "camera": {
+        "framing": "medium",
+        "fov": "50mm_equivalent",
+        "aspectRatio": "9:16",
+        "focalPoint": "center"
+      },
+      "safeZones": {
+        "character": {
+          "x": 0.1,
+          "y": 0.35,
+          "width": 0.8,
+          "height": 0.6
+        },
+        "dialogue": {
+          "x": 0.05,
+          "y": 0.72,
+          "width": 0.9,
+          "height": 0.25
+        },
+        "uiHeader": {
+          "x": 0.05,
+          "y": 0.02,
+          "width": 0.9,
+          "height": 0.1
+        }
+      },
+      "variants": [
+        {
+          "variantId": "env_shared_apartment_sunset",
+          "time": "sunset",
+          "weather": "clear",
+          "lighting": "golden_hour_interior",
+          "scenes": [
+            "SC-39"
+          ],
+          "mode": "raster",
+          "variantType": "time",
+          "status": "approved",
+          "asset": "/assets/environments/variants/env_shared_apartment_sunset.webp",
+          "fileSizeBytes": 157084,
+          "checksumSha256": "84d19294a13008eeac29beea41a5de9086b134de49bc38c2a42e964096191bf3"
+        }
+      ],
+      "scenes": [
+        "SC-39"
+      ],
+      "masterAsset": "/assets/environments/masters/env_shared_apartment_master.webp",
+      "masterAssetJpg": "/assets/environments/masters/env_shared_apartment_master.jpg",
+      "dimensions": {
+        "width": 1376,
+        "height": 768,
+        "aspectRatio": "16:9"
+      },
+      "status": "approved",
+      "lockStatus": "LOCKED",
+      "checksumSha256": {
+        "jpg": "6593c9354f8f5c3ac85a44c0ed8177521b3fdec6d34c5e2ec608c89f4194226f",
+        "webp": "e2907a130f812b34bf20d6a295c7bd4911ac6dc9c78bb96b5a3e827cb759df96"
+      },
+      "fileSizeBytes": {
+        "jpg": 314608,
+        "webp": 155182
+      }
+    }
+  ]
+}

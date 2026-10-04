@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "acceptance_test_story",
+  "title": "Acceptance Test Narrative",
+  "subtitle": "Deterministic verification fixture for Section 132-133",
+  "genre": "mystery",
+  "synopsis": "Automated verification story for testing branching, conditions, flags, and endings without React.",
+  "firstSceneId": "scene_1",
+  "initialVariables": {
+    "trust": 0,
+    "courage": 1
+  },
+  "initialFlags": {
+    "secret_found": false
+  },
+  "visualBible": {
+    "artStyle": "noir_sketch",
+    "renderStyle": "vector_dramatic",
+    "colorLanguage": "monochrome_amber",
+    "lightingLanguage": "chiaroscuro",
+    "cameraLanguage": "slow_push",
+    "particleLanguage": "fog",
+    "uiLanguage": "dark_grit",
+    "soundLanguage": "dark_drone"
+  },
+  "scenes": {
+    "scene_1": {
+      "id": "scene_1",
+      "chapterId": "ch_1",
+      "chapterTitle": "The Threshold",
+      "progressPercent": 10,
+      "location": {
+        "id": "dim_corridor",
+        "name": "Dim Corridor",
+        "time": "night",
+        "weather": "fog",
+        "mood": "tension"
+      },
+      "characters": [],
+      "speaker": "Narrator",
+      "text": "You stand before two paths in the underground facility.",
+      "timeline": [
+        {
+          "speaker": "Narrator",
+          "text": "You stand before two paths in the underground facility."
+        },
+        {
+          "speaker": "Companion",
+          "text": "Are we proceeding together, or searching for clues?"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice_talk",
+          "text": "Talk to companion",
+          "subtext": "Build trust through communication",
+          "nextSceneId": "scene_2",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "choice_investigate",
+          "text": "Investigate surrounding crates",
+          "subtext": "Search for concealed evidence",
+          "nextSceneId": "scene_2",
+          "setFlags": ["secret_found"]
+        }
+      ]
+    },
+    "scene_2": {
+      "id": "scene_2",
+      "chapterId": "ch_2",
+      "chapterTitle": "The Sealed Door",
+      "progressPercent": 50,
+      "location": {
+        "id": "blast_door",
+        "name": "Heavy Blast Door",
+        "time": "midnight",
+        "weather": "clear",
+        "mood": "mystery"
+      },
+      "characters": [],
+      "speaker": "Companion",
+      "text": "We reached the heavy blast door. Can we open it?",
+      "choices": [
+        {
+          "id": "choice_open_door",
+          "text": "Open hidden door",
+          "subtext": "Requires trust >= 1 OR secret_found",
+          "nextSceneId": "scene_ending_true",
+          "requiredCondition": {
+            "or": [
+              {
+                "variable": "trust",
+                "operator": ">=",
+                "value": 1
+              },
+              {
+                "flag": "secret_found",
+                "operator": "flagSet"
+              }
+            ]
+          }
+        },
+        {
+          "id": "choice_wait",
+          "text": "Wait for dawn",
+          "subtext": "Unconditional safe choice",
+          "nextSceneId": "scene_ending_default"
+        }
+      ]
+    },
+    "scene_ending_true": {
+      "id": "scene_ending_true",
+      "chapterId": "ch_3",
+      "chapterTitle": "Resolution",
+      "progressPercent": 100,
+      "location": {
+        "id": "inner_sanctum",
+        "name": "Inner Sanctum",
+        "time": "morning",
+        "weather": "clear",
+        "mood": "wonder"
+      },
+      "characters": [],
+      "speaker": "Narrator",
+      "text": "The hidden door slid open, revealing the truth.",
+      "endingId": "ending_true"
+    },
+    "scene_ending_default": {
+      "id": "scene_ending_default",
+      "chapterId": "ch_3",
+      "chapterTitle": "Resolution",
+      "progressPercent": 100,
+      "location": {
+        "id": "corridor_exit",
+        "name": "Corridor Exit",
+        "time": "morning",
+        "weather": "overcast",
+        "mood": "sadness"
+      },
+      "characters": [],
+      "speaker": "Narrator",
+      "text": "You waited until sunrise and walked away empty-handed.",
+      "endingId": "ending_default"
+    }
+  },
+  "endings": {
+    "ending_true": {
+      "id": "ending_true",
+      "title": "The Revealed Truth",
+      "type": "true",
+      "tagline": "Knowledge and trust prevail",
+      "poem": "Beneath steel plates the light broke free,\nA truth that forged what was meant to be.",
+      "summary": "You unlocked the mystery through trust or diligent investigation.",
+      "requiredCondition": {
+        "or": [
+          { "variable": "trust", "operator": ">=", "value": 1 },
+          { "flag": "secret_found", "operator": "flagSet" }
+        ]
+      }
+    },
+    "ending_default": {
+      "id": "ending_default",
+      "title": "The Lingering Question",
+      "type": "bittersweet",
+      "tagline": "Some secrets remain quiet",
+      "poem": "The morning sun was cold and gray,\nThe questions followed us away.",
+      "summary": "You left without unlocking the chamber."
+    }
+  }
+}

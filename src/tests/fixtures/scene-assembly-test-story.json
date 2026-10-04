@@ -1,0 +1,357 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "scene_assembly_test_story",
+  "title": "Scene Assembly Verification Story",
+  "subtitle": "Universal Engine Test Narrative",
+  "genre": "romance",
+  "synopsis": "Minimal test narrative validating 2.5D scene composition, character placement, multi-character layering, dialogue, and branching.",
+  "firstSceneId": "scene_1",
+  "initialVariables": {
+    "trust": 1,
+    "courage": 0
+  },
+  "initialFlags": {
+    "umbrella_shared": false
+  },
+  "visualBible": {
+    "artStyle": "cinematic illustrated",
+    "renderStyle": "semi-realistic anime",
+    "colorLanguage": "warm muted tones",
+    "lightingLanguage": "soft natural lighting",
+    "cameraLanguage": "slow_push",
+    "particleLanguage": "rain",
+    "uiLanguage": "minimal_warm",
+    "soundLanguage": "intimate_lofi"
+  },
+  "scenes": {
+    "scene_1": {
+      "id": "scene_1",
+      "chapterId": "ch_1",
+      "chapterTitle": "Bab 1: Pertemuan Kafe",
+      "progressPercent": 20,
+      "location": {
+        "id": "campus_cafe",
+        "name": "Campus Cafe",
+        "time": "afternoon",
+        "weather": "rain",
+        "mood": "romance"
+      },
+      "environment": {
+        "background": "/assets/stories/two-hours-apart/production/env_campus_cafe.webp"
+      },
+      "characters": [
+        {
+          "id": "nana_left",
+          "characterId": "nana",
+          "name": "Nana",
+          "expression": "neutral",
+          "pose": "standing_neutral",
+          "position": "left",
+          "normalizedPosition": { "x": 0.3, "y": 1.0 },
+          "scale": 1.0,
+          "zIndex": 30,
+          "isSpeaking": true,
+          "visible": true
+        },
+        {
+          "id": "agus_right",
+          "characterId": "agus",
+          "name": "Agus",
+          "expression": "neutral",
+          "pose": "standing_neutral",
+          "position": "right",
+          "normalizedPosition": { "x": 0.7, "y": 1.0 },
+          "scale": 1.0,
+          "zIndex": 30,
+          "isSpeaking": false,
+          "visible": true
+        }
+      ],
+      "speaker": "Nana",
+      "text": "Agus, sudah dua tahun kita tidak duduk berdua seperti ini.",
+      "timeline": [
+        {
+          "speaker": "Nana",
+          "text": "Agus, sudah dua tahun kita tidak duduk berdua seperti ini.",
+          "characterExpression": "neutral"
+        },
+        {
+          "speaker": "Agus",
+          "text": "Iya, Nana. Waktu terasa berjalan begitu cepat.",
+          "characterExpression": "neutral"
+        }
+      ],
+      "nextSceneId": "scene_2"
+    },
+    "scene_2": {
+      "id": "scene_2",
+      "chapterId": "ch_1",
+      "chapterTitle": "Bab 1: Gerimis Membasahi Jendela",
+      "progressPercent": 40,
+      "location": {
+        "id": "campus_cafe",
+        "name": "Campus Cafe",
+        "time": "afternoon",
+        "weather": "rain",
+        "mood": "romance"
+      },
+      "environment": {
+        "background": "/assets/stories/two-hours-apart/production/env_campus_cafe.webp"
+      },
+      "characters": [
+        {
+          "id": "nana_left",
+          "characterId": "nana",
+          "name": "Nana",
+          "expression": "happy",
+          "pose": "casual_interaction",
+          "position": "left",
+          "normalizedPosition": { "x": 0.35, "y": 1.0 },
+          "scale": 1.0,
+          "zIndex": 30,
+          "isSpeaking": true,
+          "visible": true
+        },
+        {
+          "id": "agus_right",
+          "characterId": "agus",
+          "name": "Agus",
+          "expression": "worried",
+          "pose": "thinking",
+          "position": "right",
+          "normalizedPosition": { "x": 0.65, "y": 1.0 },
+          "scale": 1.0,
+          "zIndex": 30,
+          "isSpeaking": false,
+          "visible": true
+        }
+      ],
+      "speaker": "Nana",
+      "text": "Kamu masih suka memesan kopi tanpa gula?",
+      "timeline": [
+        {
+          "speaker": "Nana",
+          "text": "Kamu masih suka memesan kopi tanpa gula?",
+          "characterExpression": "happy"
+        },
+        {
+          "speaker": "Agus",
+          "text": "Masih. Kebiasaan lama memang sulit diubah.",
+          "characterExpression": "worried"
+        }
+      ],
+      "nextSceneId": "scene_3"
+    },
+    "scene_3": {
+      "id": "scene_3",
+      "chapterId": "ch_1",
+      "chapterTitle": "Bab 1: Kedatangan Kaka",
+      "progressPercent": 60,
+      "location": {
+        "id": "campus_cafe",
+        "name": "Campus Cafe",
+        "time": "afternoon",
+        "weather": "rain",
+        "mood": "romance"
+      },
+      "environment": {
+        "background": "/assets/stories/two-hours-apart/production/env_campus_cafe.webp"
+      },
+      "characters": [
+        {
+          "id": "nana_left",
+          "characterId": "nana",
+          "name": "Nana",
+          "expression": "surprised",
+          "pose": "standing_neutral",
+          "position": "left",
+          "normalizedPosition": { "x": 0.22, "y": 1.0 },
+          "scale": 0.95,
+          "zIndex": 30,
+          "isSpeaking": false,
+          "visible": true
+        },
+        {
+          "id": "agus_right",
+          "characterId": "agus",
+          "name": "Agus",
+          "expression": "neutral",
+          "pose": "standing_neutral",
+          "position": "right",
+          "normalizedPosition": { "x": 0.78, "y": 1.0 },
+          "scale": 0.95,
+          "zIndex": 30,
+          "isSpeaking": false,
+          "visible": true
+        },
+        {
+          "id": "kaka_center",
+          "characterId": "kaka",
+          "name": "Kaka",
+          "expression": "soft_smile",
+          "pose": "standing_neutral",
+          "position": "center",
+          "normalizedPosition": { "x": 0.5, "y": 1.0 },
+          "scale": 1.0,
+          "zIndex": 35,
+          "isSpeaking": true,
+          "visible": true
+        }
+      ],
+      "speaker": "Kaka",
+      "text": "Hei! Tidak kusangka kalian berdua ada di sini.",
+      "timeline": [
+        {
+          "speaker": "Kaka",
+          "text": "Hei! Tidak kusangka kalian berdua ada di sini.",
+          "characterExpression": "soft_smile"
+        },
+        {
+          "speaker": "Nana",
+          "text": "Kaka! Kebetulan sekali.",
+          "characterExpression": "surprised"
+        }
+      ],
+      "nextSceneId": "scene_4"
+    },
+    "scene_4": {
+      "id": "scene_4",
+      "chapterId": "ch_1",
+      "chapterTitle": "Bab 1: Pilihan Penting",
+      "progressPercent": 80,
+      "location": {
+        "id": "campus_cafe",
+        "name": "Campus Cafe",
+        "time": "sunset",
+        "weather": "rain",
+        "mood": "romance"
+      },
+      "environment": {
+        "background": "/assets/stories/two-hours-apart/production/env_campus_cafe.webp"
+      },
+      "characters": [
+        {
+          "id": "nana_left",
+          "characterId": "nana",
+          "name": "Nana",
+          "expression": "embarrassed",
+          "pose": "standing_neutral",
+          "position": "left",
+          "normalizedPosition": { "x": 0.3, "y": 1.0 },
+          "scale": 1.0,
+          "zIndex": 30,
+          "isSpeaking": true,
+          "visible": true
+        },
+        {
+          "id": "agus_right",
+          "characterId": "agus",
+          "name": "Agus",
+          "expression": "happy",
+          "pose": "standing_neutral",
+          "position": "right",
+          "normalizedPosition": { "x": 0.7, "y": 1.0 },
+          "scale": 1.0,
+          "zIndex": 30,
+          "isSpeaking": false,
+          "visible": true
+        }
+      ],
+      "speaker": "Nana",
+      "text": "Setelah ini, kamu mau ke mana, Agus?",
+      "choices": [
+        {
+          "id": "choice_branch_a",
+          "text": "Ajak jalan bersama di bawah payung",
+          "subtext": "Rute Kehangatan Bersama",
+          "nextSceneId": "scene_5a",
+          "effects": {
+            "trust": 1
+          },
+          "setFlags": ["umbrella_shared"]
+        },
+        {
+          "id": "choice_branch_b",
+          "text": "Katakan kamu harus segera mengejar kereta",
+          "subtext": "Rute Realitas & Waktu",
+          "nextSceneId": "scene_5b",
+          "effects": {
+            "courage": 1
+          }
+        }
+      ]
+    },
+    "scene_5a": {
+      "id": "scene_5a",
+      "chapterId": "ch_1",
+      "chapterTitle": "Bab 1: Di Bawah Satu Payung",
+      "progressPercent": 100,
+      "location": {
+        "id": "campus_street",
+        "name": "Campus Street",
+        "time": "sunset",
+        "weather": "rain",
+        "mood": "romance"
+      },
+      "characters": [
+        {
+          "id": "nana_center",
+          "characterId": "nana",
+          "name": "Nana",
+          "expression": "happy",
+          "position": "center",
+          "isSpeaking": true
+        }
+      ],
+      "speaker": "Nana",
+      "text": "Terima kasih sudah menemani sore ini.",
+      "endingId": "ending_test_a"
+    },
+    "scene_5b": {
+      "id": "scene_5b",
+      "chapterId": "ch_1",
+      "chapterTitle": "Bab 1: Menuju Peron Stasiun",
+      "progressPercent": 100,
+      "location": {
+        "id": "station",
+        "name": "Train Station",
+        "time": "sunset",
+        "weather": "clear",
+        "mood": "romance"
+      },
+      "characters": [
+        {
+          "id": "agus_center",
+          "characterId": "agus",
+          "name": "Agus",
+          "expression": "serious",
+          "position": "center",
+          "isSpeaking": true
+        }
+      ],
+      "speaker": "Agus",
+      "text": "Sampai jumpa lagi, Nana. Kereta sudah tiba.",
+      "endingId": "ending_test_b"
+    }
+  },
+  "endings": {
+    "ending_test_a": {
+      "id": "ending_test_a",
+      "title": "Payung Bersama",
+      "type": "romantic",
+      "tagline": "Ending A",
+      "poem": "Di balik hujan ada jalan yang kita tempuh berdua.",
+      "summary": "Rute kehangatan bersama berhasil ditempuh.",
+      "unlockedCondition": "Memilih payung bersama"
+    },
+    "ending_test_b": {
+      "id": "ending_test_b",
+      "title": "Langkah Kereta",
+      "type": "true",
+      "tagline": "Ending B",
+      "poem": "Roda berputar, waktu yang sempat terhenti bergerak kembali.",
+      "summary": "Rute mengejar kereta selesai.",
+      "unlockedCondition": "Memilih mengejar kereta"
+    }
+  }
+}

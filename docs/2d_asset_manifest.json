@@ -1,0 +1,367 @@
+{
+  "manifestVersion": "1.0.0",
+  "engineTarget": "Interactive Web Story Engine v1",
+  "totalProductionAssets": 45,
+  "assets": [
+    {
+      "assetId": "env_cafe_floor_center",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_center.png",
+      "format": "png",
+      "sizeBytes": 25313,
+      "sha256": "50b18d40717259a7d4ee95c61692d1cd91cc2c7084e52ad395d19327027b720a"
+    },
+    {
+      "assetId": "env_cafe_floor_edge_top",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_edge_top.png",
+      "format": "png",
+      "sizeBytes": 22077,
+      "sha256": "eeacaf983dc0bc88ff776484ddda815ad749faa336e73ab4c689b2d7bc3acfaf"
+    },
+    {
+      "assetId": "env_cafe_floor_edge_bottom",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_edge_bottom.png",
+      "format": "png",
+      "sizeBytes": 22128,
+      "sha256": "a42e36ee3a652bac9fa89487ffbe03dcae938f214f62da4d92f639cda438250c"
+    },
+    {
+      "assetId": "env_cafe_floor_edge_left",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_edge_left.png",
+      "format": "png",
+      "sizeBytes": 24203,
+      "sha256": "613f322a3955e63c382f65b3bbc24eab7eb02199342ca465529ca636d7df0ae6"
+    },
+    {
+      "assetId": "env_cafe_floor_edge_right",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_edge_right.png",
+      "format": "png",
+      "sizeBytes": 24264,
+      "sha256": "8485b0e0029b3d48e05a9ea7b68f272972a08a500264271b4ccb30597519e014"
+    },
+    {
+      "assetId": "env_cafe_floor_corner_tl",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_corner_tl.png",
+      "format": "png",
+      "sizeBytes": 21135,
+      "sha256": "8449e40a212fb924f7d1f0a49f94f478abf3ee4ba26a4e9661464a9a015a08c0"
+    },
+    {
+      "assetId": "env_cafe_floor_corner_tr",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_corner_tr.png",
+      "format": "png",
+      "sizeBytes": 21235,
+      "sha256": "fe312136f3750f98d0d629703dd6f5bd3b33b2726cda000747303b1151bbbff8"
+    },
+    {
+      "assetId": "env_cafe_floor_corner_bl",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_corner_bl.png",
+      "format": "png",
+      "sizeBytes": 21181,
+      "sha256": "d44136abee38e65ef342ef1ddccd6a2e8235d8560dbdb6943b71ea7f059bea6b"
+    },
+    {
+      "assetId": "env_cafe_floor_corner_br",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_floor_corner_br.png",
+      "format": "png",
+      "sizeBytes": 21206,
+      "sha256": "049745fd9fdaecffa76ea5592955ae98a6f15f94374329c80a7842a081b9441d"
+    },
+    {
+      "assetId": "env_cafe_wall_center",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_wall_center.png",
+      "format": "png",
+      "sizeBytes": 24579,
+      "sha256": "b38208520735841d4a85a46cf0d6f91ba73836cfa015fbe2321d495ef0179b0b"
+    },
+    {
+      "assetId": "env_cafe_wall_top",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_wall_top.png",
+      "format": "png",
+      "sizeBytes": 22715,
+      "sha256": "2382fbbe8432ebd8b81c48fd46543f5c164aef9484e0c224acb94a8cd1a6a332"
+    },
+    {
+      "assetId": "env_cafe_wall_bottom",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_wall_bottom.png",
+      "format": "png",
+      "sizeBytes": 20799,
+      "sha256": "bd39db936d4b42128a4b8cbdc9bb7ddee9ab36692ca31f171c069af8de1c2a76"
+    },
+    {
+      "assetId": "env_cafe_window_piece",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_window_piece.png",
+      "format": "png",
+      "sizeBytes": 722,
+      "sha256": "f5c8bdb62378275418dd2be9c4195bff2230e0caf4306f433c85e97cba684827"
+    },
+    {
+      "assetId": "env_cafe_door_frame",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_cafe_door_frame.png",
+      "format": "png",
+      "sizeBytes": 683,
+      "sha256": "7de5040a21e0d1e5748aee5bef6cabb768aec969c37e5f5d32ac494d8ab13d06"
+    },
+    {
+      "assetId": "env_sidewalk_pavement_center",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_pavement_center.png",
+      "format": "png",
+      "sizeBytes": 31364,
+      "sha256": "5eb8a6e68c0c8c85009c50e45e39e9a907dcd6c147ea9eb11909da38b7489edb"
+    },
+    {
+      "assetId": "env_sidewalk_curb_top",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_curb_top.png",
+      "format": "png",
+      "sizeBytes": 27877,
+      "sha256": "0b7d2a044198c69f7cc5b19a9f9e76c19763ad48a3d721623d8ea62e9093d6ba"
+    },
+    {
+      "assetId": "env_sidewalk_curb_bottom",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_curb_bottom.png",
+      "format": "png",
+      "sizeBytes": 27784,
+      "sha256": "f17bae4568ac28b0751451671ec7f8f7c581028b7f7cb347c11b7afdbc61c24e"
+    },
+    {
+      "assetId": "env_sidewalk_curb_left",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_curb_left.png",
+      "format": "png",
+      "sizeBytes": 28258,
+      "sha256": "12db9491c5c23111eb256f1b6a651d2542797808d67c0fa821cb8ed5ece7454f"
+    },
+    {
+      "assetId": "env_sidewalk_curb_right",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_curb_right.png",
+      "format": "png",
+      "sizeBytes": 28731,
+      "sha256": "3dfc8e58b32b7c477044cda9ac4b671b13b342166d8e55655707ad25a1f3cf8e"
+    },
+    {
+      "assetId": "env_sidewalk_corner_tl",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_corner_tl.png",
+      "format": "png",
+      "sizeBytes": 25081,
+      "sha256": "dcde8f41a0a39b853a541808580da0db10979a35eea7bf3c4053ee2bc0cb6fe5"
+    },
+    {
+      "assetId": "env_sidewalk_corner_tr",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_corner_tr.png",
+      "format": "png",
+      "sizeBytes": 25487,
+      "sha256": "297ee06d1370848d0924deeea87e0c3e3fab20981a8f52fdc8f70514810e3c8e"
+    },
+    {
+      "assetId": "env_sidewalk_corner_bl",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_corner_bl.png",
+      "format": "png",
+      "sizeBytes": 25051,
+      "sha256": "7c04f6d35d6bc7fe6c553d5821a73b2595a722139c7a17e88edd8c0bae29c4fc"
+    },
+    {
+      "assetId": "env_sidewalk_corner_br",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_corner_br.png",
+      "format": "png",
+      "sizeBytes": 25522,
+      "sha256": "9ed934efe5d7838abbea3dde6e43fdb347e36fdbc4967a04ba01a8b4336396cc"
+    },
+    {
+      "assetId": "env_sidewalk_asphalt_road",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_asphalt_road.png",
+      "format": "png",
+      "sizeBytes": 8164,
+      "sha256": "d60002aab733475dbe2f110a3f6a3d49eb1031100b83cf3b784c856aab365099"
+    },
+    {
+      "assetId": "env_sidewalk_tactile_paving",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_tactile_paving.png",
+      "format": "png",
+      "sizeBytes": 1492,
+      "sha256": "87307aed819529fbe6e1eb9bbe467718d62cd018d14ceefca9e1eae63dcffb4e"
+    },
+    {
+      "assetId": "env_sidewalk_storm_drain",
+      "category": "ENVIRONMENT_TILE",
+      "path": "/assets/environments/tilesets/env_sidewalk_storm_drain.png",
+      "format": "png",
+      "sizeBytes": 7247,
+      "sha256": "7eebbcf1861780cacbf9a2469872bbeef6b336801eca7aa2e02ba020655e19fa"
+    },
+    {
+      "assetId": "env_street_fixtures_sheet",
+      "category": "ENVIRONMENT_SPRITE_SHEET",
+      "path": "/assets/environments/sheets/env_street_fixtures_sheet.png",
+      "format": "png",
+      "sizeBytes": 7907,
+      "sha256": "d0bec47d862dfb35a1340e609739b2d0c3e2daa241aaa6a454eacb4c50edfd7b"
+    },
+    {
+      "assetId": "env_cafe_furniture_sheet",
+      "category": "ENVIRONMENT_SPRITE_SHEET",
+      "path": "/assets/environments/sheets/env_cafe_furniture_sheet.png",
+      "format": "png",
+      "sizeBytes": 9013,
+      "sha256": "149f2069721cedf333cb97aa36c3e2fc22c2f7e7b3f38502a2c14e981510852a"
+    },
+    {
+      "assetId": "char_nana_idle_sheet",
+      "category": "CHARACTER_SPRITE_SHEET",
+      "path": "/assets/characters/primary/sheets/char_nana_idle_sheet.png",
+      "format": "png",
+      "sizeBytes": 956232,
+      "sha256": "45d99c85e9b1157a5977dbc38b18c31a96dfe05ec7ba18aae25aa11d94a57a39"
+    },
+    {
+      "assetId": "char_nana_emotion_sheet",
+      "category": "CHARACTER_SPRITE_SHEET",
+      "path": "/assets/characters/primary/sheets/char_nana_emotion_sheet.png",
+      "format": "png",
+      "sizeBytes": 1141993,
+      "sha256": "3c175eaa81dd1ee0e6f9c87d25a5e8e1ef8b777a3b6d86c32c7b59e8bc744a0c"
+    },
+    {
+      "assetId": "char_agus_idle_sheet",
+      "category": "CHARACTER_SPRITE_SHEET",
+      "path": "/assets/characters/primary/sheets/char_agus_idle_sheet.png",
+      "format": "png",
+      "sizeBytes": 676890,
+      "sha256": "dd04630e2d110c9c9c3b4885eb1d4a4cdd729d0421fae75d3ca656da8bf01c3a"
+    },
+    {
+      "assetId": "char_agus_emotion_sheet",
+      "category": "CHARACTER_SPRITE_SHEET",
+      "path": "/assets/characters/primary/sheets/char_agus_emotion_sheet.png",
+      "format": "png",
+      "sizeBytes": 818329,
+      "sha256": "8ac9491355f199180fccc899f4bdfeb1a95994dd7291548555989da78330e0e5"
+    },
+    {
+      "assetId": "char_kaka_reaction_sheet",
+      "category": "CHARACTER_SPRITE_SHEET",
+      "path": "/assets/characters/secondary/sheets/char_kaka_reaction_sheet.png",
+      "format": "png",
+      "sizeBytes": 711730,
+      "sha256": "d54f6f88cb29cdbf2deb993589d49857c23d7dfbbc0186a7ef3a3827fbb1781f"
+    },
+    {
+      "assetId": "props_common_atlas",
+      "category": "PROP_SHEET",
+      "path": "/assets/props/sheets/props_common_atlas.png",
+      "format": "png",
+      "sizeBytes": 66490,
+      "sha256": "3050195187e74d85d5b80db030a90b7bbdee7684b5e00504c6ad083bcb14b0c7"
+    },
+    {
+      "assetId": "prop_phone_state_sheet",
+      "category": "PROP_SHEET",
+      "path": "/assets/props/sheets/prop_phone_state_sheet.png",
+      "format": "png",
+      "sizeBytes": 28384,
+      "sha256": "d31a22f05ac79f829001eb14360ec99706e3882c97dcd8fd0076957269d0a695"
+    },
+    {
+      "assetId": "prop_coffee_state_sheet",
+      "category": "PROP_SHEET",
+      "path": "/assets/props/sheets/prop_coffee_state_sheet.png",
+      "format": "png",
+      "sizeBytes": 6475,
+      "sha256": "21a995f20669058c8796411755bd029c474c8e93bcf56e045983bcfd86a0f780"
+    },
+    {
+      "assetId": "fx_rain_sheet",
+      "category": "ATMOSPHERE_FX_SHEET",
+      "path": "/assets/atmosphere/sheets/fx_rain_sheet.png",
+      "format": "png",
+      "sizeBytes": 54706,
+      "sha256": "ccecd93d26bab53803291ec1dc9c4410a9953033800ed06a8bd038fcdc5ba52b"
+    },
+    {
+      "assetId": "fx_mist_sheet",
+      "category": "ATMOSPHERE_FX_SHEET",
+      "path": "/assets/atmosphere/sheets/fx_mist_sheet.png",
+      "format": "png",
+      "sizeBytes": 39485,
+      "sha256": "96e7e5335e5e48316cc740d068f2355a6f5641cb8abccfebf90f2fb083906c12"
+    },
+    {
+      "assetId": "particle_rain_drop",
+      "category": "ATMOSPHERE_PARTICLE",
+      "path": "/assets/atmosphere/particles/particle_rain_drop.png",
+      "format": "png",
+      "sizeBytes": 236,
+      "sha256": "45b37e5c1b1cd65160973dd41d3f760d38e5b681241b01000c589d534bb9f5b1"
+    },
+    {
+      "assetId": "particle_puddle_ripple",
+      "category": "ATMOSPHERE_PARTICLE",
+      "path": "/assets/atmosphere/particles/particle_puddle_ripple.png",
+      "format": "png",
+      "sizeBytes": 620,
+      "sha256": "c13c2add9c94075128fe0c0a49e3402fe2cd9331b9d9d07eed2bf367e2b20b3e"
+    },
+    {
+      "assetId": "particle_bokeh_glow",
+      "category": "ATMOSPHERE_PARTICLE",
+      "path": "/assets/atmosphere/particles/particle_bokeh_glow.png",
+      "format": "png",
+      "sizeBytes": 1832,
+      "sha256": "66b2436efa9b837d7b5dbff9437744be1385a05dfac3f0deb139514c34b8e523"
+    },
+    {
+      "assetId": "particle_dust_mote",
+      "category": "ATMOSPHERE_PARTICLE",
+      "path": "/assets/atmosphere/particles/particle_dust_mote.png",
+      "format": "png",
+      "sizeBytes": 244,
+      "sha256": "a9bfb34739352ca145086028fc4f52dbcb723ff102a0858b62ca9816e6d73bbc"
+    },
+    {
+      "assetId": "ui_dialogue_elements_sheet",
+      "category": "UI_ASSET",
+      "path": "/assets/ui/sheets/ui_dialogue_elements_sheet.png",
+      "format": "png",
+      "sizeBytes": 18096,
+      "sha256": "32e8a4124d049f801fd1eee1f4f303ee2bb0b04688ba8cda690cbcffcbe7093c"
+    },
+    {
+      "assetId": "ui_icons_atlas",
+      "category": "UI_ASSET",
+      "path": "/assets/ui/sheets/ui_icons_atlas.png",
+      "format": "png",
+      "sizeBytes": 4917,
+      "sha256": "6fcf6ae04dbf4a4622b229d3646e8bbcd404a3fcfb06aa13b93079a1f18bb35f"
+    },
+    {
+      "assetId": "ui_chat_bubble_sheet",
+      "category": "UI_ASSET",
+      "path": "/assets/ui/sheets/ui_chat_bubble_sheet.png",
+      "format": "png",
+      "sizeBytes": 9039,
+      "sha256": "625ffef0084947e6c387962f86ca0818a32d49f000c9213bc8281a5b9173b5ba"
+    }
+  ]
+}
