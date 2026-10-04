@@ -240,7 +240,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       }
     ],
     speaker: 'Nana',
-    text: '“Terima kasih, Raka,” gumamnya lembut. Ia melepas syal marunnya dan meletakkannya di sandaran kursi kayu.',
+    text: '“Terima kasih, Agus,” gumamnya lembut. Ia melepas syal marunnya dan meletakkannya di sandaran kursi kayu.',
     nextSceneId: 'ch1_sit_down'
   },
 
@@ -400,7 +400,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       }
     ],
     speaker: 'Nana',
-    text: '“Raka... pundak kirimu basah kuyup karena kamu memiringkan payungnya ke arahku.” Ia mendongak, matanya berkilau memantulkan pendar lampu jalanan.',
+    text: '“Agus... pundak kirimu basah kuyup karena kamu memiringkan payungnya ke arahku.” Ia mendongak, matanya berkilau memantulkan pendar lampu jalanan.',
     choices: [
       {
         id: 'c2_choice_lean',
@@ -503,7 +503,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       }
     ],
     speaker: 'Nana',
-    text: '“Aku juga, Raka... aku selalu berharap waktu bisa berhenti tiap kali bersamamu.”',
+    text: '“Aku juga, Agus... aku selalu berharap waktu bisa berhenti tiap kali bersamamu.”',
     nextSceneId: 'ch2_bus_stop'
   },
 
@@ -637,7 +637,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       }
     ],
     speaker: 'Nana',
-    text: 'Tetes air mata lolos dari sudut matanya. “Iya, Raka... aku kembali hanya untuk memastikan apakah janji di stasiun itu masih berlaku untuk kita berdua.”',
+    text: 'Tetes air mata lolos dari sudut matanya. “Iya, Agus... aku kembali hanya untuk memastikan apakah janji di stasiun itu masih berlaku untuk kita berdua.”',
     nextSceneId: 'ch3_night_phone_msg'
   },
 
@@ -663,7 +663,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       }
     ],
     speaker: 'Nana',
-    text: '“Aku bersyukur, Raka... Tuhan tahu betapa aku takut kamu sudah melangkah pergi dengan orang lain.”',
+    text: '“Aku bersyukur, Agus... Tuhan tahu betapa aku takut kamu sudah melangkah pergi dengan orang lain.”',
     nextSceneId: 'ch3_night_phone_msg'
   },
 
@@ -762,7 +762,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       }
     ],
     speaker: 'Nana',
-    text: '“Kereta sudah tiba, Raka... Apa yang harus kulakukan sekarang?” tanyanya, menatapmu dengan sorot mata yang penuh harap dan keraguan.',
+    text: '“Kereta sudah tiba, Agus... Apa yang harus kulakukan sekarang?” tanyanya, menatapmu dengan sorot mata yang penuh harap dan keraguan.',
     choices: [
       {
         id: 'c4_secret_ending_choice',
@@ -884,7 +884,7 @@ export const STORY_SCENES: Record<string, StoryScene> = {
       }
     ],
     speaker: 'Nana',
-    text: 'Malam itu di atas rooftop di bawah gugusan bintang, Nana menunjukkan surat yang belum sempat ia kirim dua tahun lalu. “Alasanku kembali... hanya kamu, Raka.”',
+    text: 'Malam itu di atas rooftop di bawah gugusan bintang, Nana menunjukkan surat yang belum sempat ia kirim dua tahun lalu. “Alasanku kembali... hanya kamu, Agus.”',
     endingId: 'ending_secret',
     soundEffect: 'chime'
   },

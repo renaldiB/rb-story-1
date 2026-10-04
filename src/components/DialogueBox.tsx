@@ -116,7 +116,7 @@ export const DialogueBox: React.FC<DialogueBoxProps> = ({
                   ? `${themeTokens.speakerBadgeBg} ${themeTokens.speakerBadgeText} ${themeTokens.speakerBadgeBorder}`
                   : speaker.toLowerCase().includes('nana') || speaker.toLowerCase().includes('nadia')
                   ? 'bg-rose-950/80 text-rose-200 border-rose-500/30'
-                  : speaker.toLowerCase().includes('raka')
+                  : speaker.toLowerCase().includes('raka') || speaker.toLowerCase().includes('agus')
                   ? 'bg-sky-950/80 text-sky-200 border-sky-500/30'
                   : 'bg-amber-950/80 text-amber-200 border-amber-500/30'
               }`}
