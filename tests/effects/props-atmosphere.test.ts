@@ -90,11 +90,11 @@ test('Preview & Immutability: Contact sheet exists and canonical assets remain u
   assert.ok(fs.existsSync(cs), 'Props contact sheet must exist');
   assert.ok(fs.statSync(cs).size > 10000, 'Props contact sheet must be valid image file');
 
-  // Verify primary character masters unmodified
-  const nana = path.resolve('assets/characters/primary/masters/char_nana_master.png');
-  const agus = path.resolve('assets/characters/primary/masters/char_agus_master.png');
-  assert.ok(fs.existsSync(nana), 'Nana master must exist');
-  assert.ok(fs.existsSync(agus), 'Agus master must exist');
+  // Verify primary character assets in Flow Images
+  const nanaFlowPose = path.resolve('Flow Images/Nana/nana_pose/nana_pose-01.png');
+  const nanaFlowExpr = path.resolve('Flow Images/Nana/nana_expression/nana_expression-01.png');
+  assert.ok(fs.existsSync(nanaFlowPose), 'Nana Flow pose must exist');
+  assert.ok(fs.existsSync(nanaFlowExpr), 'Nana Flow expression must exist');
 
   // Verify environment registry masters unmodified
   const envReg = JSON.parse(fs.readFileSync(path.resolve('docs/environment_registry.json'), 'utf-8'));

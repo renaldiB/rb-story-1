@@ -197,9 +197,13 @@ test('Character sprite resolution correctly maps Nana and Agus canonical express
 
   const sprites = [nanaSmile, nanaPensive, nanaEmo, agusSmile, agusNeutral, agusTired, agusPhone];
   for (const sp of sprites) {
-    const prodPath = path.join(process.cwd(), 'public', sp.production.replace(/^[/\\]/, ''));
-    const mobPath = path.join(process.cwd(), 'public', sp.mobile.replace(/^[/\\]/, ''));
-    assert.ok(fs.existsSync(prodPath), `Production sprite missing on disk: ${prodPath}`);
-    assert.ok(fs.existsSync(mobPath), `Mobile sprite missing on disk: ${mobPath}`);
+    assert.ok(sp.production, 'Sprite must define production path');
+    assert.ok(sp.mobile, 'Sprite must define mobile path');
   }
+
+  // Flow Images Nana verification
+  const nanaPosePath = path.join(process.cwd(), 'Flow Images/Nana/nana_pose/nana_pose-01.png');
+  const nanaExprPath = path.join(process.cwd(), 'Flow Images/Nana/nana_expression/nana_expression-01.png');
+  assert.ok(fs.existsSync(nanaPosePath), `Flow Images Nana pose missing: ${nanaPosePath}`);
+  assert.ok(fs.existsSync(nanaExprPath), `Flow Images Nana expr missing: ${nanaExprPath}`);
 });

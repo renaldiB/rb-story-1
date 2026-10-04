@@ -1,6 +1,6 @@
 import React from 'react';
 import type { StoryScene, VisualBible, DiegeticType } from '../types/story';
-import { BackgroundArt, CharacterSprite, ActionCGView } from '../services/visualService';
+import { BackgroundArt, ActionCGView } from '../services/visualService';
 import { AtmosphereLayer } from './AtmosphereLayer';
 import { ForeshadowItemView } from './ForeshadowItemView';
 import { Smartphone, Disc, Terminal, Book } from 'lucide-react';
@@ -120,26 +120,68 @@ export const StoryStage: React.FC<StoryStageProps> = ({
           )}
 
           {!isActionCG && scene.characters.length > 0 && (
-            <div className="absolute inset-0 pointer-events-none z-[30] flex items-end justify-center overflow-hidden">
-              {scene.characters.map((char) => (
-                <CharacterRenderer
-                  key={char.id}
-                  characterId={char.characterId || char.id}
-                  expression={char.expression}
-                  pose={char.pose || 'standing_neutral'}
-                  position={char.position}
-                  normalizedPosition={char.normalizedPosition || (char.customPosition ? {
-                    x: char.customPosition.x / 1024,
-                    y: char.customPosition.y / 1536,
-                  } : undefined)}
-                  scale={char.scale}
-                  isSpeaking={char.isSpeaking ?? scene.speaker === char.name}
-                  visible={char.visible}
-                  flipX={char.flipX}
-                  zIndex={char.zIndex ?? 30}
-                  reducedMotion={reducedMotion}
-                />
-              ))}
+            <div className="absolute inset-0 pointer-events-none z-[30] overflow-hidden">
+              {(() => {
+                const visibleChars = scene.characters.slice(0, 2);
+                const hasActiveSpeaker = Boolean(scene.speaker);
+
+                return visibleChars.map((char, index) => {
+                  const isCharSpeaker = hasActiveSpeaker
+                    ? Boolean(
+                        (char.name && scene.speaker && char.name.toLowerCase() === scene.speaker.toLowerCase()) ||
+                        (char.id && scene.speaker && char.id.toLowerCase() === scene.speaker.toLowerCase()) ||
+                        (char.characterId && scene.speaker && char.characterId.toLowerCase() === scene.speaker.toLowerCase())
+                      )
+                    : Boolean(char.isSpeaking);
+
+                  const isDimmed = hasActiveSpeaker && !isCharSpeaker;
+
+                  let defaultNormX: number;
+                  let autoFlip = char.flipX;
+                  if (visibleChars.length === 2) {
+                    if (index === 0) {
+                      defaultNormX = 0.22;
+                      if (autoFlip === undefined) autoFlip = false;
+                    } else {
+                      defaultNormX = 0.78;
+                      if (autoFlip === undefined) autoFlip = true;
+                    }
+                  } else {
+                    if (char.position === 'left') {
+                      defaultNormX = 0.22;
+                      if (autoFlip === undefined) autoFlip = false;
+                    } else if (char.position === 'right') {
+                      defaultNormX = 0.78;
+                      if (autoFlip === undefined) autoFlip = true;
+                    } else {
+                      defaultNormX = 0.5;
+                    }
+                  }
+
+                  const normalizedPos = char.normalizedPosition ||
+                    (char.customPosition
+                      ? { x: char.customPosition.x / 1024, y: char.customPosition.y / 1536 }
+                      : { x: defaultNormX, y: 1.0 });
+
+                  return (
+                    <CharacterRenderer
+                      key={char.id}
+                      characterId={char.characterId || char.id}
+                      expression={char.expression}
+                      pose={char.pose || 'standing_neutral'}
+                      position={char.position}
+                      normalizedPosition={normalizedPos}
+                      scale={char.scale}
+                      isSpeaking={isCharSpeaker}
+                      isDimmed={isDimmed}
+                      visible={char.visible !== false}
+                      flipX={Boolean(autoFlip)}
+                      zIndex={char.zIndex ?? (isCharSpeaker ? 32 : 30)}
+                      reducedMotion={reducedMotion}
+                    />
+                  );
+                });
+              })()}
             </div>
           )}
 
@@ -194,21 +236,69 @@ export const StoryStage: React.FC<StoryStageProps> = ({
             />
           </div>
           <div className="absolute inset-0 pointer-events-none z-20" />
-          {!isActionCG && (
-            <div className="absolute inset-0 z-30 flex items-end justify-center pointer-events-none">
-              {scene.characters.map((char) => (
-                <CharacterSprite
-                  key={char.id}
-                  name={char.name}
-                  expression={char.expression}
-                  isSpeaking={char.isSpeaking ?? scene.speaker === char.name}
-                  position={char.position}
-                  pose={char.pose}
-                  scale={char.scale}
-                  flipX={char.flipX}
-                  zIndex={char.zIndex}
-                />
-              ))}
+          {!isActionCG && scene.characters.length > 0 && (
+            <div className="absolute inset-0 pointer-events-none z-[30] overflow-hidden">
+              {(() => {
+                const visibleChars = scene.characters.slice(0, 2);
+                const hasActiveSpeaker = Boolean(scene.speaker);
+
+                return visibleChars.map((char, index) => {
+                  const isCharSpeaker = hasActiveSpeaker
+                    ? Boolean(
+                        (char.name && scene.speaker && char.name.toLowerCase() === scene.speaker.toLowerCase()) ||
+                        (char.id && scene.speaker && char.id.toLowerCase() === scene.speaker.toLowerCase()) ||
+                        (char.characterId && scene.speaker && char.characterId.toLowerCase() === scene.speaker.toLowerCase())
+                      )
+                    : Boolean(char.isSpeaking);
+
+                  const isDimmed = hasActiveSpeaker && !isCharSpeaker;
+
+                  let defaultNormX: number;
+                  let autoFlip = char.flipX;
+                  if (visibleChars.length === 2) {
+                    if (index === 0) {
+                      defaultNormX = 0.22;
+                      if (autoFlip === undefined) autoFlip = false;
+                    } else {
+                      defaultNormX = 0.78;
+                      if (autoFlip === undefined) autoFlip = true;
+                    }
+                  } else {
+                    if (char.position === 'left') {
+                      defaultNormX = 0.22;
+                      if (autoFlip === undefined) autoFlip = false;
+                    } else if (char.position === 'right') {
+                      defaultNormX = 0.78;
+                      if (autoFlip === undefined) autoFlip = true;
+                    } else {
+                      defaultNormX = 0.5;
+                    }
+                  }
+
+                  const normalizedPos = char.normalizedPosition ||
+                    (char.customPosition
+                      ? { x: char.customPosition.x / 1024, y: char.customPosition.y / 1536 }
+                      : { x: defaultNormX, y: 1.0 });
+
+                  return (
+                    <CharacterRenderer
+                      key={char.id}
+                      characterId={char.characterId || char.id}
+                      expression={char.expression}
+                      pose={char.pose || 'standing_neutral'}
+                      position={char.position}
+                      normalizedPosition={normalizedPos}
+                      scale={char.scale}
+                      isSpeaking={isCharSpeaker}
+                      isDimmed={isDimmed}
+                      visible={char.visible !== false}
+                      flipX={Boolean(autoFlip)}
+                      zIndex={char.zIndex ?? (isCharSpeaker ? 32 : 30)}
+                      reducedMotion={reducedMotion}
+                    />
+                  );
+                });
+              })()}
             </div>
           )}
           {isActionCG && scene.actionCG && (

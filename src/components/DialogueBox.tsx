@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronRight } from 'lucide-react';
 import type { ThemeTokens } from '../engine/themeEngine';
 
 interface DialogueBoxProps {
@@ -23,13 +22,12 @@ export const DialogueBox: React.FC<DialogueBoxProps> = ({
   textSpeed = 'normal',
   fontSize = 'normal',
   highContrast = false,
-  themeTokens
 }) => {
   const speedMap = {
     slow: 40,
-    normal: 22,
+    normal: 20,
     fast: 10,
-    instant: 0
+    instant: 0,
   };
 
   const currentSpeed = speedMap[textSpeed];
@@ -37,36 +35,53 @@ export const DialogueBox: React.FC<DialogueBoxProps> = ({
   const [displayedChars, setDisplayedChars] = useState<number>(() =>
     currentSpeed === 0 ? text.length : 0
   );
-  const isTypingRef = useRef<boolean>(currentSpeed !== 0);
+  const [isComplete, setIsComplete] = useState<boolean>(() => currentSpeed === 0);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     if (currentSpeed === 0) {
-      isTypingRef.current = false;
+      setDisplayedChars(text.length);
+      setIsComplete(true);
       return;
     }
 
-    isTypingRef.current = true;
+    setDisplayedChars(0);
+    setIsComplete(false);
+
     let index = 0;
-    const interval = setInterval(() => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
+
+    intervalRef.current = setInterval(() => {
       index++;
       setDisplayedChars(index);
       if (index >= text.length) {
-        clearInterval(interval);
-        isTypingRef.current = false;
+        if (intervalRef.current) clearInterval(intervalRef.current);
+        intervalRef.current = null;
+        setIsComplete(true);
       }
     }, currentSpeed);
 
     return () => {
-      clearInterval(interval);
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
     };
   }, [text, currentSpeed]);
 
-  const isComplete = displayedChars >= text.length;
+  // Requirement 6: Jika dialog textbox diklik, proses penulisan text langsung selesai
+  const handleBoxTap = (e?: React.MouseEvent) => {
+    if (e) {
+      e.stopPropagation();
+    }
 
-  const handleBoxTap = () => {
     if (!isComplete) {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
       setDisplayedChars(text.length);
-      isTypingRef.current = false;
+      setIsComplete(true);
     } else {
       if (!hasChoices) {
         onAdvance();
@@ -76,10 +91,10 @@ export const DialogueBox: React.FC<DialogueBoxProps> = ({
 
   const textSizeClass =
     fontSize === 'xlarge'
-      ? 'text-xl sm:text-2xl leading-relaxed'
+      ? 'text-lg sm:text-xl md:text-2xl leading-relaxed'
       : fontSize === 'large'
-      ? 'text-lg sm:text-xl leading-relaxed'
-      : 'text-[17px] sm:text-[19px] leading-[1.6]';
+      ? 'text-base sm:text-lg md:text-xl leading-relaxed'
+      : 'text-[15px] sm:text-[17px] md:text-[19px] leading-[1.6]';
 
   const isNarration = speaker === null;
 
@@ -95,69 +110,69 @@ export const DialogueBox: React.FC<DialogueBoxProps> = ({
         }
       }}
       aria-label={speaker ? `${speaker}: ${text}` : text}
-      className="w-full relative cursor-pointer select-none transition-all duration-300 focus:outline-none"
+      className="w-full relative cursor-pointer select-none transition-all duration-300 focus:outline-none pt-4"
     >
+      {/* Speaker Name Tag (Overlapping top-left edge as in reference design) */}
+      {speaker && (
+        <div className="absolute top-1 left-6 sm:left-10 z-20">
+          <span
+            className={`inline-block px-4 py-1 rounded text-xs sm:text-sm font-semibold tracking-wide uppercase shadow-md ${
+              highContrast
+                ? 'bg-black text-amber-300 border border-amber-400'
+                : 'bg-[#3f414a] text-white border border-[#525560]'
+            }`}
+          >
+            {speaker}
+          </span>
+        </div>
+      )}
+
+      {/* Main Dialogue Box Container (Off-white / cream styling matching reference) */}
       <div
-        className={`w-full rounded-2xl p-4 sm:p-6 transition-all duration-300 shadow-2xl border ${
+        className={`w-full rounded-xl sm:rounded-2xl p-5 sm:p-7 md:p-8 transition-all duration-200 shadow-[0_16px_40px_rgba(0,0,0,0.55)] border relative ${
           highContrast
-            ? 'bg-black/95 text-white border-2 border-amber-400/80 shadow-black'
-            : themeTokens
-            ? `${themeTokens.uiContainerBg} ${themeTokens.uiBorder} text-stone-100 shadow-[0_12px_40px_rgba(0,0,0,0.65)] backdrop-blur-md`
+            ? 'bg-black/95 text-white border-2 border-amber-400'
             : isNarration
-            ? 'bg-[#121620]/90 backdrop-blur-md text-[#ede7df] border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.5)]'
-            : 'bg-[#181a24]/90 backdrop-blur-md text-[#fbf7f0] border-white/10 shadow-[0_12px_40px_rgba(0,0,0,0.6)]'
+            ? 'bg-[#f4f1e8] text-[#2c2d33] border-[#ded9cb]'
+            : 'bg-[#f6f4ee] text-[#222328] border-[#e2dec9]'
         }`}
       >
-        {speaker && (
-          <div className="flex items-center gap-2 mb-2.5">
-            <span
-              className={`px-3 py-0.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase border ${
-                themeTokens
-                  ? `${themeTokens.speakerBadgeBg} ${themeTokens.speakerBadgeText} ${themeTokens.speakerBadgeBorder}`
-                  : speaker.toLowerCase().includes('nana') || speaker.toLowerCase().includes('nadia')
-                  ? 'bg-rose-950/80 text-rose-200 border-rose-500/30'
-                  : speaker.toLowerCase().includes('raka') || speaker.toLowerCase().includes('agus')
-                  ? 'bg-sky-950/80 text-sky-200 border-sky-500/30'
-                  : 'bg-amber-950/80 text-amber-200 border-amber-500/30'
-              }`}
-            >
-              {speaker}
-            </span>
-          </div>
-        )}
-
-        <div className="relative min-h-[4.5rem]">
+        <div className="relative min-h-[4rem] sm:min-h-[4.5rem] pr-12">
           <p
             className={`${textSizeClass} ${
               isNarration
-                ? 'font-serif italic text-stone-200/95 tracking-wide'
-                : 'font-sans font-normal text-stone-100 tracking-normal'
+                ? 'font-serif italic text-[#3c3d44] tracking-wide'
+                : 'font-sans font-normal text-[#222328] tracking-normal'
             }`}
           >
             {text.slice(0, displayedChars)}
             {!isComplete && (
-              <span
-                className="inline-block w-1.5 h-4 ml-1 animate-pulse"
-                style={{ backgroundColor: themeTokens?.accentColor || '#f59e0b' }}
-              />
+              <span className="inline-block w-1.5 h-4 ml-1 bg-[#e0564c] animate-pulse" />
             )}
           </p>
 
           {subText && isComplete && (
-            <p className="mt-2 text-xs sm:text-sm text-stone-400/80 italic font-serif">
+            <p className="mt-2 text-xs sm:text-sm text-[#737168] italic font-serif">
               {subText}
             </p>
           )}
         </div>
 
-        {/* Continue indicator chevron with safe bottom margin */}
-        {isComplete && !hasChoices && (
-          <div className="flex justify-end items-center mt-3.5 pt-1 pb-1 text-stone-400">
-            <span className="text-xs font-medium tracking-wider mr-1 opacity-80">Lanjut</span>
-            <ChevronRight
-              className="w-4 h-4 animate-bounce shrink-0"
-              style={{ color: themeTokens?.accentColor || '#f59e0b' }}
-            />
+        {/* Continue Action Button ("...") on bottom-right corner as shown in reference design */}
+        {!hasChoices && (
+          <div className="absolute bottom-3 sm:bottom-4 right-4 sm:right-6">
+            <button
+              type="button"
+              onClick={handleBoxTap}
+              className={`w-10 h-7 sm:w-12 sm:h-8 rounded-lg shadow-md font-bold tracking-widest text-white flex items-center justify-center transition-all ${
+                isComplete
+                  ? 'bg-[#e0564c] hover:bg-[#c9453c] active:scale-95 cursor-pointer opacity-100 animate-pulse'
+                  : 'bg-[#e0564c]/70 opacity-70 cursor-pointer'
+              }`}
+              title="Lanjut"
+            >
+              <span className="text-base sm:text-lg leading-none -mt-1 font-mono">···</span>
+            </button>
           </div>
         )}
       </div>

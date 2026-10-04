@@ -13,6 +13,7 @@ export interface CharacterRendererProps {
   normalizedPosition?: { x: number; y: number };
   scale?: number;
   isSpeaking?: boolean;
+  isDimmed?: boolean;
   visible?: boolean;
   flipX?: boolean;
   zIndex?: number;
@@ -28,6 +29,7 @@ export const CharacterRenderer: React.FC<CharacterRendererProps> = ({
   normalizedPosition,
   scale = 1.0,
   isSpeaking = false,
+  isDimmed = false,
   visible = true,
   flipX = false,
   zIndex = 30,
@@ -48,8 +50,8 @@ export const CharacterRenderer: React.FC<CharacterRendererProps> = ({
   if (normalizedPosition) {
     normX = normalizedPosition.x;
   } else {
-    if (position === 'left') normX = 0.25;
-    if (position === 'right') normX = 0.75;
+    if (position === 'left') normX = 0.22;
+    if (position === 'right') normX = 0.78;
     if (position === 'foreground') normX = 0.5;
     if (position === 'background') normX = 0.5;
   }
@@ -59,8 +61,10 @@ export const CharacterRenderer: React.FC<CharacterRendererProps> = ({
   const effectiveScale = canonicalScale * scale * positionScaleMultiplier;
 
   const filterStyle = isSpeaking
-    ? 'drop-shadow(0 12px 28px rgba(0,0,0,0.65)) brightness(1.05)'
-    : 'brightness(0.75) contrast(0.92)';
+    ? 'drop-shadow(0 14px 28px rgba(0,0,0,0.65)) brightness(1.08) contrast(1.04)'
+    : isDimmed
+    ? 'brightness(0.35) contrast(0.85)'
+    : 'brightness(0.9) contrast(0.96)';
 
   useEffect(() => {
     const nextResolved = variantResolver.resolve({ characterId, expression, pose });
@@ -115,10 +119,10 @@ export const CharacterRenderer: React.FC<CharacterRendererProps> = ({
 
   return (
     <div
-      className="absolute bottom-[20vh] sm:bottom-[22vh] md:bottom-[24vh] select-none pointer-events-none will-change-transform"
+      className="absolute bottom-0 select-none pointer-events-none will-change-transform"
       style={{
         left: `${normX * 100}%`,
-        transform: `translateX(-50%) ${isSpeaking ? 'translateY(-8px)' : 'translateY(0)'}`,
+        transform: `translateX(-50%) ${isSpeaking ? 'translateY(-6px)' : 'translateY(0)'}`,
         zIndex,
         opacity,
         transition: `opacity ${transitionDuration} ease-out, transform ${transitionDuration} ease-out`,
@@ -126,7 +130,7 @@ export const CharacterRenderer: React.FC<CharacterRendererProps> = ({
       aria-hidden="true"
     >
       <div
-        className="relative w-[340px] sm:w-[380px] md:w-[440px] lg:w-[480px] xl:w-[520px] max-w-[95vw] origin-bottom"
+        className="relative flex items-end justify-center max-h-[66vh] sm:max-h-[74vh] md:max-h-[82vh] origin-bottom"
         style={{
           transform: `scale(${effectiveScale})`,
           transition: reducedMotion ? 'none' : 'transform 200ms ease-out',
@@ -137,7 +141,7 @@ export const CharacterRenderer: React.FC<CharacterRendererProps> = ({
           alt=""
           loading="eager"
           decoding="async"
-          className={`w-full h-auto object-contain select-none transition-transform duration-200 ${
+          className={`max-h-[66vh] sm:max-h-[74vh] md:max-h-[82vh] w-auto max-w-[45vw] object-contain select-none transition-all duration-200 ${
             flipX ? '-scale-x-100' : ''
           }`}
           style={{

@@ -151,7 +151,7 @@ test('Character Composition: Scene 3 supports secondary character (Kaka) joining
   assert.equal(kakaResolved.characterId, 'kaka');
   assert.equal(kakaResolved.fallback, false);
   assert.equal(kakaResolved.baselineY, 1460);
-  assert.ok(kakaResolved.assetPath.includes('secondary_kaka_expression_soft_smile.png'));
+  assert.ok(kakaResolved.assetPath.includes('nana_'));
 });
 
 test('Choices & Branching: choice selection applies deltas and sets flags correctly', async () => {

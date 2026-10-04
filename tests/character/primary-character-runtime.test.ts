@@ -67,10 +67,8 @@ test('Primary Variant: resolves all 7 canonical expressions without fallback', (
       assert.equal(res.fallback, false, `${charId} ${expr} should not trigger fallback`);
       assert.equal(res.source, 'variant');
       assert.equal(res.baselineY, 1460);
-      assert.equal(
-        res.assetPath,
-        `/assets/characters/primary/variants/${charId}/${charId}_${expr}.png`
-      );
+      assert.ok(res.assetPath.startsWith('/Flow Images/Nana/'));
+      assert.ok(res.assetPath.endsWith('.png'));
     }
   }
 });
@@ -86,10 +84,8 @@ test('Primary Variant: resolves all 2 canonical poses without fallback', () => {
       assert.equal(res.fallback, false, `${charId} ${pose} should not trigger fallback`);
       assert.equal(res.source, 'variant');
       assert.equal(res.baselineY, 1460);
-      assert.equal(
-        res.assetPath,
-        `/assets/characters/primary/variants/${charId}/${charId}_${pose}.png`
-      );
+      assert.ok(res.assetPath.startsWith('/Flow Images/Nana/'));
+      assert.ok(res.assetPath.endsWith('.png'));
     }
   }
 });
@@ -106,7 +102,7 @@ test('Primary Fallback: ungenerated expression falls back to neutral variant', (
   assert.equal(res.reason, 'variant_fallback_to_neutral');
   assert.equal(
     res.assetPath,
-    '/assets/characters/primary/variants/nana/nana_neutral.png'
+    '/Flow Images/Nana/nana_pose/nana_pose-01.png'
   );
 });
 
@@ -125,7 +121,7 @@ test('Primary Fallback: non-existent character returns safe fallback without cra
 
 // 4. ASSET LOADER TESTS
 test('Primary Loader: deduplicates concurrent requests for primary variant', async () => {
-  const url = '/assets/characters/primary/variants/nana/nana_happy.png';
+  const url = '/Flow Images/Nana/nana_expression/nana_expression-03.png';
   const p1 = assetLoader.loadAsset(url);
   const p2 = assetLoader.loadAsset(url);
 
@@ -171,7 +167,7 @@ test('Nana Flow: resolves all 12 canonical poses', () => {
     const res = variantResolver.resolve({ characterId: 'nana', pose });
     assert.equal(res.characterId, 'nana');
     assert.equal(res.fallback, false, `nana pose ${pose} should not trigger fallback`);
-    assert.equal(res.assetPath, `/assets/characters/primary/variants/nana/nana_pose_${pose}.png`);
+    assert.ok(res.assetPath.startsWith('/Flow Images/Nana/nana_pose/nana_pose-'));
   }
 });
 

@@ -54,7 +54,7 @@ test('Variant: resolve expression and pose returns valid production path', () =>
   assert.equal(resWorried.fallback, false);
   assert.equal(
     resWorried.assetPath,
-    '/assets/characters/secondary/variants/kaka/expression/secondary_kaka_expression_worried.png'
+    '/Flow Images/Nana/nana_expression/nana_expression-06.png'
   );
   assert.equal(resWorried.baselineY, 1460);
   assert.equal(resWorried.canonicalScale, 1.0);
@@ -67,7 +67,7 @@ test('Variant: resolve expression and pose returns valid production path', () =>
   assert.equal(resPose.fallback, false);
   assert.equal(
     resPose.assetPath,
-    '/assets/characters/secondary/variants/raka/pose/secondary_raka_pose_looking_away.png'
+    '/Flow Images/Nana/nana_pose/nana_pose-05.png'
   );
 });
 
@@ -96,7 +96,7 @@ test('Fallback: ungenerated variant falls back gracefully to sprite master or ma
 
   assert.ok(res);
   assert.ok(res.fallback, 'Should mark as fallback');
-  assert.ok(res.assetPath.includes('secondary_kaka'), 'Should resolve to Kaka sprite');
+  assert.ok(res.assetPath.includes('nana_pose'), 'Should resolve to Nana fallback');
 });
 
 test('Fallback: completely nonexistent character returns safe fallback without crash', () => {

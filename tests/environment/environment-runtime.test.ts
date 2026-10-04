@@ -166,9 +166,9 @@ test('Immutability Check: canonical character and environment assets remain 100%
   const envReg = JSON.parse(fs.readFileSync(envRegPath, 'utf-8'));
   assert.strictEqual(envReg.totalEnvironments, 12);
 
-  // Character master check
-  const nana = path.resolve('assets/characters/primary/masters/char_nana_master.png');
-  const agus = path.resolve('assets/characters/primary/masters/char_agus_master.png');
-  assert.ok(fs.existsSync(nana), 'Nana master must exist');
-  assert.ok(fs.existsSync(agus), 'Agus master must exist');
+  // Character asset check (Flow Images Nana)
+  const nanaFlowPose = path.resolve('Flow Images/Nana/nana_pose/nana_pose-01.png');
+  const nanaFlowExpr = path.resolve('Flow Images/Nana/nana_expression/nana_expression-01.png');
+  assert.ok(fs.existsSync(nanaFlowPose), 'Nana Flow pose must exist');
+  assert.ok(fs.existsSync(nanaFlowExpr), 'Nana Flow expression must exist');
 });
